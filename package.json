@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/korlantas-k3i/g20-backend.git"
+    "url": "git+https://github.com/remigil/back-end-web.git"
   },
   "keywords": [
     "Korlantas",
@@ -19,9 +19,9 @@
   "author": "K3I Korlantas Polri",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/korlantas-k3i/g20-backend/issues"
+    "url": "https://github.com/remigil/back-end-web/issues"
   },
-  "homepage": "https://gitlab.com/korlantas-k3i/g20-backend#readme",
+  "homepage": "https://github.com/remigil/back-end-web.git#readme",
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.3.16",
     "axios": "^0.27.2",

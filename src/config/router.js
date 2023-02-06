@@ -545,11 +545,11 @@ router.use(
 );
 
 // Input laporan operasi khusus
-router.use(
-  "/v" + process.env.APP_VERSION + "/operasi_langgar",
-  // authMiddleware.jwtAuth,
-  require("../router/input_operasi_langgar")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/operasi_langgar",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_operasi_langgar")
+// );
 
 router.use(
   "/v" + process.env.APP_VERSION + "/operasi_laka",
