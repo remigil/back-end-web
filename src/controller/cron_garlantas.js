@@ -6,8 +6,8 @@ const Count_polda_day = require("../model/count_garlantas_polda_day");
 const Count_polda_month = require("../model/count_garlantas_polda_month");
 const { namePolda, namePoldaGAR } = require("../lib/polda_nameParse");
 
-const Etilang_perkara_pasal = require("../model/etilang_perkara_pasal");
-const Etilang_perkara = require("../model/etilang_perkara");
+// const Etilang_perkara_pasal = require("../model/etilang_perkara_pasal");
+// const Etilang_perkara = require("../model/etilang_perkara");
 
 const Polda = require("../model/polda");
 const { Op, Sequelize } = require("sequelize");

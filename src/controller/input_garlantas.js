@@ -15,8 +15,8 @@ const Count_polres_month = require("../model/count_garlantas_polres_month");
 const Polda = require("../model/polda");
 const Polres = require("../model/polres");
 
-const Etilang_perkara_pasal = require("../model/etilang_perkara_pasal");
-const Etilang_perkara = require("../model/etilang_perkara");
+// const Etilang_perkara_pasal = require("../model/etilang_perkara_pasal");
+// const Etilang_perkara = require("../model/etilang_perkara");
 
 // Count_polda_month.belongsTo(Polda, { foreignKey: "polda_id", as: "polda" });
 // Count_polda_day.belongsTo(Polda, { foreignKey: "polda_id", as: "polda" });

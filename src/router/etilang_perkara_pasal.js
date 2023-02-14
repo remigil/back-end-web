@@ -1,8 +1,8 @@
-const router = require("express").Router();
-const { body } = require("express-validator");
-const EtilangPerkaraPasalController = require("../controller/etilang_perkara_pasal");
-const formValidation = require("../middleware/form_validation");
-router.get("/", EtilangPerkaraPasalController.get);
+// const router = require("express").Router();
+// const { body } = require("express-validator");
+// const EtilangPerkaraPasalController = require("../controller/etilang_perkara_pasal");
+// const formValidation = require("../middleware/form_validation");
+// router.get("/", EtilangPerkaraPasalController.get);
 // router.get("/getId/:id", EtilangPerkaraController.getId);
 // router.post(
 //   "/add",
@@ -20,4 +20,4 @@ router.get("/", EtilangPerkaraPasalController.get);
 //   EtilangPerkaraController.hardDelete
 // );
 
-module.exports = router;
+// module.exports = router;

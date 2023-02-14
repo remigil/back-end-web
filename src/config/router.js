@@ -167,11 +167,11 @@ router.use(
   require("../router/etilang_perkara")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/etilang_perkara_pasal",
-  // authMiddleware.jwtAuth,
-  require("../router/etilang_perkara_pasal")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/etilang_perkara_pasal",
+//   // authMiddleware.jwtAuth,
+//   require("../router/etilang_perkara_pasal")
+// );
 
 // bodycam
 router.use(
@@ -194,11 +194,11 @@ router.use(
 
 //--------tracking
 
-router.use(
-  "/track-location",
-  authMiddleware.jwtAuth,
-  require("../router/tracking/trackg20")
-);
+// router.use(
+//   "/track-location",
+//   authMiddleware.jwtAuth,
+//   require("../router/tracking/trackg20")
+// );
 
 // -------- polda
 router.use(
@@ -427,11 +427,11 @@ router.use(
   require("../router/input_laka_langgar")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/garlantas",
-  // authMiddleware.jwtAuth,
-  require("../router/input_garlantas")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/garlantas",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_garlantas")
+// );
 
 router.use(
   "/v" + process.env.APP_VERSION + "/turjagwali",
