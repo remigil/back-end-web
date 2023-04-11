@@ -25,18 +25,18 @@ const path = require("path");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
-const Lakalanggar_polda_day = require("../model/count_lakalanggar_polda_day");
-const Lakalantas_polda_day = require("../model/count_lakalantas_polda_day");
-const Garlantas_polda_day = require("../model/count_garlantas_polda_day");
-const Turjagwali_polda_day = require("../model/count_turjagwali_polda_day");
+// const Lakalanggar_polda_day = require("../model/count_lakalanggar_polda_day");
+// const Lakalantas_polda_day = require("../model/count_lakalantas_polda_day");
+// const Garlantas_polda_day = require("../model/count_garlantas_polda_day");
+// const Turjagwali_polda_day = require("../model/count_turjagwali_polda_day");
 
-const Dikmaslantas_polda_day = require("../model/count_dikmaslantas_polda_day");
-const Penyebaran_polda_day = require("../model/count_penyebaran_polda_day");
+// const Dikmaslantas_polda_day = require("../model/count_dikmaslantas_polda_day");
+// const Penyebaran_polda_day = require("../model/count_penyebaran_polda_day");
 
-const Sim_polda_day = require("../model/count_sim_polda_day");
-const Bpkb_polda_day = require("../model/count_bpkb_polda_day");
-const Stnk_polda_day = require("../model/count_stnk_polda_day");
-const Ranmor_polda_day = require("../model/count_ranmor_polda_day");
+// const Sim_polda_day = require("../model/count_sim_polda_day");
+// const Bpkb_polda_day = require("../model/count_bpkb_polda_day");
+// const Stnk_polda_day = require("../model/count_stnk_polda_day");
+// const Ranmor_polda_day = require("../model/count_ranmor_polda_day");
 
 const Laporan_Harian = require("../model/laporan_harian");
 

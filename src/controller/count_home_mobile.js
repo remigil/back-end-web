@@ -8,18 +8,18 @@ const readXlsxFile = require("read-excel-file/node");
 const fs = require("fs");
 
 // const LakaLantasMonth = require("../model/count_lakalantas_polda_month");
-const LakaLantasDay = require("../model/count_lakalantas_polda_day");
+// const LakaLantasDay = require("../model/count_lakalantas_polda_day");
 
 // const SimMonth = require("../model/count_sim_polda_month");
-const SimDay = require("../model/count_sim_polda_day");
+// const SimDay = require("../model/count_sim_polda_day");
 
 // const GarlantasMonth = require("../model/count_garlantas_polda_month");
-const GarlantasDay = require("../model/count_garlantas_polda_day");
+// const GarlantasDay = require("../model/count_garlantas_polda_day");
 
-const RanmorDay = require("../model/count_ranmor_polda_day");
+// const RanmorDay = require("../model/count_ranmor_polda_day");
 // const RanmorMonth = require("../model/count_ranmor_polda_month");
 
-const Turjagwali = require("../model/count_turjagwali_polda_day");
+// const Turjagwali = require("../model/count_turjagwali_polda_day");
 
 let thisday = moment().subtract(0, "days");
 let yesterday = moment().subtract(1, "days");

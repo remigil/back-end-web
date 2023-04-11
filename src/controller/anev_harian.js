@@ -1,7 +1,7 @@
 const db = require("../config/database");
 const response = require("../lib/response");
-const Pelanggaran = require("../model/count_garlantas_polda_day");
-const Kecelakaan = require("../model/count_lakalantas_polda_day");
+// const Pelanggaran = require("../model/count_garlantas_polda_day");
+// const Kecelakaan = require("../model/count_lakalantas_polda_day");
 const moment = require("moment");
 const { Op, Sequelize } = require("sequelize");
 const _ = require("lodash");

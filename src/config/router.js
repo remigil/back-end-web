@@ -45,34 +45,34 @@ router.use(
   require("../router/vip")
 );
 
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/day_report",
+//   // authMiddleware.jwtAuth,
+//   require("../router/day_report")
+// );
+
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/schedule",
+//   authMiddleware.jwtAuth,
+//   require("../router/schedule")
+// );
+
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/category_schedule",
+//   authMiddleware.jwtAuth,
+//   require("../router/category_schedule")
+// );
+
 router.use(
-  "/v" + process.env.APP_VERSION + "/day_report",
-  // authMiddleware.jwtAuth,
-  require("../router/day_report")
+  "/v" + process.env.APP_VERSION + "/ngawas",
+  authMiddleware.jwtAuth,
+  require("../router/ngawas")
 );
 
 router.use(
-  "/v" + process.env.APP_VERSION + "/schedule",
+  "/v" + process.env.APP_VERSION + "/penumpang",
   authMiddleware.jwtAuth,
-  require("../router/schedule")
-);
-
-router.use(
-  "/v" + process.env.APP_VERSION + "/category_schedule",
-  authMiddleware.jwtAuth,
-  require("../router/category_schedule")
-);
-
-router.use(
-  "/v" + process.env.APP_VERSION + "/trip_on",
-  authMiddleware.jwtAuth,
-  require("../router/trip_on")
-);
-
-router.use(
-  "/v" + process.env.APP_VERSION + "/passenger_trip_on",
-  authMiddleware.jwtAuth,
-  require("../router/passenger_trip_on")
+  require("../router/penumpang")
 );
 
 router.use(
@@ -101,11 +101,11 @@ router.use(
   authMiddleware.jwtAuth,
   require("../router/position")
 );
-router.use(
-  "/v" + process.env.APP_VERSION + "/country",
-  authMiddleware.jwtAuth,
-  require("../router/country")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/country",
+//   authMiddleware.jwtAuth,
+//   require("../router/country")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/rank_officer",
   authMiddleware.jwtAuth,
@@ -127,17 +127,17 @@ router.use(
   require("../router/fuel_vehicle")
 );
 //  --------------- berita
-router.use(
-  "/v" + process.env.APP_VERSION + "/news",
-  // authMiddleware.jwtAuth,
-  require("../router/news")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/news",
+//   // authMiddleware.jwtAuth,
+//   require("../router/news")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/category_news",
-  authMiddleware.jwtAuth,
-  require("../router/category_news")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/category_news",
+//   authMiddleware.jwtAuth,
+//   require("../router/category_news")
+// );
 
 // --------------- troublespot
 router.use(
@@ -147,25 +147,25 @@ router.use(
 );
 
 // --------------- blankspot
-router.use(
-  "/v" + process.env.APP_VERSION + "/blankspot",
-  authMiddleware.jwtAuth,
-  require("../router/blankspot")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/blankspot",
+//   authMiddleware.jwtAuth,
+//   require("../router/blankspot")
+// );
 
 // CCTV
-router.use(
-  "/v" + process.env.APP_VERSION + "/cctv",
-  // authMiddleware.jwtAuth,
-  require("../router/cctv")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/cctv",
+//   // authMiddleware.jwtAuth,
+//   require("../router/cctv")
+// );
 
 // ETILANG
-router.use(
-  "/v" + process.env.APP_VERSION + "/etilang_perkara",
-  // authMiddleware.jwtAuth,
-  require("../router/etilang_perkara")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/etilang_perkara",
+//   // authMiddleware.jwtAuth,
+//   require("../router/etilang_perkara")
+// );
 
 // router.use(
 //   "/v" + process.env.APP_VERSION + "/etilang_perkara_pasal",
@@ -174,23 +174,23 @@ router.use(
 // );
 
 // bodycam
-router.use(
-  "/v" + process.env.APP_VERSION + "/bodycam",
-  authMiddleware.jwtAuth,
-  require("../router/bodycam")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/bodycam",
+//   authMiddleware.jwtAuth,
+//   require("../router/bodycam")
+// );
 
 // FASUM
-router.use(
-  "/v" + process.env.APP_VERSION + "/category_fasum",
-  authMiddleware.jwtAuth,
-  require("../router/category_fasum")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/fasum",
-  authMiddleware.jwtAuth,
-  require("../router/fasum")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/category_fasum",
+//   authMiddleware.jwtAuth,
+//   require("../router/category_fasum")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/fasum",
+//   authMiddleware.jwtAuth,
+//   require("../router/fasum")
+// );
 
 //--------tracking
 
@@ -248,11 +248,11 @@ router.use(
   require("../router/trx_operation_profile_polres")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/renpam",
-  authMiddleware.jwtAuth,
-  require("../router/renpam")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/renpam",
+//   authMiddleware.jwtAuth,
+//   require("../router/renpam")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/renpam-account",
   authMiddleware.jwtAuth,
@@ -382,11 +382,11 @@ router.use(
 ////////////////////////////////////umum
 
 // -------------- sim keliling
-router.use(
-  "/v" + process.env.APP_VERSION + "/sim_keliling",
-  authMiddleware.jwtAuth,
-  require("../router/sim_keliling")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/sim_keliling",
+//   authMiddleware.jwtAuth,
+//   require("../router/sim_keliling")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/sosmed",
   authMiddleware.jwtAuth,
@@ -394,11 +394,11 @@ router.use(
 );
 
 // -------------- samsat
-router.use(
-  "/v" + process.env.APP_VERSION + "/samsat",
-  // authMiddleware.jwtAuth,
-  require("../router/samsat")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/samsat",
+//   // authMiddleware.jwtAuth,
+//   require("../router/samsat")
+// );
 
 // -------------- complaint
 router.use(
@@ -414,18 +414,18 @@ router.use(
 );
 
 // -------------- satpas
-router.use(
-  "/v" + process.env.APP_VERSION + "/satpas",
-  // authMiddleware.jwtAuth,
-  require("../router/satpas")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/satpas",
+//   // authMiddleware.jwtAuth,
+//   require("../router/satpas")
+// );
 
 // Input data harian
-router.use(
-  "/v" + process.env.APP_VERSION + "/laka_langgar",
-  // authMiddleware.jwtAuth,
-  require("../router/input_laka_langgar")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/laka_langgar",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_laka_langgar")
+// );
 
 // router.use(
 //   "/v" + process.env.APP_VERSION + "/garlantas",
@@ -439,17 +439,17 @@ router.use(
   require("../router/input_turjagwali")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/laka_lantas",
-  // authMiddleware.jwtAuth,
-  require("../router/input_laka_lantas")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/laka_lantas",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_laka_lantas")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/dikmaslantas",
-  // authMiddleware.jwtAuth,
-  require("../router/input_dikmaslantas")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/dikmaslantas",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_dikmaslantas")
+// );
 
 router.use(
   "/v" + process.env.APP_VERSION + "/penyebaran",
@@ -475,11 +475,11 @@ router.use(
   require("../router/input_stnk")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/ranmor",
-  // authMiddleware.jwtAuth,
-  require("../router/input_ranmor")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/ranmor",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_ranmor")
+// );
 // End input data harian
 
 // manajemen akun  dasboard
@@ -506,35 +506,35 @@ router.use(
 // end manajemen akun
 
 // etle
-router.use(
-  "/v" + process.env.APP_VERSION + "/etle",
-  // authMiddleware.jwtAuth,
-  require("../router/etle")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/etle",
+//   // authMiddleware.jwtAuth,
+//   require("../router/etle")
+// );
 
 // Dashboard
-router.use(
-  "/v" + process.env.APP_VERSION + "/ditkamsel",
-  // authMiddleware.jwtAuth,
-  require("../router/count_ditkamsel")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/ditkamsel",
+//   // authMiddleware.jwtAuth,
+//   require("../router/count_ditkamsel")
+// );
+
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/ditregident",
+//   // authMiddleware.jwtAuth,
+//   require("../router/count_ditregident")
+// );
+
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/ditgakkum",
+//   // authMiddleware.jwtAuth,
+//   require("../router/count_ditgakkum")
+// );
 
 router.use(
-  "/v" + process.env.APP_VERSION + "/ditregident",
+  "/v" + process.env.APP_VERSION + "/count_ngawas",
   // authMiddleware.jwtAuth,
-  require("../router/count_ditregident")
-);
-
-router.use(
-  "/v" + process.env.APP_VERSION + "/ditgakkum",
-  // authMiddleware.jwtAuth,
-  require("../router/count_ditgakkum")
-);
-
-router.use(
-  "/v" + process.env.APP_VERSION + "/count-trip-on",
-  // authMiddleware.jwtAuth,
-  require("../router/count_tripOn")
+  require("../router/count_ngawas")
 );
 // End Dashboard
 
@@ -551,17 +551,17 @@ router.use(
 //   require("../router/input_operasi_langgar")
 // );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/operasi_laka",
-  // authMiddleware.jwtAuth,
-  require("../router/input_operasi_laka")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/operasi_laka",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_operasi_laka")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/ntmc",
-  // authMiddleware.jwtAuth,
-  require("../router/input_ntmc")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/ntmc",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_ntmc")
+// );
 
 router.use(
   "/v" + process.env.APP_VERSION + "/anev",
@@ -634,11 +634,11 @@ router.use(
 );
 
 // Bagrenmin
-router.use(
-  "/v" + process.env.APP_VERSION + "/bagrenmin",
-  // authMiddleware.jwtAuth,
-  require("../router/bagrenmin")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/bagrenmin",
+//   // authMiddleware.jwtAuth,
+//   require("../router/bagrenmin")
+// );
 
 // Bagrenmin
 router.use(
@@ -648,11 +648,11 @@ router.use(
 );
 
 // Bagtik
-router.use(
-  "/v" + process.env.APP_VERSION + "/bagtik",
-  // authMiddleware.jwtAuth,
-  require("../router/bagtik")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/bagtik",
+//   // authMiddleware.jwtAuth,
+//   require("../router/bagtik")
+// );
 
 // Upload Anev
 router.use(

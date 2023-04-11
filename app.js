@@ -10,18 +10,18 @@ const socketInstace = require("./src/config/socketConnetion");
 const bodyParser = require("body-parser");
 const fs = require("fs");
 
-const cronDikmaslantas = require("./src/controller/cron_dikmaslantas");
-const cronPenyebaran = require("./src/controller/cron_penyebaran");
-const cronLakalantas = require("./src/controller/cron_lakalantas");
-const cronGarlantas = require("./src/controller/cron_garlantas");
-const cronLakalanggar = require("./src/controller/cron_lakalanggar");
-const cronTurjagwali = require("./src/controller/cron_turjagwali");
-const cronSim = require("./src/controller/cron_sim");
-const cronStnk = require("./src/controller/cron_stnk");
+// const cronDikmaslantas = require("./src/controller/cron_dikmaslantas");
+// const cronPenyebaran = require("./src/controller/cron_penyebaran");
+// const cronLakalantas = require("./src/controller/cron_lakalantas");
+// const cronGarlantas = require("./src/controller/cron_garlantas");
+// const cronLakalanggar = require("./src/controller/cron_lakalanggar");
+// const cronTurjagwali = require("./src/controller/cron_turjagwali");
+// const cronSim = require("./src/controller/cron_sim");
+// const cronStnk = require("./src/controller/cron_stnk");
 const cronBpkb = require("./src/controller/cron_bpkb");
-const cronRanmor = require("./src/controller/cron_ranmor");
+// const cronRanmor = require("./src/controller/cron_ranmor");
 const cronLapmasyarakat = require("./src/controller/cron_lapMasyarakat");
-const cronLaporanHarian = require("./src/controller/cron_laporanHarian");
+// const cronLaporanHarian = require("./src/controller/cron_laporanHarian");
 
 //console.log(options)
 const server = http.createServer(app);
@@ -44,9 +44,9 @@ socketInstace(server);
 // Cronjob
 // cronDikmaslantas.cronDikmaslantas();
 // cronPenyebaran.cronPenyebaran();
-cronLakalantas.cronLakalantas();
-cronLaporanHarian.Laporan_Harian();
-cronGarlantas.cronGarlantas();
+// cronLakalantas.cronLakalantas();
+// cronLaporanHarian.Laporan_Harian();
+// cronGarlantas.cronGarlantas();
 // cronLakalanggar.cronLakalanggar();
 // cronTurjagwali.cronTurjagwali();
 // cronSim.cronSim();

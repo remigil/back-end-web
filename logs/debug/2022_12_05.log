@@ -1,0 +1,4134 @@
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 8ms',
+  timestamp: '2022-12-05T05:12:42.456Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 3ms',
+  timestamp: '2022-12-05T05:15:14.231Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:15:37.466Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:16:10.259Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:16:30.551Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:16:36.178Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:16:40.482Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:17:05.971Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:17:54.328Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:18:44.560Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:18:50.810Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyUVdaNU1UUnhlRWxwV0ZoeWVtdExUMEZ4TkhsS2VqQlpOWE0zUTAxcVdUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzE2MywiaWF0IjoxNjcwMjE3MTYzLCJleHAiOjE2NzAyMjA3NjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.lcVlbn1gmzBwHf2dpZPG9A0O6LG5dRSJeiPOzRzhitRJZ0z-V4cE8ayjQY-olKszbxLg7sCYfI9Nns8ZPuah5Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2QWZ5MTRxeElpWFhyemtLT0FxNHlKejBZNXM3Q01qWT0',
+            timestamp: 1670217163,
+            iat: 1670217163,
+            exp: 1670220763,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:19:14.624Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhGZEdWclpHbFRVSFYxUVZGQ1oyRndabkZqSzFkb2MwSmtNU3RWUjJWYWJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzU3NCwiaWF0IjoxNjcwMjE3NTc0LCJleHAiOjE2NzAyMjExNzQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.RmM-0fxCVD9knQsoCeVyqyfaS9jpAeW40MGuHYGnt3LQl3F5qVItyWWkCkCGq2csPOX5jl5nvqPmrvlGxsmRxQ',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThFdGVrZGlTUHV1QVFCZ2FwZnFjK1doc0JkMStVR2Vabz0',
+            timestamp: 1670217574,
+            iat: 1670217574,
+            exp: 1670221174,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMThFdGVrZGlTUHV1QVFCZ2FwZnFjK1doc0JkMStVR2Vabz0',
+            timestamp: 1670217574,
+            iat: 1670217574,
+            exp: 1670221174,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:19:33.413Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:19:47.264Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:20:08.707Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:20:20.267Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:20:56.642Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:03.910Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:15.017Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:29.194Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:42.347Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:46.225Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:51.674Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:21:59.814Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:22:05.409Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:22:14.907Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:23:16.248Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 8ms',
+  timestamp: '2022-12-05T05:23:21.798Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:23:22.220Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 6
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 6ms',
+  timestamp: '2022-12-05T05:23:22.527Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:23:22.767Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:23:23.455Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:23:23.816Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:23:30.956Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlrZW1kNk1GWnJhbmxhTW1SNlVHMVhabVl2VGxKbk4zTkNNRFp4YURONmJ6MCIsInRpbWVzdGFtcCI6MTY3MDIxNzc5NywiaWF0IjoxNjcwMjE3Nzk3LCJleHAiOjE2NzAyMjEzOTcsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.e_5f7dIKCxQKhXzR2g6GIoSAYA0fG1PjkqM3mjKohCBdAOjkHT000zV9hc2uaq4E1Grv94yl9myzLWvpXrvE1Q',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS9kemd6MFZranlaMmR6UG1XZmYvTlJnN3NCMDZxaDN6bz0',
+            timestamp: 1670217797,
+            iat: 1670217797,
+            exp: 1670221397,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:23:31.708Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:24:22.472Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 4ms',
+  timestamp: '2022-12-05T05:24:48.619Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:25:08.733Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:26:17.790Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:26:23.199Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 0ms',
+  timestamp: '2022-12-05T05:26:30.548Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:27:13.022Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:27:38.729Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:27:51.964Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:27:57.774Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 3ms',
+  timestamp: '2022-12-05T05:28:09.752Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:28:15.646Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:29:10.241Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:29:35.334Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:32:56.473Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:41:07.424Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:51:40.212Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:52:52.777Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:53:01.801Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:53:06.354Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:53:51.053Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:54:08.676Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:54:16.113Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:54:41.423Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:54:51.401Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:55:15.299Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:55:41.545Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:55:49.069Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:56:00.434Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T05:56:20.531Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T05:56:29.358Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt expired' }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2022-12-05T07:18:52.392Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxhUlN0bk1URkdiVzFuYjNKRGRrazViVko1UzI0NFVrOVlRVU41WjJsUlRUMCIsInRpbWVzdGFtcCI6MTY3MDIxNzU4OCwiaWF0IjoxNjcwMjE3NTg4LCJleHAiOjE2NzAyMjExODgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.0vg_8at-f4o-U52HmRza8lljU8l9w65Uxtmfk4rFwNLZjfLH1aK3fFrFD5qZ5HA2Ve7mGdYIogw8PD8VSFocQw',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlaRStnMTFGbW1nb3JDdkk5bVJ5S244Uk9YQUN5Z2lRTT0',
+            timestamp: 1670217588,
+            iat: 1670217588,
+            exp: 1670221188,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt expired' }
+      }
+    },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 0ms',
+  timestamp: '2022-12-05T07:18:53.986Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:19:22.576Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:20:26.029Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:21:26.192Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:21:39.895Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:21:48.257Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:23:11.228Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:23:34.274Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:25:38.958Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3020',
+        'content-length': '0',
+        'user-agent': 'GuzzleHttp/6.5.1 curl/7.70.0 PHP/7.4.30',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGsyWlRCcVIybzNNalpJZEdVeVdHUnZhbEJOZWtWV1NEY3lUa2gxYW5OelNUMCIsInRpbWVzdGFtcCI6MTY3MDIyNDc2MywiaWF0IjoxNjcwMjI0NzYzLCJleHAiOjE2NzAyMjgzNjMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.G3Tno6WmpqeU8GFLnAfH53rH1Yir8tuyhnXVXiqiZcBHCwDlEkGCf9V0vCB6erwLv8jiY4J8Hb6zXF87wZ7Ngg',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '44'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTk2ZTBqR2o3MjZIdGUyWGRvalBNekVWSDcyTkh1anNzST0',
+            timestamp: 1670224763,
+            iat: 1670224763,
+            exp: 1670228363,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2022-12-05T07:46:21.787Z'
+}

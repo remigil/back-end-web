@@ -1,6 +1,6 @@
 const db = require("../config/database");
 const response = require("../lib/response");
-const Faq = require("../model/faq");
+// const Faq = require("../model/faq");
 const { Op, Sequelize } = require("sequelize");
 const _ = require("lodash");
 const pagination = require("../lib/pagination-parser");

@@ -1,0 +1,3072 @@
+{
+  meta: {
+    req: {
+      url: '/satisfactionsurvey?filter=true&start_date=2023-01-07&end_date=2023-01-07&polda_id=VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        accept: '*/*',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/satisfactionsurvey?filter=true&start_date=2023-01-07&end_date=2023-01-07&polda_id=VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0',
+      query: {
+        filter: 'true',
+        start_date: '2023-01-07',
+        end_date: '2023-01-07',
+        polda_id: 'VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0'
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'GET /satisfactionsurvey?filter=true&start_date=2023-01-07&end_date=2023-01-07&polda_id=VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0 404 8ms',
+  timestamp: '2023-01-08T11:19:29.882Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey?filter=true&start_date=2023-01-07&end_date=2023-01-07&polda_id=VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        accept: '*/*',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey?filter=true&start_date=2023-01-07&end_date=2023-01-07&polda_id=VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0',
+      query: {
+        filter: 'true',
+        start_date: '2023-01-07',
+        end_date: '2023-01-07',
+        polda_id: 'VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'zero-length delimited identifier at or near """"'
+      }
+    },
+    responseTime: 653
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey?filter=true&start_date=2023-01-07&end_date=2023-01-07&polda_id=VTJGc2RHVmtYMTkxekpQeVljbDZHMlB0MGxqZVN0aGRIL1IwdFZvUjl6TT0 200 653ms',
+  timestamp: '2023-01-08T11:29:10.129Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        accept: '*/*',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'zero-length delimited identifier at or near """"'
+      }
+    },
+    responseTime: 75
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey 200 75ms',
+  timestamp: '2023-01-08T11:29:17.164Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey?serverSide=True&length=10&start=1&orderDirection=asc',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MwYkV0dWRVbHhNa1ZGVm5oRVYxZHJTMVJwY1hCdFVrOHhabk5aYjA1SE9EMCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzA3MDQ3MSwiaWF0IjoxNjczMDcwNDcxLCJleHAiOjE2NzMwNzQwNzEsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.rghSwvemezYIgALrMFnP6F0RG4IN5Zm_4jzEVBXw0c90dzJRJ_qjpfnUJ3Bdr0bNQgDnC8559w76Yg1LZhEk6g',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs0bEtudUlxMkVFVnhEV1drS1RpcXBtUk8xZnNZb05HOD0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673070471,
+            iat: 1673070471,
+            exp: 1673074071,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey?serverSide=True&length=10&start=1&orderDirection=asc',
+      query: {
+        serverSide: 'True',
+        length: '10',
+        start: '1',
+        orderDirection: 'asc'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'zero-length delimited identifier at or near """"'
+      }
+    },
+    responseTime: 593
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey?serverSide=True&length=10&start=1&orderDirection=asc 200 593ms',
+  timestamp: '2023-01-08T11:29:51.933Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey?serverSide=True&length=10&start=1&order=email_survey&orderDirection=asc',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MwYkV0dWRVbHhNa1ZGVm5oRVYxZHJTMVJwY1hCdFVrOHhabk5aYjA1SE9EMCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzA3MDQ3MSwiaWF0IjoxNjczMDcwNDcxLCJleHAiOjE2NzMwNzQwNzEsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.rghSwvemezYIgALrMFnP6F0RG4IN5Zm_4jzEVBXw0c90dzJRJ_qjpfnUJ3Bdr0bNQgDnC8559w76Yg1LZhEk6g',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs0bEtudUlxMkVFVnhEV1drS1RpcXBtUk8xZnNZb05HOD0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673070471,
+            iat: 1673070471,
+            exp: 1673074071,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey?serverSide=True&length=10&start=1&order=email_survey&orderDirection=asc',
+      query: {
+        serverSide: 'True',
+        length: '10',
+        start: '1',
+        order: 'email_survey',
+        orderDirection: 'asc'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: [], recordsFiltered: 0, recordsTotal: 0 }
+      }
+    },
+    responseTime: 545
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey?serverSide=True&length=10&start=1&order=email_survey&orderDirection=asc 200 545ms',
+  timestamp: '2023-01-08T11:30:16.351Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MwYkV0dWRVbHhNa1ZGVm5oRVYxZHJTMVJwY1hCdFVrOHhabk5aYjA1SE9EMCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzA3MDQ3MSwiaWF0IjoxNjczMDcwNDcxLCJleHAiOjE2NzMwNzQwNzEsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.rghSwvemezYIgALrMFnP6F0RG4IN5Zm_4jzEVBXw0c90dzJRJ_qjpfnUJ3Bdr0bNQgDnC8559w76Yg1LZhEk6g',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs0bEtudUlxMkVFVnhEV1drS1RpcXBtUk8xZnNZb05HOD0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673070471,
+            iat: 1673070471,
+            exp: 1673074071,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: { count: 0, rows: [] } }
+      }
+    },
+    responseTime: 5054
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 5054ms',
+  timestamp: '2023-01-08T11:39:16.014Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: { count: 0, rows: [] } }
+      }
+    },
+    responseTime: 325
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 325ms',
+  timestamp: '2023-01-08T11:42:20.835Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 1',
+        address_survey: 'alamat 1',
+        email_survey: 'email 1',
+        design_survey: '1',
+        convenience_survey: '1',
+        accurate_survey: '1',
+        fast_survey: '1'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS95cytjTlRBVDF3K2dKN3BWWTY3UGZ1cXVQNTcrcDFTWT0',
+          created_at: '2023-01-08T11:43:14.430Z',
+          updated_at: '2023-01-08T11:43:14.430Z',
+          name_survey: 'nama 1',
+          address_survey: 'alamat 1',
+          email_survey: 'email 1',
+          design_survey: '1',
+          convenience_survey: '1',
+          accurate_survey: '1',
+          fast_survey: '1',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 457
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 457ms',
+  timestamp: '2023-01-08T11:43:13.264Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 2',
+        address_survey: 'alamat 2',
+        email_survey: 'email 2',
+        design_survey: '2',
+        convenience_survey: '2',
+        accurate_survey: '2',
+        fast_survey: '2'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS90MHZuNTBZenNwR2sxalFJb1lJRWNVTmhKNnZNUHg0TT0',
+          created_at: '2023-01-08T11:43:26.511Z',
+          updated_at: '2023-01-08T11:43:26.511Z',
+          name_survey: 'nama 2',
+          address_survey: 'alamat 2',
+          email_survey: 'email 2',
+          design_survey: '2',
+          convenience_survey: '2',
+          accurate_survey: '2',
+          fast_survey: '2',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 422
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 422ms',
+  timestamp: '2023-01-08T11:43:25.314Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 3',
+        address_survey: 'alamat 3',
+        email_survey: 'email 3',
+        design_survey: '3',
+        convenience_survey: '3',
+        accurate_survey: '3',
+        fast_survey: '3'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMTlZTGJqUTNtRUJNUXNWT01aRE1COWFuOXViUTVBMklBYz0',
+          created_at: '2023-01-08T11:43:34.272Z',
+          updated_at: '2023-01-08T11:43:34.272Z',
+          name_survey: 'nama 3',
+          address_survey: 'alamat 3',
+          email_survey: 'email 3',
+          design_survey: '3',
+          convenience_survey: '3',
+          accurate_survey: '3',
+          fast_survey: '3',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 263
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 263ms',
+  timestamp: '2023-01-08T11:43:33.070Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 4',
+        address_survey: 'alamat 4',
+        email_survey: 'email 4',
+        design_survey: '4',
+        convenience_survey: '4',
+        accurate_survey: '4',
+        fast_survey: '4'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMSthdmpNS3V2STZ1SCt1U2t6MGRRVko5TEYxcWlVNnA0WT0',
+          created_at: '2023-01-08T11:43:43.282Z',
+          updated_at: '2023-01-08T11:43:43.282Z',
+          name_survey: 'nama 4',
+          address_survey: 'alamat 4',
+          email_survey: 'email 4',
+          design_survey: '4',
+          convenience_survey: '4',
+          accurate_survey: '4',
+          fast_survey: '4',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 268
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 268ms',
+  timestamp: '2023-01-08T11:43:42.072Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 5',
+        address_survey: 'alamat 5',
+        email_survey: 'email 5',
+        design_survey: '5',
+        convenience_survey: '5',
+        accurate_survey: '5',
+        fast_survey: '5'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMStBRDlyVXgxRlE5OEhLMmlNOUpMcWR6TkRqUnZoZjBTdz0',
+          created_at: '2023-01-08T11:43:53.132Z',
+          updated_at: '2023-01-08T11:43:53.132Z',
+          name_survey: 'nama 5',
+          address_survey: 'alamat 5',
+          email_survey: 'email 5',
+          design_survey: '5',
+          convenience_survey: '5',
+          accurate_survey: '5',
+          fast_survey: '5',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 229
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 229ms',
+  timestamp: '2023-01-08T11:43:51.893Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 6',
+        address_survey: 'alamat 6',
+        email_survey: 'email 6',
+        design_survey: '5',
+        convenience_survey: '5',
+        accurate_survey: '5',
+        fast_survey: '5'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMTlENWNWMVo4VnZqeDEzdlc2ZmVDdlpjdVpQTzIzZktmWT0',
+          created_at: '2023-01-08T11:43:58.012Z',
+          updated_at: '2023-01-08T11:43:58.012Z',
+          name_survey: 'nama 6',
+          address_survey: 'alamat 6',
+          email_survey: 'email 6',
+          design_survey: '5',
+          convenience_survey: '5',
+          accurate_survey: '5',
+          fast_survey: '5',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 526
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 526ms',
+  timestamp: '2023-01-08T11:43:56.814Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 7',
+        address_survey: 'alamat 7',
+        email_survey: 'email 7',
+        design_survey: '2',
+        convenience_survey: '2',
+        accurate_survey: '2',
+        fast_survey: '2'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMThDV1QzbVNlalRpZXNwcCtKTWR2K2JZTEJwL1VaN0toaz0',
+          created_at: '2023-01-08T11:44:07.574Z',
+          updated_at: '2023-01-08T11:44:07.574Z',
+          name_survey: 'nama 7',
+          address_survey: 'alamat 7',
+          email_survey: 'email 7',
+          design_survey: '2',
+          convenience_survey: '2',
+          accurate_survey: '2',
+          fast_survey: '2',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 182
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 182ms',
+  timestamp: '2023-01-08T11:44:06.358Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 8',
+        address_survey: 'alamat 8',
+        email_survey: 'email 8',
+        design_survey: '5',
+        convenience_survey: '5',
+        accurate_survey: '5',
+        fast_survey: '5'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMTl2YXYxMk5mTmtESnQ1ajErdE1aTkJIc0NSeThXS3RXUT0',
+          created_at: '2023-01-08T11:44:17.392Z',
+          updated_at: '2023-01-08T11:44:17.392Z',
+          name_survey: 'nama 8',
+          address_survey: 'alamat 8',
+          email_survey: 'email 8',
+          design_survey: '5',
+          convenience_survey: '5',
+          accurate_survey: '5',
+          fast_survey: '5',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 173
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 173ms',
+  timestamp: '2023-01-08T11:44:16.159Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/add',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '620',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/add',
+      query: {},
+      body: {
+        name_survey: 'nama 9',
+        address_survey: 'alamat 9',
+        email_survey: 'email 9',
+        design_survey: '4',
+        convenience_survey: '4',
+        accurate_survey: '4',
+        fast_survey: '4'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMStUMHlQbTZIWFpjNG8xeDZ0VDhodGdUWGlORWpLV3Fwdz0',
+          created_at: '2023-01-08T11:44:28.053Z',
+          updated_at: '2023-01-08T11:44:28.053Z',
+          name_survey: 'nama 9',
+          address_survey: 'alamat 9',
+          email_survey: 'email 9',
+          design_survey: '4',
+          convenience_survey: '4',
+          accurate_survey: '4',
+          fast_survey: '4',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 446
+  },
+  level: 'info',
+  message: 'POST /v1/satisfactionsurvey/add 200 446ms',
+  timestamp: '2023-01-08T11:44:26.861Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            count: 9,
+            rows: [
+              {
+                id: 'VTJGc2RHVmtYMSthNHN3WnRCVkpYcE1ZOG13NFE2V3JYOVN0ZzRoS0dxWT0',
+                name_survey: 'nama 1',
+                address_survey: 'alamat 1',
+                email_survey: 'email 1',
+                design_survey: '1',
+                convenience_survey: '1',
+                accurate_survey: '1',
+                fast_survey: '1',
+                created_at: '2023-01-08T11:43:14.430Z',
+                updated_at: '2023-01-08T11:43:14.430Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMStGNnJhdjhtMm02VkpuS1NNTUdEUkw1YS9CMUI0MXI1WT0',
+                name_survey: 'nama 2',
+                address_survey: 'alamat 2',
+                email_survey: 'email 2',
+                design_survey: '2',
+                convenience_survey: '2',
+                accurate_survey: '2',
+                fast_survey: '2',
+                created_at: '2023-01-08T11:43:26.511Z',
+                updated_at: '2023-01-08T11:43:26.511Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9PVjFjRHN3NXh5TmZ6M1BFR0k5aGZaU3pCSlU5aFlEQT0',
+                name_survey: 'nama 3',
+                address_survey: 'alamat 3',
+                email_survey: 'email 3',
+                design_survey: '3',
+                convenience_survey: '3',
+                accurate_survey: '3',
+                fast_survey: '3',
+                created_at: '2023-01-08T11:43:34.272Z',
+                updated_at: '2023-01-08T11:43:34.272Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMSsvL0hRY2s2SHpPS1lNWEJKRk1acFlxZzJEMUszZUU1WT0',
+                name_survey: 'nama 4',
+                address_survey: 'alamat 4',
+                email_survey: 'email 4',
+                design_survey: '4',
+                convenience_survey: '4',
+                accurate_survey: '4',
+                fast_survey: '4',
+                created_at: '2023-01-08T11:43:43.282Z',
+                updated_at: '2023-01-08T11:43:43.282Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMSszbm0vRkhxMVJQeS9yRi9jQ1pqWTltY3BicHFmY3BUMD0',
+                name_survey: 'nama 5',
+                address_survey: 'alamat 5',
+                email_survey: 'email 5',
+                design_survey: '5',
+                convenience_survey: '5',
+                accurate_survey: '5',
+                fast_survey: '5',
+                created_at: '2023-01-08T11:43:53.132Z',
+                updated_at: '2023-01-08T11:43:53.132Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMStmQllrSEpsVklOV0t5YWN3ZEIrcm5DNFREbkdjT0FwMD0',
+                name_survey: 'nama 6',
+                address_survey: 'alamat 6',
+                email_survey: 'email 6',
+                design_survey: '5',
+                convenience_survey: '5',
+                accurate_survey: '5',
+                fast_survey: '5',
+                created_at: '2023-01-08T11:43:58.012Z',
+                updated_at: '2023-01-08T11:43:58.012Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTlyMmZ0TWpZUGhaMnI0ditRSXhIRFg4cm5jcy9pMkVWcz0',
+                name_survey: 'nama 7',
+                address_survey: 'alamat 7',
+                email_survey: 'email 7',
+                design_survey: '2',
+                convenience_survey: '2',
+                accurate_survey: '2',
+                fast_survey: '2',
+                created_at: '2023-01-08T11:44:07.574Z',
+                updated_at: '2023-01-08T11:44:07.574Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTkyejRVWUcvc1R2M1k2WlcyWmtRSmVkUWpROVJOTDc0QT0',
+                name_survey: 'nama 8',
+                address_survey: 'alamat 8',
+                email_survey: 'email 8',
+                design_survey: '5',
+                convenience_survey: '5',
+                accurate_survey: '5',
+                fast_survey: '5',
+                created_at: '2023-01-08T11:44:17.392Z',
+                updated_at: '2023-01-08T11:44:17.392Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9aQzRJb1J3V3dzK29OcStDeVZFaUhRajA2TFdjSThEdz0',
+                name_survey: 'nama 9',
+                address_survey: 'alamat 9',
+                email_survey: 'email 9',
+                design_survey: '4',
+                convenience_survey: '4',
+                accurate_survey: '4',
+                fast_survey: '4',
+                created_at: '2023-01-08T11:44:28.053Z',
+                updated_at: '2023-01-08T11:44:28.053Z',
+                deleted_at: null
+              }
+            ]
+          }
+        }
+      }
+    },
+    responseTime: 163
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 163ms',
+  timestamp: '2023-01-08T11:44:28.906Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'Satisfaction.Count is not a function'
+      }
+    },
+    responseTime: 5116
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 5116ms',
+  timestamp: '2023-01-08T11:48:35.574Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'operator does not exist: character varying = integer'
+      }
+    },
+    responseTime: 9858
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 9858ms',
+  timestamp: '2023-01-08T11:49:04.042Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            count: 9,
+            rows: [
+              {
+                id: 'VTJGc2RHVmtYMThKUGlETmVOQm91UWNwVitGS1RTaHZEUk1FakxqdjUwOD0',
+                name_survey: 'nama 1',
+                address_survey: 'alamat 1',
+                email_survey: 'email 1',
+                design_survey: '1',
+                convenience_survey: '1',
+                accurate_survey: '1',
+                fast_survey: '1',
+                created_at: '2023-01-08T11:43:14.430Z',
+                updated_at: '2023-01-08T11:43:14.430Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS85Vi9PN0tIQnlsMmZoR2Jvak5MRlp0eUFlQTBuc1V2MD0',
+                name_survey: 'nama 2',
+                address_survey: 'alamat 2',
+                email_survey: 'email 2',
+                design_survey: '2',
+                convenience_survey: '2',
+                accurate_survey: '2',
+                fast_survey: '2',
+                created_at: '2023-01-08T11:43:26.511Z',
+                updated_at: '2023-01-08T11:43:26.511Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9QWFNuUGZmOFZxd2wwOG41MUZMaW5PQnBUZDBueFNRUT0',
+                name_survey: 'nama 3',
+                address_survey: 'alamat 3',
+                email_survey: 'email 3',
+                design_survey: '3',
+                convenience_survey: '3',
+                accurate_survey: '3',
+                fast_survey: '3',
+                created_at: '2023-01-08T11:43:34.272Z',
+                updated_at: '2023-01-08T11:43:34.272Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTgrZUoyRFhUSTIrOWJzMHNxTjFzUStzKzJHeWZqSmliaz0',
+                name_survey: 'nama 4',
+                address_survey: 'alamat 4',
+                email_survey: 'email 4',
+                design_survey: '4',
+                convenience_survey: '4',
+                accurate_survey: '4',
+                fast_survey: '4',
+                created_at: '2023-01-08T11:43:43.282Z',
+                updated_at: '2023-01-08T11:43:43.282Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMStVQ2x6WFRlQ3UzUHJyZ2ZsV2FHWU5vSUd2RG5sQ2dSST0',
+                name_survey: 'nama 5',
+                address_survey: 'alamat 5',
+                email_survey: 'email 5',
+                design_survey: '5',
+                convenience_survey: '5',
+                accurate_survey: '5',
+                fast_survey: '5',
+                created_at: '2023-01-08T11:43:53.132Z',
+                updated_at: '2023-01-08T11:43:53.132Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTg2TkRIRkRPMEZRMDIzRittMWVMWU9nT1BPelFjam1Tdz0',
+                name_survey: 'nama 6',
+                address_survey: 'alamat 6',
+                email_survey: 'email 6',
+                design_survey: '5',
+                convenience_survey: '5',
+                accurate_survey: '5',
+                fast_survey: '5',
+                created_at: '2023-01-08T11:43:58.012Z',
+                updated_at: '2023-01-08T11:43:58.012Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTlJMG1mSHpUWS9IdEFFMTBlRGRyWmlDbFd6UVdsWXNyVT0',
+                name_survey: 'nama 7',
+                address_survey: 'alamat 7',
+                email_survey: 'email 7',
+                design_survey: '2',
+                convenience_survey: '2',
+                accurate_survey: '2',
+                fast_survey: '2',
+                created_at: '2023-01-08T11:44:07.574Z',
+                updated_at: '2023-01-08T11:44:07.574Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTlTUHFyaWdTVTVtMklDZElzZklvRjNaaEJSd3k0OXA4ND0',
+                name_survey: 'nama 8',
+                address_survey: 'alamat 8',
+                email_survey: 'email 8',
+                design_survey: '5',
+                convenience_survey: '5',
+                accurate_survey: '5',
+                fast_survey: '5',
+                created_at: '2023-01-08T11:44:17.392Z',
+                updated_at: '2023-01-08T11:44:17.392Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9CaUlYMDZpd3d4VkYwZUVWY0xyaUtvaHB1Y3N3Y04vQT0',
+                name_survey: 'nama 9',
+                address_survey: 'alamat 9',
+                email_survey: 'email 9',
+                design_survey: '4',
+                convenience_survey: '4',
+                accurate_survey: '4',
+                fast_survey: '4',
+                created_at: '2023-01-08T11:44:28.053Z',
+                updated_at: '2023-01-08T11:44:28.053Z',
+                deleted_at: null
+              }
+            ]
+          }
+        }
+      }
+    },
+    responseTime: 8822
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 8822ms',
+  timestamp: '2023-01-08T11:49:47.566Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'column "satification_survey.id" must appear in the GROUP BY clause or be used in an aggregate function'
+      }
+    },
+    responseTime: 7642
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 7642ms',
+  timestamp: '2023-01-08T11:53:34.037Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'column "satification_survey.id" must appear in the GROUP BY clause or be used in an aggregate function'
+      }
+    },
+    responseTime: 8302
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 8302ms',
+  timestamp: '2023-01-08T11:55:51.727Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/count',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/count',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'column "satification_survey.id" must appear in the GROUP BY clause or be used in an aggregate function'
+      }
+    },
+    responseTime: 7459
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/count 200 7459ms',
+  timestamp: '2023-01-08T11:58:36.691Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 404 8ms',
+  timestamp: '2023-01-08T12:00:36.858Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            count: 9,
+            rows: [
+              {
+                id: 'VTJGc2RHVmtYMS9kN080YWxka3NOWWw1MTY2S2hzRUtPcUZ2bkt3dlIrYz0',
+                name_survey: 'nama 1',
+                address_survey: 'alamat 1',
+                email_survey: 'email 1',
+                design_survey: 1,
+                convenience_survey: 1,
+                accurate_survey: 1,
+                fast_survey: 1,
+                created_at: '2023-01-08T11:43:14.430Z',
+                updated_at: '2023-01-08T11:43:14.430Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMStjbktlUWFDSmkwYWhlTHU1cEY0UGxkUDdXRnhmZHFQdz0',
+                name_survey: 'nama 2',
+                address_survey: 'alamat 2',
+                email_survey: 'email 2',
+                design_survey: 2,
+                convenience_survey: 2,
+                accurate_survey: 2,
+                fast_survey: 2,
+                created_at: '2023-01-08T11:43:26.511Z',
+                updated_at: '2023-01-08T11:43:26.511Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTlpOFpWN0FRTnZPRjBiQ0k4U3ZUclZYK3hPbkVieENyYz0',
+                name_survey: 'nama 3',
+                address_survey: 'alamat 3',
+                email_survey: 'email 3',
+                design_survey: 3,
+                convenience_survey: 3,
+                accurate_survey: 3,
+                fast_survey: 3,
+                created_at: '2023-01-08T11:43:34.272Z',
+                updated_at: '2023-01-08T11:43:34.272Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9XOXFYRHhOY0FwelpMb2gyV0ljbm1ueURrV0NTYTRWRT0',
+                name_survey: 'nama 4',
+                address_survey: 'alamat 4',
+                email_survey: 'email 4',
+                design_survey: 4,
+                convenience_survey: 4,
+                accurate_survey: 4,
+                fast_survey: 4,
+                created_at: '2023-01-08T11:43:43.282Z',
+                updated_at: '2023-01-08T11:43:43.282Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTlYR010Sk5vd2FYTEZTNG90TnkwY2ZnTllBVHZYNitoZz0',
+                name_survey: 'nama 5',
+                address_survey: 'alamat 5',
+                email_survey: 'email 5',
+                design_survey: 5,
+                convenience_survey: 5,
+                accurate_survey: 5,
+                fast_survey: 5,
+                created_at: '2023-01-08T11:43:53.132Z',
+                updated_at: '2023-01-08T11:43:53.132Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMStHT2M0S3VoN3NRMFpZTEZpaVZ0bkZPYXcvbThjYUprOD0',
+                name_survey: 'nama 6',
+                address_survey: 'alamat 6',
+                email_survey: 'email 6',
+                design_survey: 5,
+                convenience_survey: 5,
+                accurate_survey: 5,
+                fast_survey: 5,
+                created_at: '2023-01-08T11:43:58.012Z',
+                updated_at: '2023-01-08T11:43:58.012Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9lcTljdE1IbDEwWjdKRFRNUER6blg2a1FKak04RkdzND0',
+                name_survey: 'nama 7',
+                address_survey: 'alamat 7',
+                email_survey: 'email 7',
+                design_survey: 2,
+                convenience_survey: 2,
+                accurate_survey: 2,
+                fast_survey: 2,
+                created_at: '2023-01-08T11:44:07.574Z',
+                updated_at: '2023-01-08T11:44:07.574Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS8remx5RUprVDkwVGVDd0VUSGphb3V3TFpxUWNvZmQ2Yz0',
+                name_survey: 'nama 8',
+                address_survey: 'alamat 8',
+                email_survey: 'email 8',
+                design_survey: 5,
+                convenience_survey: 5,
+                accurate_survey: 5,
+                fast_survey: 5,
+                created_at: '2023-01-08T11:44:17.392Z',
+                updated_at: '2023-01-08T11:44:17.392Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMSt1RTVZdktDRUNuTHpOVnVabUpscW1XcVlRYnZMczdSMD0',
+                name_survey: 'nama 9',
+                address_survey: 'alamat 9',
+                email_survey: 'email 9',
+                design_survey: 4,
+                convenience_survey: 4,
+                accurate_survey: 4,
+                fast_survey: 4,
+                created_at: '2023-01-08T11:44:28.053Z',
+                updated_at: '2023-01-08T11:44:28.053Z',
+                deleted_at: null
+              }
+            ]
+          },
+          design: [
+            { design_survey: 1 },
+            { design_survey: 2 },
+            { design_survey: 3 },
+            { design_survey: 4 },
+            { design_survey: 5 }
+          ]
+        }
+      }
+    },
+    responseTime: 7609
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 7609ms',
+  timestamp: '2023-01-08T12:01:21.005Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            count: 9,
+            rows: [
+              {
+                id: 'VTJGc2RHVmtYMThjSHFwME1LaGkzY1RNWEl5WG1oemdtWFBwMVMxelduVT0',
+                name_survey: 'nama 1',
+                address_survey: 'alamat 1',
+                email_survey: 'email 1',
+                design_survey: 1,
+                convenience_survey: 1,
+                accurate_survey: 1,
+                fast_survey: 1,
+                created_at: '2023-01-08T11:43:14.430Z',
+                updated_at: '2023-01-08T11:43:14.430Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMStkU3FjeGN3L0JnUW5VMlhPeElGWGd4bnhMTkxPbUR0Yz0',
+                name_survey: 'nama 2',
+                address_survey: 'alamat 2',
+                email_survey: 'email 2',
+                design_survey: 2,
+                convenience_survey: 2,
+                accurate_survey: 2,
+                fast_survey: 2,
+                created_at: '2023-01-08T11:43:26.511Z',
+                updated_at: '2023-01-08T11:43:26.511Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMSs1TzBhRzI4a1JKWVNuZWdiRzREYXFSY2J3RE1oZ25HTT0',
+                name_survey: 'nama 3',
+                address_survey: 'alamat 3',
+                email_survey: 'email 3',
+                design_survey: 3,
+                convenience_survey: 3,
+                accurate_survey: 3,
+                fast_survey: 3,
+                created_at: '2023-01-08T11:43:34.272Z',
+                updated_at: '2023-01-08T11:43:34.272Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTlTSmhCZHlMYVVQL1VmdHZZUGNvVzJaWCtEZjhWMXRKMD0',
+                name_survey: 'nama 4',
+                address_survey: 'alamat 4',
+                email_survey: 'email 4',
+                design_survey: 4,
+                convenience_survey: 4,
+                accurate_survey: 4,
+                fast_survey: 4,
+                created_at: '2023-01-08T11:43:43.282Z',
+                updated_at: '2023-01-08T11:43:43.282Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS95bXdmOWI1QXcxU3Azc0luc0RiK3RSWkNSTnV1T3k2WT0',
+                name_survey: 'nama 5',
+                address_survey: 'alamat 5',
+                email_survey: 'email 5',
+                design_survey: 5,
+                convenience_survey: 5,
+                accurate_survey: 5,
+                fast_survey: 5,
+                created_at: '2023-01-08T11:43:53.132Z',
+                updated_at: '2023-01-08T11:43:53.132Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTg2MEMyc1lWUXp0NEt4YjIzbWJlSlhDTS9CMXJoNk5YWT0',
+                name_survey: 'nama 6',
+                address_survey: 'alamat 6',
+                email_survey: 'email 6',
+                design_survey: 5,
+                convenience_survey: 5,
+                accurate_survey: 5,
+                fast_survey: 5,
+                created_at: '2023-01-08T11:43:58.012Z',
+                updated_at: '2023-01-08T11:43:58.012Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMS9KRkdheGdlV2tmaWNjM0lhdXBGYzFXTFhMalZTR0RWbz0',
+                name_survey: 'nama 7',
+                address_survey: 'alamat 7',
+                email_survey: 'email 7',
+                design_survey: 2,
+                convenience_survey: 2,
+                accurate_survey: 2,
+                fast_survey: 2,
+                created_at: '2023-01-08T11:44:07.574Z',
+                updated_at: '2023-01-08T11:44:07.574Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTloTlFxSmZIN1RHVG9qMUhmckM0MG5GUmNnUUhQcHpUST0',
+                name_survey: 'nama 8',
+                address_survey: 'alamat 8',
+                email_survey: 'email 8',
+                design_survey: 5,
+                convenience_survey: 5,
+                accurate_survey: 5,
+                fast_survey: 5,
+                created_at: '2023-01-08T11:44:17.392Z',
+                updated_at: '2023-01-08T11:44:17.392Z',
+                deleted_at: null
+              },
+              {
+                id: 'VTJGc2RHVmtYMTl6azhVSDV2d1NpNlhmS2VLWVNBcHBmUFo0a3VoNVEwST0',
+                name_survey: 'nama 9',
+                address_survey: 'alamat 9',
+                email_survey: 'email 9',
+                design_survey: 4,
+                convenience_survey: 4,
+                accurate_survey: 4,
+                fast_survey: 4,
+                created_at: '2023-01-08T11:44:28.053Z',
+                updated_at: '2023-01-08T11:44:28.053Z',
+                deleted_at: null
+              }
+            ]
+          },
+          design: { '1': 1, '2': 2, '3': 1, '4': 2, '5': 3 }
+        }
+      }
+    },
+    responseTime: 15103
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 15103ms',
+  timestamp: '2023-01-08T12:05:12.251Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { '1': 1, '2': 2, '3': 1, '4': 2, '5': 3 }
+      }
+    },
+    responseTime: 17605
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 17605ms',
+  timestamp: '2023-01-08T12:06:45.148Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStlSnpzU3ZOTFdZdk9VM2c5b3ZDUnFHbmsyNkw3R05JND0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStlSnpzU3ZOTFdZdk9VM2c5b3ZDUnFHbmsyNkw3R05JND0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMThDd050OXdRNmNoZWpQZFdDemt0Q0NhTVFXSmMxUXl2az0',
+            name_survey: 'nama 5',
+            address_survey: 'alamat 5',
+            email_survey: 'email 5',
+            design_survey: 5,
+            convenience_survey: 5,
+            accurate_survey: 5,
+            fast_survey: 5,
+            created_at: '2023-01-08T11:43:53.132Z',
+            updated_at: '2023-01-08T11:43:53.132Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 4358
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStlSnpzU3ZOTFdZdk9VM2c5b3ZDUnFHbmsyNkw3R05JND0 200 4358ms',
+  timestamp: '2023-01-08T14:14:15.375Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStlSnpzU3ZOTFdZdk9VM2c5b3ZDUnFHbmsyNkw3R05JND0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStlSnpzU3ZOTFdZdk9VM2c5b3ZDUnFHbmsyNkw3R05JND0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMStRSmp0Q2QzQ0lFYW5EWVlQaVZ6ZkNHcGFZRHR2eHpxMD0',
+            name_survey: 'nama 5',
+            address_survey: 'alamat 5',
+            email_survey: 'email 5',
+            design_survey: 5,
+            convenience_survey: 5,
+            accurate_survey: 5,
+            fast_survey: 5,
+            created_at: '2023-01-08T11:43:53.132Z',
+            updated_at: '2023-01-08T11:43:53.132Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 360
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStlSnpzU3ZOTFdZdk9VM2c5b3ZDUnFHbmsyNkw3R05JND0 200 360ms',
+  timestamp: '2023-01-08T14:14:59.885Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey?serverSide=true&start=1&length=10&order=id&orderDirection=desc',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey?serverSide=true&start=1&length=10&order=id&orderDirection=desc',
+      query: {
+        serverSide: 'true',
+        start: '1',
+        length: '10',
+        order: 'id',
+        orderDirection: 'desc'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMStPMHo3MXQ5ckdLZ0oyS243R0J3M0hDZFpRY1ZsR0N1VT0',
+              name_survey: 'Asep',
+              address_survey: 'qwe',
+              email_survey: 'asep@gmail.com',
+              design_survey: 1,
+              convenience_survey: 1,
+              accurate_survey: 1,
+              fast_survey: 1,
+              created_at: '2023-01-08T13:59:03.846Z',
+              updated_at: '2023-01-08T13:59:03.846Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThya2RNbU1YdHdMWStlbTJyd3hxTWhweG5Gc0JxcmI5bz0',
+              name_survey: 'nama 9',
+              address_survey: 'alamat 9',
+              email_survey: 'email 9',
+              design_survey: 4,
+              convenience_survey: 4,
+              accurate_survey: 4,
+              fast_survey: 4,
+              created_at: '2023-01-08T11:44:28.053Z',
+              updated_at: '2023-01-08T11:44:28.053Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9VdGxycDVPRlBBbDdtRUVCNlVvWXQ2Wjg5Nm9qVExvTT0',
+              name_survey: 'nama 8',
+              address_survey: 'alamat 8',
+              email_survey: 'email 8',
+              design_survey: 5,
+              convenience_survey: 5,
+              accurate_survey: 5,
+              fast_survey: 5,
+              created_at: '2023-01-08T11:44:17.392Z',
+              updated_at: '2023-01-08T11:44:17.392Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStYQVRDdDRSSm9YaHAyd0ZIcGZFL3l6R0F3aEJISzJjST0',
+              name_survey: 'nama 7',
+              address_survey: 'alamat 7',
+              email_survey: 'email 7',
+              design_survey: 2,
+              convenience_survey: 2,
+              accurate_survey: 2,
+              fast_survey: 2,
+              created_at: '2023-01-08T11:44:07.574Z',
+              updated_at: '2023-01-08T11:44:07.574Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS8rYVliY3R2RjUrb2wrejhjcktiaGlPTVZVTE16TmlpWT0',
+              name_survey: 'nama 6',
+              address_survey: 'alamat 6',
+              email_survey: 'email 6',
+              design_survey: 5,
+              convenience_survey: 5,
+              accurate_survey: 5,
+              fast_survey: 5,
+              created_at: '2023-01-08T11:43:58.012Z',
+              updated_at: '2023-01-08T11:43:58.012Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9FL1lYa0pwcXdRN2NDNEVjczRwS1J3SnFmT0xTZXg1WT0',
+              name_survey: 'nama 5',
+              address_survey: 'alamat 5',
+              email_survey: 'email 5',
+              design_survey: 5,
+              convenience_survey: 5,
+              accurate_survey: 5,
+              fast_survey: 5,
+              created_at: '2023-01-08T11:43:53.132Z',
+              updated_at: '2023-01-08T11:43:53.132Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStoQWpMblo5MlpZTk01UnFqRXVMT3A2dUZRODB3TkhpZz0',
+              name_survey: 'nama 4',
+              address_survey: 'alamat 4',
+              email_survey: 'email 4',
+              design_survey: 4,
+              convenience_survey: 4,
+              accurate_survey: 4,
+              fast_survey: 4,
+              created_at: '2023-01-08T11:43:43.282Z',
+              updated_at: '2023-01-08T11:43:43.282Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSt4dWZsY2Q4ZHBlWmszenVJdmZhdStxZFdkZDByVlYzcz0',
+              name_survey: 'nama 3',
+              address_survey: 'alamat 3',
+              email_survey: 'email 3',
+              design_survey: 3,
+              convenience_survey: 3,
+              accurate_survey: 3,
+              fast_survey: 3,
+              created_at: '2023-01-08T11:43:34.272Z',
+              updated_at: '2023-01-08T11:43:34.272Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThmeVh1UzRGUXM1dkNqdWNmZ2ZnSXlZMUoxREFtNytJQT0',
+              name_survey: 'nama 2',
+              address_survey: 'alamat 2',
+              email_survey: 'email 2',
+              design_survey: 2,
+              convenience_survey: 2,
+              accurate_survey: 2,
+              fast_survey: 2,
+              created_at: '2023-01-08T11:43:26.511Z',
+              updated_at: '2023-01-08T11:43:26.511Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9KYlk0REtkYkx4RzBSVnZMUGZWRVZtVzJmSitZQzJMQT0',
+              name_survey: 'nama 1',
+              address_survey: 'alamat 1',
+              email_survey: 'email 1',
+              design_survey: 1,
+              convenience_survey: 1,
+              accurate_survey: 1,
+              fast_survey: 1,
+              created_at: '2023-01-08T11:43:14.430Z',
+              updated_at: '2023-01-08T11:43:14.430Z',
+              deleted_at: null
+            }
+          ],
+          recordsFiltered: 10,
+          recordsTotal: 10
+        }
+      }
+    },
+    responseTime: 418
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey?serverSide=true&start=1&length=10&order=id&orderDirection=desc 200 418ms',
+  timestamp: '2023-01-08T14:15:21.416Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStPMHo3MXQ5ckdLZ0oyS243R0J3M0hDZFpRY1ZsR0N1VT0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStPMHo3MXQ5ckdLZ0oyS243R0J3M0hDZFpRY1ZsR0N1VT0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMSs0TzVHVG5HQ2lKeGNxcXVxKzdFeE5zaG50VzFkRkNSST0',
+            name_survey: 'Asep',
+            address_survey: 'qwe',
+            email_survey: 'asep@gmail.com',
+            design_survey: 1,
+            convenience_survey: 1,
+            accurate_survey: 1,
+            fast_survey: 1,
+            created_at: '2023-01-08T13:59:03.846Z',
+            updated_at: '2023-01-08T13:59:03.846Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 124
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStPMHo3MXQ5ckdLZ0oyS243R0J3M0hDZFpRY1ZsR0N1VT0 200 124ms',
+  timestamp: '2023-01-08T14:15:27.319Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMS9KYlk0REtkYkx4RzBSVnZMUGZWRVZtVzJmSitZQzJMQT0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMS9KYlk0REtkYkx4RzBSVnZMUGZWRVZtVzJmSitZQzJMQT0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMThrdWQ3Z2NvbjBzVXVnQ1BidWpYQmdDUGROOEpNWXdRST0',
+            name_survey: 'nama 1',
+            address_survey: 'alamat 1',
+            email_survey: 'email 1',
+            design_survey: 1,
+            convenience_survey: 1,
+            accurate_survey: 1,
+            fast_survey: 1,
+            created_at: '2023-01-08T11:43:14.430Z',
+            updated_at: '2023-01-08T11:43:14.430Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 91
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMS9KYlk0REtkYkx4RzBSVnZMUGZWRVZtVzJmSitZQzJMQT0 200 91ms',
+  timestamp: '2023-01-08T14:15:36.685Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMThmeVh1UzRGUXM1dkNqdWNmZ2ZnSXlZMUoxREFtNytJQT0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMThmeVh1UzRGUXM1dkNqdWNmZ2ZnSXlZMUoxREFtNytJQT0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMTlSQ2FNa3NRb2dOdWxmYWhuYlhvNm9OTlBldXhNV3E3WT0',
+            name_survey: 'nama 2',
+            address_survey: 'alamat 2',
+            email_survey: 'email 2',
+            design_survey: 2,
+            convenience_survey: 2,
+            accurate_survey: 2,
+            fast_survey: 2,
+            created_at: '2023-01-08T11:43:26.511Z',
+            updated_at: '2023-01-08T11:43:26.511Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 74
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMThmeVh1UzRGUXM1dkNqdWNmZ2ZnSXlZMUoxREFtNytJQT0 200 74ms',
+  timestamp: '2023-01-08T14:15:47.272Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMSt4dWZsY2Q4ZHBlWmszenVJdmZhdStxZFdkZDByVlYzcz0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMSt4dWZsY2Q4ZHBlWmszenVJdmZhdStxZFdkZDByVlYzcz0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMTlEQXpwVzJLQXRQRlpWNlZEZHdWVEVYNVhIODNLM29XQT0',
+            name_survey: 'nama 3',
+            address_survey: 'alamat 3',
+            email_survey: 'email 3',
+            design_survey: 3,
+            convenience_survey: 3,
+            accurate_survey: 3,
+            fast_survey: 3,
+            created_at: '2023-01-08T11:43:34.272Z',
+            updated_at: '2023-01-08T11:43:34.272Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 98
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMSt4dWZsY2Q4ZHBlWmszenVJdmZhdStxZFdkZDByVlYzcz0 200 98ms',
+  timestamp: '2023-01-08T14:15:57.782Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStoQWpMblo5MlpZTk01UnFqRXVMT3A2dUZRODB3TkhpZz0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStoQWpMblo5MlpZTk01UnFqRXVMT3A2dUZRODB3TkhpZz0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMS9PZjJwalRDdGYvUC9XdVlHSUZpTExveXJXZU9PZmU0ST0',
+            name_survey: 'nama 4',
+            address_survey: 'alamat 4',
+            email_survey: 'email 4',
+            design_survey: 4,
+            convenience_survey: 4,
+            accurate_survey: 4,
+            fast_survey: 4,
+            created_at: '2023-01-08T11:43:43.282Z',
+            updated_at: '2023-01-08T11:43:43.282Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 449
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMStoQWpMblo5MlpZTk01UnFqRXVMT3A2dUZRODB3TkhpZz0 200 449ms',
+  timestamp: '2023-01-08T14:16:18.469Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMTlWTXdnanZQeFhxMFRpR2hraTlzRHBYWnkwY1IrUExjTT0',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/getId/VTJGc2RHVmtYMTlWTXdnanZQeFhxMFRpR2hraTlzRHBYWnkwY1IrUExjTT0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMTh4Qkw4V0ljaXY5UUxhNkdPaFVyL3l0NEhlQVBsQ2xZWT0',
+            name_survey: 'nama 6',
+            address_survey: 'alamat 6',
+            email_survey: 'email 6',
+            design_survey: 5,
+            convenience_survey: 5,
+            accurate_survey: 5,
+            fast_survey: 5,
+            created_at: '2023-01-08T11:43:58.012Z',
+            updated_at: '2023-01-08T11:43:58.012Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 1331
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/getId/VTJGc2RHVmtYMTlWTXdnanZQeFhxMFRpR2hraTlzRHBYWnkwY1IrUExjTT0 200 1331ms',
+  timestamp: '2023-01-08T14:17:32.429Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey?serverSide=true&start=1&length=10&order=id&orderDirection=desc',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhMTkUxTlVWbzBOblJKWTNwc2MxcG9Na3MyYkUwNFRXbERWMGsyTkRrMGN6MCIsInRpbWVzdGFtcCI6MTY3MzE2OTA2NCwiaWF0IjoxNjczMTY5MDY0LCJleHAiOjE2NzMxNzI2NjQsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.Q4UibBQHwQPeF-n1JCadaOdcqkc2MmJREDLMjjgMLk1V8xSpGYwfntkOf4TV801B1KpD38q-vRXbQ3mU2DzvVA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThLNE1NUVo0NnRJY3psc1poMks2bE04TWlDV0k2NDk0cz0',
+            timestamp: 1673169064,
+            iat: 1673169064,
+            exp: 1673172664,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '1621'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey?serverSide=true&start=1&length=10&order=id&orderDirection=desc',
+      query: {
+        serverSide: 'true',
+        start: '1',
+        length: '10',
+        order: 'id',
+        orderDirection: 'desc'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMThjYnZYVGpJZHJMZjVoZGU5eVk2cmtWVGxxemVNK1kwYz0',
+              name_survey: 'asdi',
+              address_survey: 'jl.asdi',
+              email_survey: 'asdi@gmail.com',
+              design_survey: 1,
+              convenience_survey: 1,
+              accurate_survey: 1,
+              fast_survey: 1,
+              created_at: '2023-01-08T14:16:10.548Z',
+              updated_at: '2023-01-08T14:16:10.548Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStJK3BRWENqckpVM1MzZGRCZDZzS2ovNXJsaTN4TWRYOD0',
+              name_survey: 'asdi',
+              address_survey: 'jl.asdi',
+              email_survey: 'asdi@gmail.com',
+              design_survey: 1,
+              convenience_survey: 1,
+              accurate_survey: 1,
+              fast_survey: 1,
+              created_at: '2023-01-08T14:16:04.104Z',
+              updated_at: '2023-01-08T14:16:04.104Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlLVVJWeEVqMWEydStBbXhyZHVVbmxvdnpXUW9wcks5ND0',
+              name_survey: 'Asep',
+              address_survey: 'qwe',
+              email_survey: 'asep@gmail.com',
+              design_survey: 1,
+              convenience_survey: 1,
+              accurate_survey: 1,
+              fast_survey: 1,
+              created_at: '2023-01-08T13:59:03.846Z',
+              updated_at: '2023-01-08T13:59:03.846Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS85NHpPNlljOTNzQU9IUEYvNmc1NERSQkJsdzB0eHgwYz0',
+              name_survey: 'nama 9',
+              address_survey: 'alamat 9',
+              email_survey: 'email 9',
+              design_survey: 4,
+              convenience_survey: 4,
+              accurate_survey: 4,
+              fast_survey: 4,
+              created_at: '2023-01-08T11:44:28.053Z',
+              updated_at: '2023-01-08T11:44:28.053Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9tQXp0ZklwV3BXQnpJNEVkWWx2ZExoT3lrQ2psREFUUT0',
+              name_survey: 'nama 8',
+              address_survey: 'alamat 8',
+              email_survey: 'email 8',
+              design_survey: 5,
+              convenience_survey: 5,
+              accurate_survey: 5,
+              fast_survey: 5,
+              created_at: '2023-01-08T11:44:17.392Z',
+              updated_at: '2023-01-08T11:44:17.392Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9YUlFycW5wTktsSDFYWlF1Zy9tdGRRcWxibUEwb2MwST0',
+              name_survey: 'nama 7',
+              address_survey: 'alamat 7',
+              email_survey: 'email 7',
+              design_survey: 2,
+              convenience_survey: 2,
+              accurate_survey: 2,
+              fast_survey: 2,
+              created_at: '2023-01-08T11:44:07.574Z',
+              updated_at: '2023-01-08T11:44:07.574Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTgzeitRSjF4aUp6em1NOTRna0Rpa2ZiNWxab2NxNE84OD0',
+              name_survey: 'nama 6',
+              address_survey: 'alamat 6',
+              email_survey: 'email 6',
+              design_survey: 5,
+              convenience_survey: 5,
+              accurate_survey: 5,
+              fast_survey: 5,
+              created_at: '2023-01-08T11:43:58.012Z',
+              updated_at: '2023-01-08T11:43:58.012Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStJZjlnSTBDKzNEWmJVMEdQdUpRdThSNSthWnZteWNOZz0',
+              name_survey: 'nama 5',
+              address_survey: 'alamat 5',
+              email_survey: 'email 5',
+              design_survey: 5,
+              convenience_survey: 5,
+              accurate_survey: 5,
+              fast_survey: 5,
+              created_at: '2023-01-08T11:43:53.132Z',
+              updated_at: '2023-01-08T11:43:53.132Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS82T0d5MEtnZHFCUm9QY0FGOWtxNFNhb2lWY2swNFR5Yz0',
+              name_survey: 'nama 4',
+              address_survey: 'alamat 4',
+              email_survey: 'email 4',
+              design_survey: 4,
+              convenience_survey: 4,
+              accurate_survey: 4,
+              fast_survey: 4,
+              created_at: '2023-01-08T11:43:43.282Z',
+              updated_at: '2023-01-08T11:43:43.282Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTgxQU12d0tuYnZoaVNLcmVESHc0bUlMS2pMQ1NWYkJ6QT0',
+              name_survey: 'nama 3',
+              address_survey: 'alamat 3',
+              email_survey: 'email 3',
+              design_survey: 3,
+              convenience_survey: 3,
+              accurate_survey: 3,
+              fast_survey: 3,
+              created_at: '2023-01-08T11:43:34.272Z',
+              updated_at: '2023-01-08T11:43:34.272Z',
+              deleted_at: null
+            }
+          ],
+          recordsFiltered: 12,
+          recordsTotal: 12
+        }
+      }
+    },
+    responseTime: 381
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey?serverSide=true&start=1&length=10&order=id&orderDirection=desc 200 381ms',
+  timestamp: '2023-01-08T14:18:46.847Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [ 4, 3, 1, 2, 3 ]
+      }
+    },
+    responseTime: 13407
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 13407ms',
+  timestamp: '2023-01-08T16:32:20.578Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'angka is not defined'
+      }
+    },
+    responseTime: 12652
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 12652ms',
+  timestamp: '2023-01-08T16:36:00.056Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          [ 4, 3, 1, 2, 3 ],
+          [
+            'Sangat Bagus',
+            'Bagus',
+            'Kurang Bagus',
+            'Jelek',
+            'Jelek Sekali'
+          ]
+        ]
+      }
+    },
+    responseTime: 11164
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 11164ms',
+  timestamp: '2023-01-08T16:36:38.442Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countfast',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countfast',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          [ 6, 3, 2, 2 ],
+          [ 'Sangat Cepat', 'Cepat', 'Kurang Cepat', 'Tidak Cepat' ]
+        ]
+      }
+    },
+    responseTime: 11330
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countfast 200 11330ms',
+  timestamp: '2023-01-08T16:39:43.798Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countfast',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countfast',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          angka: [ 6, 3, 2, 2 ],
+          huruf: [ 'Sangat Cepat', 'Cepat', 'Kurang Cepat', 'Tidak Cepat' ]
+        }
+      }
+    },
+    responseTime: 10814
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countfast 200 10814ms',
+  timestamp: '2023-01-08T16:41:33.515Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesgin',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesgin',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 13
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesgin 404 13ms',
+  timestamp: '2023-01-08T16:43:32.503Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/satisfactionsurvey/countdesign',
+      headers: {
+        host: 'localhost:3020',
+        'user-agent': 'insomnia/2022.7.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhzYkdoR2VsSnBiRE5WYVRsTU9WTnpORmsyVGt4MVZ6Tmhja3RhVTNScmN6MCIsIm5payI6IjIyIiwicGVyc29uX25hbWUiOiJNdWhhbWFkIE11c2xpaCBIaW1hd2FuIiwiZW1haWwiOiJtdXNsaWgyNTlAZ21haWwuY29tIiwibm9faHAiOiI2MjgxMjEzMTQzNzc4IiwibmF0aW9uYWxpdHkiOm51bGwsInRpbWVzdGFtcCI6MTY3MzE5MzA2OCwiaWF0IjoxNjczMTkzMDY4LCJleHAiOjE2NzMxOTY2NjgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.yjSddspcLUW_wwecR2oq_WiQy1FK-4M0Auk0ARqcd1P0C7w1XeBHL0BHA4XHBUoZDfv6304QduEg4AlgBGiVNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThsbGhGelJpbDNVaTlMOVNzNFk2Tkx1VzNhcktaU3Rrcz0',
+            nik: '22',
+            person_name: 'Muhamad Muslih Himawan',
+            email: 'muslih259@gmail.com',
+            no_hp: '6281213143778',
+            nationality: null,
+            timestamp: 1673193068,
+            iat: 1673193068,
+            exp: 1673196668,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '186'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/satisfactionsurvey/countdesign',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          angka: [ 4, 3, 1, 2, 3 ],
+          huruf: [
+            'Sangat Bagus',
+            'Bagus',
+            'Kurang Bagus',
+            'Jelek',
+            'Jelek Sekali'
+          ]
+        }
+      }
+    },
+    responseTime: 4608
+  },
+  level: 'info',
+  message: 'GET /v1/satisfactionsurvey/countdesign 200 4608ms',
+  timestamp: '2023-01-08T16:43:42.180Z'
+}
