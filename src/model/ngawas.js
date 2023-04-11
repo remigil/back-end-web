@@ -109,8 +109,8 @@ Ngawas.init(
     deletedAt: "deleted_at",
     createdAt: "created_at",
     updatedAt: "updated_at",
-    tableName: "trip_on",
-    modelName: "trip_on",
+    tableName: "ngawas",
+    modelName: "ngawas",
     sequelize: db,
   }
 );

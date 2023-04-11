@@ -94,7 +94,7 @@ module.exports = class NgawasController {
         ],
       });
 
-      // console.log(trip_on);
+      console.log(ngawas);
       response(res, true, "Succeed", {
         limit,
         page,
