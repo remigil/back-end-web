@@ -5,7 +5,7 @@ const { StructureTimestamp } = require("../constanta/db_structure");
 const { AESEncrypt } = require("../lib/encryption");
 const Vehicle = require("./vehicle");
 const Country = require("./country");
-const Officer = require("./officer");
+// const Officer = require("./officer");
 const Trx_account_officer = require("./trx_account_officer");
 const Model = Sequelize.Model;
 
@@ -85,18 +85,18 @@ Account.hasOne(Vehicle, {
   as: "vehicle",
   sourceKey: "id_vehicle",
 });
-Account.hasOne(Officer, {
-  foreignKey: "id",
-  // as: "leader",
-  sourceKey: "leader_team",
-});
-Account.belongsToMany(Officer, {
-  as: "officers",
-  through: "trx_account_officer",
-  foreignKey: "account_id",
-  otherKey: "officer_id",
-  // otherKey: "vehicle_id",
-});
+// Account.hasOne(Officer, {
+//   foreignKey: "id",
+//   // as: "leader",
+//   sourceKey: "leader_team",
+// });
+// Account.belongsToMany(Officer, {
+//   as: "officers",
+//   through: "trx_account_officer",
+//   foreignKey: "account_id",
+//   otherKey: "officer_id",
+//   // otherKey: "vehicle_id",
+// });
 Account.belongsToMany(Vehicle, {
   as: "vehicles",
   through: "trx_account_officer",

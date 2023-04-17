@@ -3,8 +3,8 @@ const db = require("../config/database");
 const bcrypt = require("bcrypt");
 const { StructureTimestamp } = require("../constanta/db_structure");
 const { AESEncrypt } = require("../lib/encryption");
-const Officer = require("./officer");
-const TrxAccountOfficer = require("./trx_account_officer");
+// const Officer = require("./officer");
+// const TrxAccountOfficer = require("./trx_account_officer");
 const Account = require("./account");
 const codeReport = require("../middleware/codeReport");
 const Model = Sequelize.Model;
@@ -92,10 +92,10 @@ Panic_button.init(
     sequelize: db,
   }
 );
-Panic_button.hasOne(Officer, {
-  foreignKey: "id",
-  sourceKey: "officer_id",
-});
+// Panic_button.hasOne(Officer, {
+//   foreignKey: "id",
+//   sourceKey: "officer_id",
+// });
 // Panic_button.belongsToMany(Officer, {
 //   // as: "officers",
 //   through: "trx_account_officer",

@@ -1,6 +1,6 @@
 const { AESDecrypt } = require("../lib/encryption");
 const response = require("../lib/response");
-const RankOfficer = require("../model/rank_officer");
+// const RankOfficer = require("../model/rank_officer");
 const { Op, Sequelize } = require("sequelize");
 const _ = require("lodash");
 const db = require("../config/database");

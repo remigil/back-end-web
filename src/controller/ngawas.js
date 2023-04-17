@@ -115,7 +115,7 @@ module.exports = class NgawasController {
   static getId = async (req, res) => {
     try {
       let data = [];
-      data = await Trip_on.findOne({
+      data = await Ngawas.findOne({
         where: {
           id: AESDecrypt(req.params.id, {
             isSafeUrl: true,
@@ -146,7 +146,7 @@ module.exports = class NgawasController {
           },
         ],
       });
-      let countpassenger = data.dataValues.passenger_trip_ons.length;
+      let countpassenger = data.dataValues.penumpangs.length;
       let asd = new Date(data.dataValues.validity_period);
       let validity_period = timeAgo.format(asd);
       response(res, true, "Succeed", {

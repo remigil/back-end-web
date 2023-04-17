@@ -18,9 +18,9 @@ const fs = require("fs");
 // const cronTurjagwali = require("./src/controller/cron_turjagwali");
 // const cronSim = require("./src/controller/cron_sim");
 // const cronStnk = require("./src/controller/cron_stnk");
-const cronBpkb = require("./src/controller/cron_bpkb");
+// const cronBpkb = require("./src/controller/cron_bpkb");
 // const cronRanmor = require("./src/controller/cron_ranmor");
-const cronLapmasyarakat = require("./src/controller/cron_lapMasyarakat");
+// const cronLapmasyarakat = require("./src/controller/cron_lapMasyarakat");
 // const cronLaporanHarian = require("./src/controller/cron_laporanHarian");
 
 //console.log(options)

@@ -1,6 +1,6 @@
 const { AESDecrypt } = require("../lib/encryption");
 const response = require("../lib/response");
-const Structural = require("../model/structural");
+// const Structural = require("../model/structural");
 const { Op, Sequelize } = require("sequelize");
 const _ = require("lodash");
 const db = require("../config/database");

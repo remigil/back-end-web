@@ -432,3 +432,4 @@ module.exports = class SocietyController {
     }
   };
 };
+

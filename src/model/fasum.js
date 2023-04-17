@@ -3,7 +3,7 @@ const db = require("../config/database");
 const bcrypt = require("bcrypt");
 const { StructureTimestamp } = require("../constanta/db_structure");
 const { AESEncrypt } = require("../lib/encryption");
-const CategoryFasum = require("./category_fasum");
+// const CategoryFasum = require("./category_fasum");
 
 const Model = Sequelize.Model;
 
@@ -95,10 +95,10 @@ Fasum.init(
     sequelize: db,
   }
 );
-Fasum.hasOne(CategoryFasum, {
-  foreignKey: "id",
-  sourceKey: "fasum_type",
-});
+// Fasum.hasOne(CategoryFasum, {
+//   foreignKey: "id",
+//   sourceKey: "fasum_type",
+// });
 (async () => {
   Fasum.sync({ alter: true }).catch((err) => {
     console.log({ err });

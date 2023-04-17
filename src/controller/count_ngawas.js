@@ -15,7 +15,7 @@ const Society = require("../model/society");
 const Public_vehicle = require("../model/public_vehicle");
 
 const Prov = require("../model/provinsi");
-const KabKot = require("../model/kabkot");
+// const KabKot = require("../model/kabkot");
 const Ngawas = require("../model/ngawas");
 
 Brand_vehicle.hasMany(Ngawas, {

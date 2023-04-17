@@ -11,7 +11,7 @@ const TokenTrackNotif = require("../model/token_track_notif");
 
 const User = require("../model/user");
 const moment = require("moment");
-const Officer = require("../model/officer");
+// const Officer = require("../model/officer");
 const fieldData = Object.keys(Notifikasi.getAttributes());
 module.exports = class NotifikasiController {
   static get = async (req, res) => {

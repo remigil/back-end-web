@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 const db = require("../config/database");
 const { StructureTimestamp } = require("../constanta/db_structure");
 const { AESEncrypt } = require("../lib/encryption");
-const Officer = require("./officer");
+// const Officer = require("./officer");
 const Model = Sequelize.Model;
 
 class TokenTrackNotif extends Model {}

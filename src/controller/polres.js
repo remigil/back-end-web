@@ -8,7 +8,7 @@ const readXlsxFile = require("read-excel-file/node");
 const fs = require("fs");
 const Polda = require("../model/polda");
 const pagination = require("../lib/pagination-parser");
-const Officer = require("../model/officer");
+// const Officer = require("../model/officer");
 
 const fieldData = {
   polda_id: null,

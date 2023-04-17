@@ -1,0 +1,999 @@
+{
+  meta: {
+    req: {
+      url: '/v1/penumpang/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '272',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/penumpang/add',
+      query: {},
+      body: { nationality: 'Indonesia', name: 'Bogil', nik: '12128491824' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'ID_SOCIETY:Invalid value',
+        data: {
+          id_society: {
+            msg: 'Invalid value',
+            param: 'id_society',
+            location: 'body'
+          }
+        }
+      }
+    },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'POST /v1/penumpang/add 400 11ms',
+  timestamp: '2023-04-14T08:16:29.416Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/penumpang/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '272',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/penumpang/add',
+      query: {},
+      body: { nationality: 'Indonesia', name: 'Bogil', nik: '12128491824' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'ID_SOCIETY:Invalid value',
+        data: {
+          id_society: {
+            msg: 'Invalid value',
+            param: 'id_society',
+            location: 'body'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/penumpang/add 400 2ms',
+  timestamp: '2023-04-14T08:16:30.633Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/penumpang/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '272',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/penumpang/add',
+      query: {},
+      body: { nationality: 'Indonesia', name: 'Bogil', nik: '12128491824' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'ID_SOCIETY:Invalid value',
+        data: {
+          id_society: {
+            msg: 'Invalid value',
+            param: 'id_society',
+            location: 'body'
+          }
+        }
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/penumpang/add 400 3ms',
+  timestamp: '2023-04-14T08:17:21.305Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 112
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 112ms',
+  timestamp: '2023-04-14T08:18:24.747Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 121
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 121ms',
+  timestamp: '2023-04-14T08:19:32.872Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 121
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 121ms',
+  timestamp: '2023-04-14T08:21:27.122Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 115
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 115ms',
+  timestamp: '2023-04-14T08:25:37.632Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 49
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 49ms',
+  timestamp: '2023-04-14T08:26:19.212Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 133
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 133ms',
+  timestamp: '2023-04-14T08:26:48.477Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 104
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 104ms',
+  timestamp: '2023-04-14T08:27:34.524Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 25
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 25ms',
+  timestamp: '2023-04-14T08:27:56.923Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/penumpang/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '409',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/penumpang/add',
+      query: {},
+      body: {
+        nationality: 'Indonesia',
+        name: 'Bogil',
+        nik: '12128491824',
+        id_society: 'VTJGc2RHVmtYMThpK0prc0tWVVlZLzRNNmhCbmhHS3NlVmdFOS8vSFppWT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMThIdHJVeFc0N0V4cnNvSEpuYm1zWTR6TlJsK2EvUDllRT0',
+          created_at: '2023-04-14T08:29:37.468Z',
+          updated_at: '2023-04-14T08:29:37.468Z',
+          penumpang_id: null,
+          nationality: 'Indonesia',
+          name: 'Bogil',
+          nik: '12128491824',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 168
+  },
+  level: 'info',
+  message: 'POST /v1/penumpang/add 200 168ms',
+  timestamp: '2023-04-14T08:29:37.593Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/penumpang/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '492',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/penumpang/add',
+      query: {},
+      body: {
+        penumpang_id: '562',
+        nationality: 'Indonesia',
+        name: 'Bogil',
+        nik: '12128491824',
+        id_society: 'VTJGc2RHVmtYMThpK0prc0tWVVlZLzRNNmhCbmhHS3NlVmdFOS8vSFppWT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'insert or update on table "penumpang" violates foreign key constraint "penumpang_penumpang_id_fkey"'
+      }
+    },
+    responseTime: 54
+  },
+  level: 'info',
+  message: 'POST /v1/penumpang/add 200 54ms',
+  timestamp: '2023-04-14T08:29:47.096Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/penumpang/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '409',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/penumpang/add',
+      query: {},
+      body: {
+        nationality: 'Indonesia',
+        name: 'Bogil',
+        nik: '12128491824',
+        id_society: 'VTJGc2RHVmtYMThpK0prc0tWVVlZLzRNNmhCbmhHS3NlVmdFOS8vSFppWT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS85ZGRsRm1qVG5xTWVFbzIxdVRkTXNqSkhVM2JiM2R2UT0',
+          created_at: '2023-04-14T08:29:55.386Z',
+          updated_at: '2023-04-14T08:29:55.386Z',
+          penumpang_id: null,
+          nationality: 'Indonesia',
+          name: 'Bogil',
+          nik: '12128491824',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 52
+  },
+  level: 'info',
+  message: 'POST /v1/penumpang/add 200 52ms',
+  timestamp: '2023-04-14T08:29:55.501Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 109
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 109ms',
+  timestamp: '2023-04-14T08:31:09.890Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { data: null }
+      }
+    },
+    responseTime: 115
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 115ms',
+  timestamp: '2023-04-14T08:32:27.246Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getid/',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getid/',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'GET /v1/society/getid/ 404 8ms',
+  timestamp: '2023-04-14T08:33:58.638Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getid/',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getid/',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'GET /v1/society/getid/ 404 3ms',
+  timestamp: '2023-04-14T08:33:59.831Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getid/:VTJGc2RHVmtYMThpK0prc0tWVVlZLzRNNmhCbmhHS3NlVmdFOS8vSFppWT0',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getid/:VTJGc2RHVmtYMThpK0prc0tWVVlZLzRNNmhCbmhHS3NlVmdFOS8vSFppWT0',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMS9BOHQvM1BVc0F2cm1RSk05R01WTzNSQ3JCUEF2cnpWST0',
+            nik: '123',
+            person_name: 'abdul fahmi',
+            email: 'abdulfahmi78@gmail.com',
+            date_of_birth: null,
+            no_hp: '6287770173111',
+            nationality: null,
+            status_verifikasi: 1,
+            password: '$2b$10$atGOX6EgAaSdAR6PywmYi.1lkhjAbwBCSDqK4q3FszvfKKtn0oY6q',
+            foto: null,
+            no_sim: null,
+            created_at: '2023-02-21T06:38:14.212Z',
+            updated_at: '2023-02-21T07:22:14.941Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 131
+  },
+  level: 'info',
+  message: 'GET /v1/society/getid/:VTJGc2RHVmtYMThpK0prc0tWVVlZLzRNNmhCbmhHS3NlVmdFOS8vSFppWT0 200 131ms',
+  timestamp: '2023-04-14T08:35:07.419Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined'
+      }
+    },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 7ms',
+  timestamp: '2023-04-14T08:35:43.836Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'connect ETIMEDOUT 34.101.114.147:5432'
+      }
+    },
+    responseTime: 9151
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 9151ms',
+  timestamp: '2023-04-14T09:05:35.326Z'
+}

@@ -34,16 +34,16 @@ router.use(
   authMiddleware.jwtAuth,
   require("../router/vehicle")
 );
-router.use(
-  "/v" + process.env.APP_VERSION + "/officer",
-  authMiddleware.jwtAuth,
-  require("../router/officer")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/vip",
-  authMiddleware.jwtAuth,
-  require("../router/vip")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/officer",
+//   authMiddleware.jwtAuth,
+//   require("../router/officer")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/vip",
+//   authMiddleware.jwtAuth,
+//   require("../router/vip")
+// );
 
 // router.use(
 //   "/v" + process.env.APP_VERSION + "/day_report",
@@ -140,11 +140,11 @@ router.use(
 // );
 
 // --------------- troublespot
-router.use(
-  "/v" + process.env.APP_VERSION + "/troublespot",
-  authMiddleware.jwtAuth,
-  require("../router/troublespot")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/troublespot",
+//   authMiddleware.jwtAuth,
+//   require("../router/troublespot")
+// );
 
 // --------------- blankspot
 // router.use(
@@ -225,44 +225,44 @@ router.use(
   require("../router/account")
 );
 //---------- trx account profile
-router.use(
-  "/v" + process.env.APP_VERSION + "/account-officer",
-  authMiddleware.jwtAuth,
-  require("../router/trx_account_officer")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/account-officer",
+//   authMiddleware.jwtAuth,
+//   require("../router/trx_account_officer")
+// );
 // --------- operation profile
-router.use(
-  "/v" + process.env.APP_VERSION + "/operation-profile",
-  authMiddleware.jwtAuth,
-  require("../router/operation_profile")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/operation-profile",
+//   authMiddleware.jwtAuth,
+//   require("../router/operation_profile")
+// );
 // --------- operation profile polda
-router.use(
-  "/v" + process.env.APP_VERSION + "/operation-profile-polda",
-  authMiddleware.jwtAuth,
-  require("../router/trx_operation_profile_polda")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/operation-profile-polres",
-  authMiddleware.jwtAuth,
-  require("../router/trx_operation_profile_polres")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/operation-profile-polda",
+//   authMiddleware.jwtAuth,
+//   require("../router/trx_operation_profile_polda")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/operation-profile-polres",
+//   authMiddleware.jwtAuth,
+//   require("../router/trx_operation_profile_polres")
+// );
 
 // router.use(
 //   "/v" + process.env.APP_VERSION + "/renpam",
 //   authMiddleware.jwtAuth,
 //   require("../router/renpam")
 // );
-router.use(
-  "/v" + process.env.APP_VERSION + "/renpam-account",
-  authMiddleware.jwtAuth,
-  require("../router/renpam_account")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/renpam-vip",
-  authMiddleware.jwtAuth,
-  require("../router/renpam_vip")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/renpam-account",
+//   authMiddleware.jwtAuth,
+//   require("../router/renpam_account")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/renpam-vip",
+//   authMiddleware.jwtAuth,
+//   require("../router/renpam_vip")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/filter-search",
   authMiddleware.jwtAuth,
@@ -275,38 +275,38 @@ router.use(
   require("../router/filterSearch")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/panic-button",
-  authMiddleware.jwtAuth,
-  require("../router/panicButton")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/panic-button-umum",
-  authMiddleware.jwtAuth,
-  require("../router/panicButton_umum")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/report",
-  authMiddleware.jwtAuth,
-  require("../router/report")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/panic-button",
+//   authMiddleware.jwtAuth,
+//   require("../router/panicButton")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/panic-button-umum",
+//   authMiddleware.jwtAuth,
+//   require("../router/panicButton_umum")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/report",
+//   authMiddleware.jwtAuth,
+//   require("../router/report")
+// );
 
 router.use(
   "/v" + process.env.APP_VERSION + "/notifikasi",
   authMiddleware.jwtAuth,
   require("../router/notifikasi")
 );
-router.use(
-  "/v" + process.env.APP_VERSION + "/contact-general",
-  authMiddleware.jwtAuth,
-  require("../router/contact_general")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/contact-general",
+//   authMiddleware.jwtAuth,
+//   require("../router/contact_general")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/regulation_doc",
-  // authMiddleware.jwtAuth,
-  require("../router/regulation_doc")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/regulation_doc",
+//   // authMiddleware.jwtAuth,
+//   require("../router/regulation_doc")
+// );
 
 router.use(
   "/v" + process.env.APP_VERSION + "/icon",
@@ -314,11 +314,11 @@ router.use(
   require("../router/icon")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/faq",
-  authMiddleware.jwtAuth,
-  require("../router/faq")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/faq",
+//   authMiddleware.jwtAuth,
+//   require("../router/faq")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/panduan",
   authMiddleware.jwtAuth,
@@ -348,11 +348,11 @@ router.use(
   // authMiddleware.jwtAuth,
   require("../router/report_login")
 );
-router.use(
-  "/anev-daily",
-  // authMiddleware.jwtAuth,
-  require("../router/anevg20")
-);
+// router.use(
+//   "/anev-daily",
+//   // authMiddleware.jwtAuth,
+//   require("../router/anevg20")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/ht",
   // authMiddleware.jwtAuth,
@@ -387,11 +387,11 @@ router.use(
 //   authMiddleware.jwtAuth,
 //   require("../router/sim_keliling")
 // );
-router.use(
-  "/v" + process.env.APP_VERSION + "/sosmed",
-  authMiddleware.jwtAuth,
-  require("../router/sosmed")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/sosmed",
+//   authMiddleware.jwtAuth,
+//   require("../router/sosmed")
+// );
 
 // -------------- samsat
 // router.use(
@@ -401,17 +401,17 @@ router.use(
 // );
 
 // -------------- complaint
-router.use(
-  "/v" + process.env.APP_VERSION + "/complaint",
-  // authMiddleware.jwtAuth,
-  require("../router/complaint")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/complaint",
+//   // authMiddleware.jwtAuth,
+//   require("../router/complaint")
+// );
 // -------------- satisfactionsurvey
-router.use(
-  "/v" + process.env.APP_VERSION + "/satisfactionsurvey",
-  // authMiddleware.jwtAuth,
-  require("../router/satisfactionsurvey")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/satisfactionsurvey",
+//   // authMiddleware.jwtAuth,
+//   require("../router/satisfactionsurvey")
+// );
 
 // -------------- satpas
 // router.use(
@@ -433,11 +433,11 @@ router.use(
 //   require("../router/input_garlantas")
 // );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/turjagwali",
-  // authMiddleware.jwtAuth,
-  require("../router/input_turjagwali")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/turjagwali",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_turjagwali")
+// );
 
 // router.use(
 //   "/v" + process.env.APP_VERSION + "/laka_lantas",
@@ -451,29 +451,29 @@ router.use(
 //   require("../router/input_dikmaslantas")
 // );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/penyebaran",
-  // authMiddleware.jwtAuth,
-  require("../router/input_penyebaran")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/penyebaran",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_penyebaran")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/sim",
-  // authMiddleware.jwtAuth,
-  require("../router/input_sim")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/sim",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_sim")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/bpkb",
-  // authMiddleware.jwtAuth,
-  require("../router/input_bpkb")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/bpkb",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_bpkb")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/stnk",
-  // authMiddleware.jwtAuth,
-  require("../router/input_stnk")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/stnk",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_stnk")
+// );
 
 // router.use(
 //   "/v" + process.env.APP_VERSION + "/ranmor",
@@ -483,26 +483,26 @@ router.use(
 // End input data harian
 
 // manajemen akun  dasboard
-router.use(
-  "/v" + process.env.APP_VERSION + "/test_account_user",
-  // authMiddleware.jwtAuth,
-  require("../router/test_account_user")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/test_account_profile",
-  // authMiddleware.jwtAuth,
-  require("../router/test_account_profile")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/test_account_profile_polda",
-  // authMiddleware.jwtAuth,
-  require("../router/test_account_profile_polda")
-);
-router.use(
-  "/v" + process.env.APP_VERSION + "/test_account_profile_polres",
-  // authMiddleware.jwtAuth,
-  require("../router/test_account_profile_polres")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/test_account_user",
+//   // authMiddleware.jwtAuth,
+//   require("../router/test_account_user")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/test_account_profile",
+//   // authMiddleware.jwtAuth,
+//   require("../router/test_account_profile")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/test_account_profile_polda",
+//   // authMiddleware.jwtAuth,
+//   require("../router/test_account_profile_polda")
+// );
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/test_account_profile_polres",
+//   // authMiddleware.jwtAuth,
+//   require("../router/test_account_profile_polres")
+// );
 // end manajemen akun
 
 // etle
@@ -563,75 +563,75 @@ router.use(
 //   require("../router/input_ntmc")
 // );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/anev",
-  //authMiddleware.jwtAuth,
-  require("../router/anev")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/anev",
+//   //authMiddleware.jwtAuth,
+//   require("../router/anev")
+// );
 // Import File Laporan Harian
-router.use(
-  "/v" + process.env.APP_VERSION + "/import",
-  // authMiddleware.jwtAuth,
-  require("../router/import_file")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/import",
+//   // authMiddleware.jwtAuth,
+//   require("../router/import_file")
+// );
 
 // Laporan masyarakat
-router.use(
-  "/v" + process.env.APP_VERSION + "/laporan_masyarakat",
-  // authMiddleware.jwtAuth,
-  require("../router/input_lapMasyarakat")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/laporan_masyarakat",
+//   // authMiddleware.jwtAuth,
+//   require("../router/input_lapMasyarakat")
+// );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/anev_harian",
-  // authMiddleware.jwtAuth,
-  require("../router/anev_harian")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/anev_harian",
+//   // authMiddleware.jwtAuth,
+//   require("../router/anev_harian")
+// );
 
 // Export laphar
-router.use(
-  "/v" + process.env.APP_VERSION + "/laporan_harian",
-  // authMiddleware.jwtAuth,
-  require("../router/export_laphar")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/laporan_harian",
+//   // authMiddleware.jwtAuth,
+//   require("../router/export_laphar")
+// );
 //link
-router.use(
-  "/v" + process.env.APP_VERSION + "/link",
-  // authMiddleware.jwtAuth,
-  require("../router/link")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/link",
+//   // authMiddleware.jwtAuth,
+//   require("../router/link")
+// );
 router.use(
   "/v" + process.env.APP_VERSION + "/wilayah",
   // authMiddleware.jwtAuth,
   require("../router/wilayah")
 );
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/laporan_media_ntmc",
-  // authMiddleware.jwtAuth,
-  require("../router/laporan_media_ntmc")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/laporan_media_ntmc",
+//   // authMiddleware.jwtAuth,
+//   require("../router/laporan_media_ntmc")
+// );
 
 
-router.use(
-  "/v" + process.env.APP_VERSION + "/laporan_media_ntmc",
-  // authMiddleware.jwtAuth,
-  require("../router/laporan_media_ntmc")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/laporan_media_ntmc",
+//   // authMiddleware.jwtAuth,
+//   require("../router/laporan_media_ntmc")
+// );
 
 //import export officer account dan kendaraan
-router.use(
-  "/v" + process.env.APP_VERSION + "/accounts",
-  // authMiddleware.jwtAuth,
-  require("../router/exportExcel")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/accounts",
+//   // authMiddleware.jwtAuth,
+//   require("../router/exportExcel")
+// );
 
 // Stackholder for mobile
-router.use(
-  "/v" + process.env.APP_VERSION + "/stackholder",
-  // authMiddleware.jwtAuth,
-  require("../router/stackholder")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/stackholder",
+//   // authMiddleware.jwtAuth,
+//   require("../router/stackholder")
+// );
 
 // Bagrenmin
 // router.use(
@@ -641,11 +641,11 @@ router.use(
 // );
 
 // Bagrenmin
-router.use(
-  "/v" + process.env.APP_VERSION + "/rekalantas",
-  // authMiddleware.jwtAuth,
-  require("../router/rekalantas")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/rekalantas",
+//   // authMiddleware.jwtAuth,
+//   require("../router/rekalantas")
+// );
 
 // Bagtik
 // router.use(
@@ -655,10 +655,10 @@ router.use(
 // );
 
 // Upload Anev
-router.use(
-  "/v" + process.env.APP_VERSION + "/upload_anev",
-  // authMiddleware.jwtAuth,
-  require("../router/upload_anev")
-);
+// router.use(
+//   "/v" + process.env.APP_VERSION + "/upload_anev",
+//   // authMiddleware.jwtAuth,
+//   require("../router/upload_anev")
+// );
 
 module.exports = router;
