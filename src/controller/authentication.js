@@ -126,34 +126,6 @@ class Authentication {
   };
   static testCaseloginMobile = async (req, res) => {
     try {
-      // let path = req.body.file.filepath;
-      // let file = req.body.file;
-      // let fileName = file.originalFilename;
-      // fs.renameSync(path, "./public/upload/" + fileName, function (err) {
-      //   if (err) response(res, false, "Error", err.message);
-      // });
-      // let readExcell = await readXlsxFile("./public/upload/" + fileName);
-      // let listAccount = [];
-      // let index = 0;
-      // for (const iterator of readExcell) {
-      //   if (index == 0) {
-      //     if (
-      //       iterator[0] != "nrp" &&
-      //       iterator[1] != "account" &&
-      //       iterator[2] != "pasword"
-      //     ) {
-      //       return response(res, false, "Format Tidak Sesuai", { iterator });
-      //     }
-      //   } else {
-      //     listAccount.push({
-      //       nrp_user: iterator[0],
-      //       team: iterator[1],
-      //       password: iterator[2],
-      //       device_user: "TestCase" + index,
-      //     });
-      //   }
-      //   index++;
-      // }
       let indicatorLoginBerhasil = [];
       let indicatorLoginGagal = [];
       const { limit, page } = req.query;
@@ -223,16 +195,6 @@ class Authentication {
               });
             }
           } else {
-            // await Account.update(
-            //   {
-            //     password: "g20",
-            //   },
-            //   {
-            //     where: {
-            //       name_account: replace(iterator.team, " ", ""),
-            //     },
-            //   }
-            // );
             indicatorLoginGagal.push({
               nrp_user: iterator.nrp_user,
               device_user: iterator.device_user,
@@ -257,7 +219,6 @@ class Authentication {
       return res.json({
         error,
       });
-      // response(res, false, "Login failed, please try again!", error.message);
     }
   };
   static validateLogin = async (req, res) => {

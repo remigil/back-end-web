@@ -12,8 +12,6 @@ const {
 const moment = require("moment");
 const { emailSendVerif } = require("../lib/emailLibrary");
 const { Op } = require("sequelize");
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
 
 const fieldData = {
   nik: null,

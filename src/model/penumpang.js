@@ -18,7 +18,7 @@ Penumpang.init(
         });
       },
     },
-    penumpang_id: {
+    ngawas_id: {
       type: Sequelize.INTEGER,
     },
     nationality: {
@@ -43,7 +43,7 @@ Penumpang.init(
         },
       },
     },
-    indexes: [{ fields: ["penumpang_id"] }],
+    indexes: [{ fields: ["ngawas_id"] }],
     deletedAt: "deleted_at",
     createdAt: "created_at",
     updatedAt: "updated_at",

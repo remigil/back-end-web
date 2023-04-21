@@ -1,0 +1,1331 @@
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '195',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: { no_hp: '082146719145' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Login failed, please try again!',
+        data: 'Officer is not defined'
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 200 3ms',
+  timestamp: '2023-04-18T08:18:30.671Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '195',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: { no_hp: '082146719145' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Login failed, please try again!',
+        data: 'Officer is not defined'
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 200 1ms',
+  timestamp: '2023-04-18T08:18:32.537Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '195',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: { no_hp: '082146719145' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'TEAM:Invalid value, NRP_USER:Invalid value',
+        data: {
+          team: { msg: 'Invalid value', param: 'team', location: 'body' },
+          nrp_user: { msg: 'Invalid value', param: 'nrp_user', location: 'body' }
+        }
+      }
+    },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 400 5ms',
+  timestamp: '2023-04-18T08:18:47.799Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '195',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: { no_hp: '082146719145' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'TEAM:Invalid value, NRP_USER:Invalid value',
+        data: {
+          team: { msg: 'Invalid value', param: 'team', location: 'body' },
+          nrp_user: { msg: 'Invalid value', param: 'nrp_user', location: 'body' }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 400 1ms',
+  timestamp: '2023-04-18T08:18:56.811Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '195',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: { no_hp: '082146719145' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'TEAM:Invalid value, NRP_USER:Invalid value',
+        data: {
+          team: { msg: 'Invalid value', param: 'team', location: 'body' },
+          nrp_user: { msg: 'Invalid value', param: 'nrp_user', location: 'body' }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 400 1ms',
+  timestamp: '2023-04-18T08:19:17.381Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '195',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: { no_hp: '082146719145' }
+    },
+    res: {
+      statusCode: 400,
+      body: {
+        isSuccess: false,
+        statusCode: 400,
+        responseMessage: 'TEAM:Invalid value, NRP_USER:Invalid value',
+        data: {
+          team: { msg: 'Invalid value', param: 'team', location: 'body' },
+          nrp_user: { msg: 'Invalid value', param: 'nrp_user', location: 'body' }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 400 1ms',
+  timestamp: '2023-04-18T08:20:11.203Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '451',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'abdul fahmi',
+        email: 'abdulfahmi78@gmail.com',
+        no_hp: '087770173111',
+        nik: '123'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'No Hp Sudah Terdaftar',
+        data: null
+      }
+    },
+    responseTime: 325
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 325ms',
+  timestamp: '2023-04-18T10:00:06.678Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '451',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'abdul fahmi',
+        email: 'abdulfahmi78@gmail.com',
+        no_hp: '087770173111',
+        nik: '123'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS9NUkorK0FST001SGZFaU5YVTJkNjFMVmhBcWpmQ08rcz0',
+          created_at: '2023-04-18T10:00:28.243Z',
+          updated_at: '2023-04-18T10:00:28.243Z',
+          nik: '123',
+          person_name: 'abdul fahmi',
+          email: 'abdulfahmi78@gmail.com',
+          no_hp: '6287770173111',
+          password: '$2b$10$SF0vug99p0QHggPNyJpnNuDKFp3Hq508HdveTdVvDFRzlUkBji2Me',
+          no_sim: null,
+          status_verifikasi: 0,
+          date_of_birth: null,
+          nationality: null,
+          foto: null,
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 434
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 434ms',
+  timestamp: '2023-04-18T10:00:29.108Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '281853', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 401,
+      body: {
+        isSuccess: false,
+        statusCode: 401,
+        responseMessage: 'Register failed!',
+        data: null
+      }
+    },
+    responseTime: 183
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 401 183ms',
+  timestamp: '2023-04-18T10:01:35.250Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '281853', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 401,
+      body: {
+        isSuccess: false,
+        statusCode: 401,
+        responseMessage: 'Register failed!',
+        data: null
+      }
+    },
+    responseTime: 23
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 401 23ms',
+  timestamp: '2023-04-18T10:01:36.700Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '281853', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 401,
+      body: {
+        isSuccess: false,
+        statusCode: 401,
+        responseMessage: 'Register failed!',
+        data: null
+      }
+    },
+    responseTime: 22
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 401 22ms',
+  timestamp: '2023-04-18T10:01:44.685Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '281853', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 401,
+      body: {
+        isSuccess: false,
+        statusCode: 401,
+        responseMessage: 'Register failed!',
+        data: null
+      }
+    },
+    responseTime: 25
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 401 25ms',
+  timestamp: '2023-04-18T10:01:45.714Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '281853', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 401,
+      body: {
+        isSuccess: false,
+        statusCode: 401,
+        responseMessage: 'Register failed!',
+        data: null
+      }
+    },
+    responseTime: 23
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 401 23ms',
+  timestamp: '2023-04-18T10:01:51.319Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/resend_token',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '111',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/resend_token',
+      query: {},
+      body: { no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [ 1 ]
+      }
+    },
+    responseTime: 204
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/resend_token 200 204ms',
+  timestamp: '2023-04-18T10:02:00.006Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '137225', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Register succeed',
+        data: null
+      }
+    },
+    responseTime: 191
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 191ms',
+  timestamp: '2023-04-18T10:02:28.510Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '451',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'abdul fahmi',
+        email: 'abdulfahmi78@gmail.com',
+        no_hp: '087770173111',
+        nik: '123'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'No Hp Sudah Terdaftar',
+        data: null
+      }
+    },
+    responseTime: 319
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 319ms',
+  timestamp: '2023-04-18T10:05:15.029Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '451',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'abdul fahmi',
+        email: 'abdulfahmi78@gmail.com',
+        no_hp: '087770173111',
+        nik: '123'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMSswdmRjY1JUSmVvNHVFSEVNY2JUa0JZalAxeGR5ZlZ0OD0',
+          created_at: '2023-04-18T10:06:29.080Z',
+          updated_at: '2023-04-18T10:06:29.080Z',
+          nik: '123',
+          person_name: 'abdul fahmi',
+          email: 'abdulfahmi78@gmail.com',
+          no_hp: '6287770173111',
+          password: '$2b$10$8hCXddkiiXT10TrmdGDWF.nInoEDuKYuatPiJI5KEGm.xAgKB7bq2',
+          no_sim: null,
+          status_verifikasi: 0,
+          date_of_birth: null,
+          nationality: null,
+          foto: null,
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 469
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 469ms',
+  timestamp: '2023-04-18T10:06:29.967Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Basic ZXlKaGJHY3NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYVdRaU9pSldWRXBIWXpKU1NGWnRkRmxOVkdzeFdtdFpkbVZYV2pWa1NFNU1WakJTU21ReWFIZFNibWcxV2pKV1ZVc3lkSFZOYlU1NFdWVlNVbUY2TUNJc0luUnBiV1Z6ZEdGdGNDSTZNVFkyTURZME5qazFPU3dpYVdGMElqb3hOall3TmpRMk9UVTVMQ0psZUhBaU9qRTJOakEyTlRBMU5Ua3NJbUYxWkNJNklrY3lNQ0lzSW1semN5STZJa3R2Y214aGJuUmhjMUJ2YkhKcElpd2ljM1ZpSWpvaVN6TkpSekl3SW4wLnZ1TTQ0RVdJeHNUdFNPYzBTSzFHaHl1U1Bfdk9GQktCbWhPbnZqNVFrQl9LTEZVRm5YU1FWNTRYeVk2T2p1aFE4YUxjUV9SMDR1REFBeXlJT181TUFnOg==',
+        accept: '*/*',
+        'content-length': '190',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { token: '790195', no_hp: '6287770173111' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Register succeed',
+        data: null
+      }
+    },
+    responseTime: 210
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 210ms',
+  timestamp: '2023-04-18T10:06:52.801Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 3ms',
+  timestamp: '2023-04-18T10:12:41.379Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGx5VERNeVdtSk1kMmhUVG5SU1QyTTFSR1UyUTJWaFlqTlhkRUZXYjBsVU1EMCIsIm5payI6IjMyMDExNTI0MTEyMjExMzMxMSIsInBlcnNvbl9uYW1lIjoiVWphbmcgQXNlcCIsImVtYWlsIjoiYXNkQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MTIxMzE0MTUxNiIsIm5hdGlvbmFsaXR5IjoiV2FyZ2EgTmVnYXJhIEluZG9uZXNpYSIsInRpbWVzdGFtcCI6MTY3ODg2MDk0MywiaWF0IjoxNjc4ODYwOTQzLCJleHAiOjE3MTA0MTg1NDMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.AT04-DfYpseujoNscscLd265Yy4qEOQnr-yaRsiv4Q423WQRiCxAjXt8PnqOL_x_Dqy5ANNaORDZwAf5r4mGrg',
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '254034dc-aa7f-4fbb-bbde-e1ea979b4647',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlyTDMyWmJMd2hTTnRST2M1RGU2Q2VhYjNXdEFWb0lUMD0',
+            nik: '320115241122113311',
+            person_name: 'Ujang Asep',
+            email: 'asd@gmail.com',
+            no_hp: '6281213141516',
+            nationality: 'Warga Negara Indonesia',
+            timestamp: 1678860943,
+            iat: 1678860943,
+            exp: 1710418543,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '4'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTlyTDMyWmJMd2hTTnRST2M1RGU2Q2VhYjNXdEFWb0lUMD0',
+            nik: '320115241122113311',
+            person_name: 'Ujang Asep',
+            email: 'asd@gmail.com',
+            no_hp: '6281213141516',
+            nationality: 'Warga Negara Indonesia',
+            timestamp: 1678860943,
+            iat: 1678860943,
+            exp: 1710418543,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2023-04-18T10:15:18.056Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '646e16ca-3daa-45dc-ac8f-4626e24ebdd7',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------278625580238550364383258',
+        'content-length': '276',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login',
+      query: {},
+      body: { username: 'Admin' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhaZW10a1IyZFJjVU5pUTJzd2JTOVVhVEJQTDNOMmJUUmhWVzEyZUVwQ2J6MCIsInRpbWVzdGFtcCI6MTY4MTgxMjk4MywiaWF0IjoxNjgxODEyOTgzLCJleHAiOjE2ODE4MTY1ODMsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.oPvSQJjOl2xq3gr1ar07J7duyLmwuI2AnikZ5mM1LK4gdMTUZznKEdrsvAIF_6yzKLkIM7S3GGVNvoqmoJ3G1Q'
+        }
+      }
+    },
+    responseTime: 217
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login 200 217ms',
+  timestamp: '2023-04-18T10:16:23.898Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '871',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        user_id: 'VTJGc2RHVmtYMThtQXppaXpsSTFnU0dxSmNRUVpUVzA2L1RoNHZPbGx5UT0',
+        departure_date: '2021-09-16',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'app.use() requires a middleware function'
+      }
+    },
+    responseTime: 1620
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1620ms',
+  timestamp: '2023-04-18T21:00:56.914Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '796',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        departure_date: '2021-09-16',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'app.use() requires a middleware function'
+      }
+    },
+    responseTime: 1185
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1185ms',
+  timestamp: '2023-04-18T21:01:11.001Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '796',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        departure_date: '2021-09-16',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'insert or update on table "ngawas" violates foreign key constraint "trip_on_user_id_fkey"'
+      }
+    },
+    responseTime: 1107
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1107ms',
+  timestamp: '2023-04-18T21:01:53.945Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '796',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        departure_date: '2021-09-16',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'insert or update on table "ngawas" violates foreign key constraint "trip_on_user_id_fkey"'
+      }
+    },
+    responseTime: 1480
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1480ms',
+  timestamp: '2023-04-18T21:03:32.730Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '796',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        departure_date: '2021-09-16',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'insert or update on table "ngawas" violates foreign key constraint "trip_on_user_id_fkey"'
+      }
+    },
+    responseTime: 1381
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1381ms',
+  timestamp: '2023-04-18T21:05:00.469Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '796',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        departure_date: '2023-04-19',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'insert or update on table "ngawas" violates foreign key constraint "trip_on_user_id_fkey"'
+      }
+    },
+    responseTime: 1353
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1353ms',
+  timestamp: '2023-04-18T21:10:10.711Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 3ms',
+  timestamp: '2023-04-18T21:10:25.551Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '192',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/login-mobile',
+      query: {},
+      body: { no_hp: '087770173111' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1VlRSSFVGTndTbkpQVDIxSFZuQkxiMk5XYjBWeFJGVjJORk5IVTFscWJ6MCIsIm5payI6IjEyMyIsInBlcnNvbl9uYW1lIjoiYWJkdWwgZmFobWkiLCJlbWFpbCI6ImFiZHVsZmFobWk3OEBnbWFpbC5jb20iLCJub19ocCI6IjYyODc3NzAxNzMxMTEiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjgxODUyMjYyLCJpYXQiOjE2ODE4NTIyNjIsImV4cCI6MTY4MTg1NTg2MiwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.eQaGS1LBXkvLnqVrQaXb3ywbyIdXQkzzS-wDad6VlAtv5wNquTaEI0Qa_xu_jxTQ5bnQd4YYxtwiXvcmMYHRnQ'
+        }
+      }
+    },
+    responseTime: 316
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/login-mobile 200 316ms',
+  timestamp: '2023-04-18T21:11:02.137Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.1.0',
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhpWms1NlVUWlRNVGwzYjA1emIwRktSVVpuYkVOMFlWZHdaRTFtVkdod1dUMCIsInRpbWVzdGFtcCI6MTY4MTE5MzA0MCwiaWF0IjoxNjgxMTkzMDQwLCJleHAiOjE3MTI3NTA2NDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.xVQfTwmCKQt08bg910HwBcFEA9oKUsnO8_mpVHfnwYriF1C4VZTWdFVdV7NfBpMUx-LJd9YqHe75nbnTdZBzNQ',
+        accept: '*/*',
+        'content-length': '796',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThiZk56UTZTMTl3b05zb0FKRUZnbEN0YVdwZE1mVGhwWT0',
+            timestamp: 1681193040,
+            iat: 1681193040,
+            exp: 1712750640,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '5'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMThMUnB1RVp6clB5TU5wem1UZ2pETG5STjkrSHh1T1FKbz0',
+        departure_date: '2023-04-19',
+        departure_time: '21:20',
+        start_coordinate: { latitude: -6.556086640691106, longitude: 106.70303878489499 },
+        end_coordinate: { latitude: -6.560233647505914, longitude: 106.76803520638776 },
+        penumpangs: [
+          { nationality: 'indonesia', name: 'farhan', nik: 123134 },
+          { nationality: 'indonesia', name: 'refi', nik: 1231345 },
+          { nationality: 'indonesia', name: 'dado', nik: 12313456 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'insert or update on table "ngawas" violates foreign key constraint "trip_on_user_id_fkey"'
+      }
+    },
+    responseTime: 1362
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1362ms',
+  timestamp: '2023-04-18T21:11:26.629Z'
+}

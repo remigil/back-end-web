@@ -42,7 +42,6 @@ Kabkot.init(
         },
       },
     },
-    // indexes: [{ fields: ["role_id"] }],
     deletedAt: "deleted_at",
     createdAt: "created_at",
     updatedAt: "updated_at",
@@ -51,7 +50,6 @@ Kabkot.init(
     sequelize: db,
   }
 );
-// User.hasOne(UserRole, { foreignKey: "id" });
 (async () => {
   Kabkot.sync({ alter: true }).catch((err) => {
     console.log({ err });

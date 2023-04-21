@@ -62,10 +62,16 @@ Ngawas.init(
     validity_period: {
       type: Sequelize.STRING,
     },
+    subdistrict_start:{
+      type: Sequelize.STRING
+    },
     district_start: {
       type: Sequelize.STRING,
     },
     province_start: {
+      type: Sequelize.STRING,
+    },
+    subdistrict_end: {
       type: Sequelize.STRING,
     },
     district_end: {
@@ -83,10 +89,16 @@ Ngawas.init(
     kode_kabkot_start: {
       type: Sequelize.STRING,
     },
+    kode_kec_start: {
+      type: Sequelize.STRING,
+    },
     kode_prov_end: {
       type: Sequelize.STRING,
     },
     kode_kabkot_end: {
+      type: Sequelize.STRING,
+    },
+    kode_kec_end: {
       type: Sequelize.STRING,
     },
 
@@ -130,7 +142,7 @@ Ngawas.hasOne(Brand_vehicle, {
   foreignKey: "id",
   sourceKey: "brand_id",
 });
-Ngawas.hasMany(Penumpang, { foreignKey: "penumpang_id" });
+Ngawas.hasMany(Penumpang, { foreignKey: "ngawas_id" });
 
 (async () => {
   Ngawas.sync({ alter: true });

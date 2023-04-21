@@ -24,7 +24,6 @@ const { groupBy } = require("lodash");
 
 // Indo.
 const en = require("javascript-time-ago/locale/id");
-// TimeAgo.addDefaultLocale(en);
 TimeAgo.setDefaultLocale(en.locale);
 TimeAgo.addLocale(en);
 const timeAgo = new TimeAgo("id-ID");
@@ -49,7 +48,7 @@ let typeNgawas = {
   barcode: null,
 };
 
-Ngawas.hasMany(Penumpang, { foreignKey: "penumpang_id" });
+Ngawas.hasMany(Penumpang, { foreignKey: "ngawas_id" });
 
 const decAes = (token) =>
   AESDecrypt(token, {
@@ -94,7 +93,6 @@ module.exports = class NgawasController {
         ],
       });
 
-      console.log(ngawas);
       response(res, true, "Succeed", {
         limit,
         page,
@@ -383,7 +381,7 @@ module.exports = class NgawasController {
         },
         order: [["id", "DESC"]],
       });
-      // if (!data) {
+      if (!data) {
       Object.keys(typeNgawas).forEach((val, key) => {
         if (req.body[val]) {
           input[val] = req.body[val];
@@ -409,15 +407,16 @@ module.exports = class NgawasController {
       input["type_id"] = cekVehicle.type_id;
       let typeVehicle = codeNgawas(cekVehicle["type_id"]);
       input["user_id"] = decAes(req.auth.uid);
-
+      
       let DuaHari = HariIni + 2 * 24 * 60 * 60 * 1000;
       let new_date = new Date(DuaHari);
       var validity = new_date.toISOString().replace("Z", "").replace("T", " ");
-      // console.log(input["departure_date"]);
+      // console.log(input["departure_time"]);
       let valid_date = moment(input["departure_date"])
         .add(2, "day")
         .format("YYYY-MM-DD");
 
+        // console.log(valid_date)
       input["validity_period"] = `${valid_date} ` + input["departure_time"];
       const coordinate = [
         {
@@ -455,34 +454,45 @@ module.exports = class NgawasController {
       input["duration"] = directions.estimasiWaktu;
       input["province_start"] = geocodestart.province;
       input["district_start"] = geocodestart.district;
+      input["subdistrict_start"] = geocodestart.subdistrict;
       input["province_end"] = geocodeend.province;
       input["district_end"] = geocodeend.district;
+      input["subdistrict_end"] = geocodeend.subdistrict;
       const [provinsi_end] = await db.query(
         `SELECT * FROM provinsi WHERE lower(nama) LIKE '%${geocodeend.province.toLowerCase()}%'`
       );
       const [kabupaten_end] = await db.query(
         `SELECT * FROM kabupaten WHERE lower(nama) LIKE '%${geocodeend.district.toLowerCase()}%'`
       );
-      const [provinsi_start] = await db.query(
-        `SELECT * FROM provinsi WHERE lower(nama) LIKE '%${geocodestart.province.toLowerCase()}%'`
-      );
-      const [kabupaten_start] = await db.query(
-        `SELECT * FROM kabupaten WHERE lower(nama) LIKE '%${geocodestart.district.toLowerCase()}%'`
-      );
-      input["kode_prov_start"] = provinsi_start.length
-        ? provinsi_start[0].kode
-        : "";
-      input["kode_kabkot_start"] = kabupaten_start.length
-        ? kabupaten_start[0].kode
-        : "";
-      input["kode_prov_end"] = provinsi_end.length ? provinsi_end[0].kode : "";
-      input["kode_kabkot_end"] = kabupaten_end.length
-        ? kabupaten_end[0].kode
-        : "";
+      const [kecamatan_end] = await db.query(
+        `SELECT * FROM kecamatan WHERE lower(nama) LIKE '%${geocodeend.subdistrict.toLowerCase()}%'`
+        );
+        const [provinsi_start] = await db.query(
+          `SELECT * FROM provinsi WHERE lower(nama) LIKE '%${geocodestart.province.toLowerCase()}%'`
+          );
+          const [kabupaten_start] = await db.query(
+            `SELECT * FROM kabupaten WHERE lower(nama) LIKE '%${geocodestart.district.toLowerCase()}%'`
+            );
+          const [kecamatan_start] = await db.query(
+            `SELECT * FROM kecamatan WHERE lower(nama) LIKE '%${geocodestart.subdistrict.toLowerCase()}%'`
+            );
+              input["kode_prov_start"] = provinsi_start.length
+              ? provinsi_start[0].kode
+              : "";
+              input["kode_kabkot_start"] = kabupaten_start.length
+              ? kabupaten_start[0].kode
+              : "";
+              input["kode_kec_start"] = kecamatan_start.length
+              ? kecamatan_start[0].kode
+              : "";
+              input["kode_prov_end"] = provinsi_end.length ? provinsi_end[0].kode : "";
+              input["kode_kabkot_end"] = kabupaten_end.length ? kabupaten_end[0].kode: "";
+              input["kode_kec_end"] = kecamatan_end.length ? kecamatan_end  [0].kode: "";
 
-      let insertNgawas = await Ngawas.create(input, {
-        transaction: transaction,
-      });
+              let insertNgawas = await Ngawas.create(input, {
+                transaction: transaction,
+              });
+
       let getId = AESDecrypt(insertNgawas["id"], {
         isSafeUrl: true,
         parseMode: "string",
@@ -509,7 +519,7 @@ module.exports = class NgawasController {
 
       let penumpang = req.body?.passenger?.map((data) => ({
         ...data,
-        penumpang_id: decAes(insertNgawas.id),
+        ngawas_id: decAes(insertNgawas.id),
       }));
       const insertBulkPenumpang = await Penumpang.bulkCreate(
         penumpang,
@@ -517,13 +527,15 @@ module.exports = class NgawasController {
       );
       await transaction.commit();
       let countpassenger = await Penumpang.count({
-        where: { penumpang_id: parseInt(getId) },
+        where: { ngawas_id: parseInt(getId) },
       });
       let countvehicle = await Public_vehicle.count({
         where: {
           id: input["vehicle_id"],
         },
       });
+
+      console.log(penumpang)
 
       response(res, true, "Succeed", {
         ...insertNgawas.dataValues,
@@ -532,14 +544,14 @@ module.exports = class NgawasController {
         countpassenger: countpassenger,
         countvehicle: countvehicle,
       });
-      // } else {
-      //   response(
-      //     res,
-      //     false,
-      //     "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
-      //     null
-      //   );
-      // }
+      } else {
+        response(
+          res,
+          false,
+          "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
+          null
+        );
+      }
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -589,7 +601,7 @@ module.exports = class NgawasController {
       });
       await Penumpang.update(fieldValue, {
         where: {
-          penumpang_id: AESDecrypt(req.body.id, {
+          ngawas_id: AESDecrypt(req.body.id, {
             isSafeUrl: true,
             parseMode: "string",
           }),
@@ -617,7 +629,7 @@ module.exports = class NgawasController {
       });
       await Penumpang.destroy({
         where: {
-          penumpang_id: AESDecrypt(req.body.id, {
+          ngawas_id: AESDecrypt(req.body.id, {
             isSafeUrl: true,
             parseMode: "string",
           }),
