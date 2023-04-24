@@ -381,7 +381,7 @@ module.exports = class NgawasController {
         },
         order: [["id", "DESC"]],
       });
-      if (!data) {
+      // if (!data) {
       Object.keys(typeNgawas).forEach((val, key) => {
         if (req.body[val]) {
           input[val] = req.body[val];
@@ -544,14 +544,14 @@ module.exports = class NgawasController {
         countpassenger: countpassenger,
         countvehicle: countvehicle,
       });
-      } else {
-        response(
-          res,
-          false,
-          "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
-          null
-        );
-      }
+      // } else {
+      //   response(
+      //     res,
+      //     false,
+      //     "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
+      //     null
+      //   );
+      // }
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
