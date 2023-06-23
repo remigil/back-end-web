@@ -286,7 +286,6 @@ class AuthenticationSociety {
         duadigit == "08" || duadigit != "62"
           ? "628" + angkaterakhir
           : "62" + angkaterakhir;
-      // console.log(nohp);
       const getToken = await Token.findOne({
         where: {
           no_hp: nohp,

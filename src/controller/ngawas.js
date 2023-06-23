@@ -39,9 +39,11 @@ let typeNgawas = {
   departure_time: null,
   start_coordinate: null,
   end_coordinate: null,
+  subdistrict_start: null,
   district_start: null,
   province_start: null,
   district_end: null,
+  subdistrict_end: null,
   province_end: null,
   route: null,
   validity_period: null,
@@ -58,15 +60,15 @@ const decAes = (token) =>
 module.exports = class NgawasController {
   static get = async (req, res) => {
     try {
-      let { limit, page } = req.query;
-      page = page ? parseInt(page) : 1;
-      const resPage = pagination.getPagination(limit, page);
+      // let { limit, page } = req.query;
+      // page = page ? parseInt(page) : 1;
+      // const resPage = pagination.getPagination(limit, page);
       const ngawas = await Ngawas.findAndCountAll({
         order: [["created_at", "DESC"]],
         // raw: true,
         nest: true,
-        limit: resPage.limit,
-        offset: resPage.offset,
+        // limit: resPage.limit,
+        // offset: resPage.offset,
 
         include: [
           {
@@ -94,11 +96,11 @@ module.exports = class NgawasController {
       });
 
       response(res, true, "Succeed", {
-        limit,
-        page,
-        total_page: Math.ceil(
-          parseInt( ngawas.count) / parseInt(resPage.limit)
-        ),
+        // limit,
+        // page,
+        // total_page: Math.ceil(
+        //   parseInt( ngawas.count) / parseInt(resPage.limit)
+        // ),
         recordsFiltered: ngawas.count,
         recordsTotal: ngawas.count,
         ...ngawas,

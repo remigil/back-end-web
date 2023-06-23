@@ -79,17 +79,15 @@ module.exports = class UserController {
         {
           model: UserRole,
           attributes: ["id", "name"],
-          // required: false,
+          required: false,
         }
         // {
         // model: OperationProfile,
         // attributes: ["id", "name"],
         // required: false,
         // },
-
       ],
     });
-
     // console.log(GetData);
     response(res, true, "Succeed", GetData);
   };

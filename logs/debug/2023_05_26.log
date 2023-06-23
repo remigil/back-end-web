@@ -1,0 +1,1886 @@
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 113
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 113ms',
+  timestamp: '2023-05-26T07:04:48.542Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user-mobile',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined'
+      }
+    },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user-mobile 200 4ms',
+  timestamp: '2023-05-26T07:05:31.455Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMTlUc0phQmY0ZEwvTFpHR056NS9pKzluM2N2aFlpUjF1TT0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            date_of_birth: null,
+            no_hp: '6282146719145',
+            nationality: null,
+            status_verifikasi: 1,
+            password: '$2b$10$dN2M0O5k.mA9RmQmBbSbI.x6OHP2KNv/EZVnkF7yT2jDbRHhHgR0.',
+            foto: null,
+            no_sim: null,
+            created_at: '2023-04-04T07:05:57.810Z',
+            updated_at: '2023-04-04T07:06:29.353Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 90
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 90ms',
+  timestamp: '2023-05-26T07:05:51.084Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '187',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login',
+      query: {},
+      body: { username: 'Korlantas' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3RxVkVoTmNWQk1jV0ZoVjFBNVlWUk1NRFJpWmxSc1dFdzJNR3QxZHpReVVUMCIsInRpbWVzdGFtcCI6MTY4NTA4NDg0MSwiaWF0IjoxNjg1MDg0ODQxLCJleHAiOjE2ODUwODg0NDEsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.TLXx8N0aFwT60-pOSi-vfYeoZlNJDbNOOF7pu0NoKshW8h86PyvpowgmGhHG66fnK3rs2a9UP3SanXO2iMCrmw'
+        }
+      }
+    },
+    responseTime: 140
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login 200 140ms',
+  timestamp: '2023-05-26T07:07:21.487Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 88
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 88ms',
+  timestamp: '2023-05-26T07:07:35.524Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '183',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login',
+      query: {},
+      body: { username: 'Admin' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3RaYXpkTVMzRlJTbXBLT0dFMWFrVTVaREJ5T0RaVlEwTjNOMWhPSzFkS1dUMCIsInRpbWVzdGFtcCI6MTY4NTA4NDk4NiwiaWF0IjoxNjg1MDg0OTg2LCJleHAiOjE2ODUwODg1ODYsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.b1Nzjs5v-4FwY9jQpIHkWjBoo_LMa7i-i983dMMzKtrcbpAqpPwVpe9Q6HkO4waF8j_QupObFLXCJfAFYr8wow'
+        }
+      }
+    },
+    responseTime: 150
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login 200 150ms',
+  timestamp: '2023-05-26T07:09:46.767Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 92
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 92ms',
+  timestamp: '2023-05-26T07:10:11.972Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 145
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 145ms',
+  timestamp: '2023-05-26T07:12:22.867Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 90
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 90ms',
+  timestamp: '2023-05-26T07:12:52.468Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 54
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 54ms',
+  timestamp: '2023-05-26T07:13:27.107Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMTlaUEtMOXFHN2EwdTd4aFFKMHJGaEZlT3d4UTFHekdGUT0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            date_of_birth: null,
+            no_hp: '6282146719145',
+            nationality: null,
+            status_verifikasi: 1,
+            password: '$2b$10$dN2M0O5k.mA9RmQmBbSbI.x6OHP2KNv/EZVnkF7yT2jDbRHhHgR0.',
+            foto: null,
+            no_sim: null,
+            created_at: '2023-04-04T07:05:57.810Z',
+            updated_at: '2023-04-04T07:06:29.353Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 185
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 185ms',
+  timestamp: '2023-05-26T07:14:12.575Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMS82bFo2eDl1QU1xcEZLdm1GUzJ2YkVFUFNOMmM0N1ppUT0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            date_of_birth: null,
+            no_hp: '6282146719145',
+            nationality: null,
+            status_verifikasi: 1,
+            password: '$2b$10$dN2M0O5k.mA9RmQmBbSbI.x6OHP2KNv/EZVnkF7yT2jDbRHhHgR0.',
+            foto: null,
+            no_sim: null,
+            created_at: '2023-04-04T07:05:57.810Z',
+            updated_at: '2023-04-04T07:06:29.353Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 375
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 375ms',
+  timestamp: '2023-05-26T07:15:49.683Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 99
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 99ms',
+  timestamp: '2023-05-26T07:16:03.481Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 45
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 45ms',
+  timestamp: '2023-05-26T07:17:12.351Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/society/getbysocietyid',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/society/getbysocietyid',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: {
+            id: 'VTJGc2RHVmtYMTlqNkd6enR0cEV4VGkxVjI0cWhQT0lUaElLYzlYMkdFWT0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            date_of_birth: null,
+            no_hp: '6282146719145',
+            nationality: null,
+            status_verifikasi: 1,
+            password: '$2b$10$dN2M0O5k.mA9RmQmBbSbI.x6OHP2KNv/EZVnkF7yT2jDbRHhHgR0.',
+            foto: null,
+            no_sim: null,
+            created_at: '2023-04-04T07:05:57.810Z',
+            updated_at: '2023-04-04T07:06:29.353Z',
+            deleted_at: null
+          }
+        }
+      }
+    },
+    responseTime: 120
+  },
+  level: 'info',
+  message: 'GET /v1/society/getbysocietyid 200 120ms',
+  timestamp: '2023-05-26T07:18:23.762Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 92
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 92ms',
+  timestamp: '2023-05-26T07:18:38.259Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/user/logged-user',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/user/logged-user',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 97
+  },
+  level: 'info',
+  message: 'GET /v1/user/logged-user 200 97ms',
+  timestamp: '2023-05-26T07:19:47.966Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2023-05-26T07:20:25.851Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzh3YmxKVlVVYzVTV2hoVHpaWmNXTkVPRk4yVDNaQ2RGZFViMWh5T1N0WGF6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0Mjg3ODMzLCJpYXQiOjE2ODQyODc4MzMsImV4cCI6MTcxNTg0NTQzMywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.F_GCGapyKJQe63oGj41QT_qzRIIZCimz0BmH5FGrGvvRWPvZZQy0cilenLWqwbfjLfLslzu9Apvz04jruD-DXw',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMS8wblJVUUc5SWhhTzZZcWNEOFN2T3ZCdFdUb1hyOStXaz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684287833,
+            iat: 1684287833,
+            exp: 1715845433,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2023-05-26T07:20:27.118Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login-mobile',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '358',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login-mobile',
+      query: {},
+      body: {
+        team: 'timdev1',
+        nrp_user: '9003',
+        device_user: '6339fb6348474adc'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Login failed, please try again!',
+        data: 'Officer is not defined'
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login-mobile 200 3ms',
+  timestamp: '2023-05-26T07:20:36.675Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'Bearer',
+        accept: '*/*',
+        'content-length': '183',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login',
+      query: {},
+      body: { username: 'Admin' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA'
+        }
+      }
+    },
+    responseTime: 150
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login 200 150ms',
+  timestamp: '2023-05-26T07:21:00.442Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2023-05-26T07:21:19.439Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2023-05-26T07:21:35.491Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2023-05-26T07:25:03.672Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2023-05-26T07:25:05.548Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt audience invalid. expected: BNG' }
+      }
+    },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 4ms',
+  timestamp: '2023-05-26T07:26:53.463Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: false,
+          msg: 'jwt issuer invalid. expected: BogorNgawas'
+        }
+      }
+    },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 4ms',
+  timestamp: '2023-05-26T07:27:25.597Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 5ms',
+  timestamp: '2023-05-26T07:27:46.665Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt audience invalid. expected: BNG' }
+      }
+    },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 4ms',
+  timestamp: '2023-05-26T07:41:27.543Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt audience invalid. expected: BNG' }
+      }
+    },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 2ms',
+  timestamp: '2023-05-26T07:41:29.083Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt audience invalid. expected: BNG' }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2023-05-26T07:41:38.560Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: { success: false, msg: 'jwt audience invalid. expected: BNG' }
+      }
+    },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 1ms',
+  timestamp: '2023-05-26T07:41:40.073Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.2.2',
+        'content-type': 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxvSzJGVWJrbG9TemMxTUdwcVpWZFNRMkV2ZWpOdFRVYzBWV2d4V2xaV2F6MCIsInRpbWVzdGFtcCI6MTY4NTA4NTY2MCwiaWF0IjoxNjg1MDg1NjYwLCJleHAiOjE2ODUwODkyNjAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.p22i2AF4C1rRHGKMhoPfQ6prUJ4O9VVfbG4NkgInpfxw2diOGgRv5NlddhBvjgh8ZdijVzVlFKuhxp4S389HaA',
+        accept: '*/*',
+        'content-length': '25',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMTloK2FUbkloSzc1MGpqZVdSQ2EvejNtTUc0VWgxWlZWaz0',
+            timestamp: 1685085660,
+            iat: 1685085660,
+            exp: 1685089260,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 5ms',
+  timestamp: '2023-05-26T07:41:52.647Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGhGVFU5c2NEVjViR3hqZWpkbmF6WTRkblowVG1KbFFUSnJUSGxSY25wMWJ6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg0NDAzNDY1LCJpYXQiOjE2ODQ0MDM0NjUsImV4cCI6MTcxNTk2MTA2NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.INU007fwPTDijikJQIXdzkeZNginpJc67HBdj-ToDxdH9xsNJwoU8GzGFpLwukvcnBmPBGixA5G3whva6BMwxQ',
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '49158c25-40bc-4fdf-a4b8-d8dec0350b30',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMThFTU9scDV5bGxjejdnazY4dnZ0TmJlQTJrTHlRcnp1bz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684403465,
+            iat: 1684403465,
+            exp: 1715961065,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMThFTU9scDV5bGxjejdnazY4dnZ0TmJlQTJrTHlRcnp1bz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1684403465,
+            iat: 1684403465,
+            exp: 1715961065,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 5ms',
+  timestamp: '2023-05-26T08:30:27.151Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '76164ea0-1e68-4af8-8275-c574b8ef4639',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------246573827038995862817090',
+        'content-length': '276',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login',
+      query: {},
+      body: { username: 'Admin' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyVFRCSVQyVlpXVzFwVUdoclkxSTBPRGwxVTFCNWQweE9iRWRQZUhCcFFUMCIsInRpbWVzdGFtcCI6MTY4NTA5MDAxMiwiaWF0IjoxNjg1MDkwMDEyLCJleHAiOjE2ODUwOTM2MTIsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.vbr63nrfSpniuNhMg9RM96KrKpPfbAKS1Jlu8FiRrEXRdcQ7JKbIfVUUwlY23980tougW-AmpT2RvL4VxYdJyA'
+        }
+      }
+    },
+    responseTime: 82
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login 200 82ms',
+  timestamp: '2023-05-26T08:33:32.388Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/validate_login',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3MyVFRCSVQyVlpXVzFwVUdoclkxSTBPRGwxVTFCNWQweE9iRWRQZUhCcFFUMCIsInRpbWVzdGFtcCI6MTY4NTA5MDAxMiwiaWF0IjoxNjg1MDkwMDEyLCJleHAiOjE2ODUwOTM2MTIsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.vbr63nrfSpniuNhMg9RM96KrKpPfbAKS1Jlu8FiRrEXRdcQ7JKbIfVUUwlY23980tougW-AmpT2RvL4VxYdJyA',
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '59b74fa4-362d-4d09-957c-4a457a0fe228',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSs2TTBIT2VZWW1pUGhrY1I0ODl1U1B5d0xObEdPeHBpQT0',
+            timestamp: 1685090012,
+            iat: 1685090012,
+            exp: 1685093612,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '554'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/validate_login',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          success: true,
+          msg: 'succeed',
+          data: {
+            uid: 'VTJGc2RHVmtYMSs2TTBIT2VZWW1pUGhrY1I0ODl1U1B5d0xObEdPeHBpQT0',
+            timestamp: 1685090012,
+            iat: 1685090012,
+            exp: 1685093612,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          }
+        }
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'POST /v1/auth/validate_login 200 3ms',
+  timestamp: '2023-05-26T08:34:00.787Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '1d5d94c9-4e8a-405c-bde8-a60acdec3545',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------593468406221578119501505',
+        'content-length': '276',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth/login',
+      query: {},
+      body: { username: 'Admin' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlNSzNGalZrNUdWbmRCWnpKSWRrdENWRzlXUmxsdVUyMURlVEEzVG5OME5EMCIsInRpbWVzdGFtcCI6MTY4NTA5NDEyNSwiaWF0IjoxNjg1MDk0MTI1LCJleHAiOjE2ODUwOTc3MjUsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.2iwOdkLYZ1b9VSombUc2kM5DgmORIpLL9COo6GM_iRY1hcyFAfXqyBwB5ZpwmLO6kTLSVVyaElpQnMrlMJzSrw'
+        }
+      }
+    },
+    responseTime: 227
+  },
+  level: 'info',
+  message: 'POST /v1/auth/login 200 227ms',
+  timestamp: '2023-05-26T09:42:05.883Z'
+}

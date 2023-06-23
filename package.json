@@ -1,7 +1,7 @@
 {
-  "name": "k3i_korlantas_g20",
+  "name": "bogor_ngawas_2023",
   "version": "1.0.0",
-  "description": "API for project K3I Korlantas G20",
+  "description": "API for project Bogor Ngawas 2023",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -12,11 +12,11 @@
     "url": "git+https://github.com/remigil/back-end-web.git"
   },
   "keywords": [
-    "Korlantas",
-    "K3I",
-    "G20"
+    "Bogor",
+    "Ngawas",
+    "2023"
   ],
-  "author": "K3I Korlantas Polri",
+  "author": "Bogor Ngawas 2023",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/remigil/back-end-web/issues"
