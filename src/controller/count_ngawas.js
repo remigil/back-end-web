@@ -455,7 +455,7 @@ module.exports = class CountNgawasController {
       if (start_prov && end_prov) {
         wheres.push(
           { kode_prov_start: start_prov },
-          { kode_prov_ekecend_prov }
+          { kode_prov_end: end_prov  }
         );
       }
 

@@ -190,7 +190,7 @@ module.exports = class NgawasController {
           },
         ],
       });
-      let countpassenger = data.dataValues.passenger_trip_ons.length;
+      let countpassenger = data.dataValues.penumpangs.length;
       let asd = new Date(data.dataValues.validity_period);
       let validity_period = timeAgo.format(asd);
       response(res, true, "Succeed", {
@@ -383,7 +383,7 @@ module.exports = class NgawasController {
         },
         order: [["id", "DESC"]],
       });
-      // if (!data) {
+      if (!data) {
       Object.keys(typeNgawas).forEach((val, key) => {
         if (req.body[val]) {
           input[val] = req.body[val];
@@ -502,7 +502,7 @@ module.exports = class NgawasController {
       let tes = parseInt(getId);
       let id = decimalToHex(tes);
 
-      let codetrp = `TRP/${moment().format("MMYY")}/${typeVehicle}/${id}`;
+      let codetrp = `BGW/${moment().format("MMYY")}/${typeVehicle}/${id}`;
       qrcode.toFile(`./public/uploads/qrcode/${id}.png`, codetrp, {
         width: 300,
         height: 300,
@@ -537,8 +537,6 @@ module.exports = class NgawasController {
         },
       });
 
-      console.log(penumpang)
-
       response(res, true, "Succeed", {
         ...insertNgawas.dataValues,
         code: codetrp,
@@ -546,14 +544,14 @@ module.exports = class NgawasController {
         countpassenger: countpassenger,
         countvehicle: countvehicle,
       });
-      // } else {
-      //   response(
-      //     res,
-      //     false,
-      //     "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
-      //     null
-      //   );
-      // }
+      } else {
+        response(
+          res,
+          false,
+          "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
+          null
+        );
+      }
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);

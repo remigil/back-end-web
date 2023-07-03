@@ -337,6 +337,12 @@ router.use(
   require("../router/type_vehicle")
 );
 
+router.use(
+  "/v" + process.env.APP_VERSION + "/type_brand_vehicle",
+  authMiddleware.jwtAuth,
+  require("../router/type_brand_vehicle")
+);
+
 //  ------- merk kendaraan
 router.use(
   "/v" + process.env.APP_VERSION + "/brand_vehicle",

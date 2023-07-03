@@ -7,7 +7,9 @@ const _ = require("lodash");
 const db = require("../config/database");
 
 // Type_vehicle.hasMany(Brand_vehicle,{foreignKey:'type_vehicle_id'});
-
+const fieldData = {
+  type_name: null,
+};
 module.exports = class Type_vehicleController {
   static get = async (req, res) => {
     try {
@@ -66,17 +68,7 @@ module.exports = class Type_vehicleController {
           ...filters,
         };
       }
-      const data = await Type_vehicle.findAll({
-        ...getData,
-        include: [
-          {
-            model: Brand_vehicle,
-            as: "brand_vehicle",
-            foreignKey: "id_brand",
-            attributes: ["id", "brand_name"],
-          },
-        ],
-      });
+      const data = await Type_vehicle.findAll(getData);
       const count = await Type_vehicle.count({
         where: getData?.where,
       });
@@ -109,28 +101,41 @@ module.exports = class Type_vehicleController {
   };
 
   static add = async (req, res) => {
-    const transaction = await db.transaction();
+   const transaction = await db.transaction();
     try {
-      await Type_vehicle.create(
-        {
-          type_name: req.body.type_name,
-        },
-        { transaction: transaction }
-      );
+      let fieldValueData = {};
+      Object.keys(fieldData).forEach((key) => {
+        if (req.body[key]) {
+          fieldValueData[key] = req.body[key];
+        } else {
+          fieldValueData[key] = null;
+        }
+      });
+
+      let data = await Type_vehicle.create(fieldValueData, {
+        transaction: transaction,
+      });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", data);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
     }
   };
+
   static edit = async (req, res) => {
     const transaction = await db.transaction();
     try {
-      await Type_vehicle.update(
-        {
-          type_name: req.body.type_name,
-        },
+      let fieldValueData = {};
+      Object.keys(fieldData).forEach((key) => {
+        if (req.body[key]) {
+          fieldValueData[key] = req.body[key];
+        } else {
+          fieldValueData[key] = null;
+        }
+      });
+
+      let data = await Type_vehicle.update(fieldValueData,
         {
           where: {
             id: AESDecrypt(req.params.id, {
@@ -142,7 +147,7 @@ module.exports = class Type_vehicleController {
         }
       );
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", fieldValueData);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -164,7 +169,7 @@ module.exports = class Type_vehicleController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", fieldValue);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -183,7 +188,7 @@ module.exports = class Type_vehicleController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", "Data berhasil dihapus");
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);

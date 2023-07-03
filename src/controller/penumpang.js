@@ -8,7 +8,7 @@ const readXlsxFile = require("read-excel-file/node");
 const fs = require("fs");
 
 const fieldData = {
-          penumpang_id: null,
+          ngawas_id: null,
           nationality: null,
           name: null,
           nik: null,
@@ -88,19 +88,20 @@ module.exports = class PenumpangController {
   static add = async (req, res) => {
     const transaction = await db.transaction();
     try {
-      let fieldValueData = {};
-      Object.keys(fieldData).forEach((val, key) =>{
-        if (req.body[val]){
-          fieldValueData[val] = req.body[val];
-        }else{
-          fieldValueData[val] = null;
-        }
-      });
-      let op = await Penumpang.create(fieldValueData, {
-          transaction: transaction,
-        });
+      let data = await Penumpang.create(
+        {
+         ngawas_id: AESDecrypt(req.body["ngawas_id"],{
+            isSafeUrl: true,
+            parseMode: "string",
+          }),
+           nationality: req.body["nationality"],
+        name: req.body["name"],
+        nik: req.body["nik"]
+        },
+          {transaction: transaction}
+        );
       await transaction.commit();
-      response(res, true, "Succeed", op);
+      response(res, true, "Succeed", data);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -127,7 +128,7 @@ module.exports = class PenumpangController {
           transaction: transaction,
         });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", fieldValueData);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -148,7 +149,7 @@ module.exports = class PenumpangController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", fieldValue);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -167,7 +168,7 @@ module.exports = class PenumpangController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", "data berhasil di hapus");
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);

@@ -158,7 +158,7 @@ module.exports = class Brand_vehicleController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", "Data berhasil di hapus");
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);

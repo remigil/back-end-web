@@ -5,7 +5,7 @@ const formValidation = require("../middleware/form_validation");
 router.get("/", PenumpangController.get);
 router.post(
   "/add",
-  body("id_society").notEmpty().isLength({ min: 3 }),
+  // body("id_society").notEmpty().isLength({ min: 3 }),
   formValidation,
   PenumpangController.add
 );
