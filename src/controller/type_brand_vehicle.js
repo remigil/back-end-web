@@ -94,23 +94,23 @@ module.exports = class Type_brand_vehicleController {
     }
   };
 
-  // static getId = async (req, res) => {
-  //   try {
-  //     const data = await Type_vehicle.findOne({
-  //       where: {
-  //         id: AESDecrypt(req.params.id, {
-  //           isSafeUrl: true,
-  //           parseMode: "string",
-  //         }),
-  //       },
-  //     });
-  //     response(res, true, "Succeed", {
-  //       data,
-  //     });
-  //   } catch (e) {
-  //     response(res, false, "Failed", e.message);
-  //   }
-  // };
+  static getId = async (req, res) => {
+    try {
+      const data = await Type_vehicle.findOne({
+        where: {
+          id: AESDecrypt(req.params.id, {
+            isSafeUrl: true,
+            parseMode: "string",
+          }),
+        },
+      });
+      response(res, true, "Succeed", {
+        data,
+      });
+    } catch (e) {
+      response(res, false, "Failed", e.message);
+    }
+  };
 
   static add = async (req, res) => {
     const transaction = await db.transaction();

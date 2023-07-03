@@ -1,0 +1,221 @@
+{
+  meta: {
+    req: {
+      url: '/v1/type_brand_vehicle',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3REVlcxb2RYVjBVRmRuU1VWalNWVXpUMkkyVUdzd2RERlljVFJNY2pCUGR6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4Mzc2ODI3LCJpYXQiOjE2ODgzNzY4MjcsImV4cCI6MTY4ODM4MDQyNywiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.sdMJYqadc6Z1v3RHFEHkq8qnFBSd4YuJCMi_XPTeCbwRvjwLYI-yCFBLR2jDty9DpkX-B3oTidF8s-gPvAai6g',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'fd56fcfc-c932-4b67-9adb-e4991b0a05f3',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMStDVW1odXV0UFdnSUVjSVUzT2I2UGswdDFYcTRMcjBPdz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688376827,
+            iat: 1688376827,
+            exp: 1688380427,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/type_brand_vehicle',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTk2ZlZSZ3lKMVkzUzFlZ29TTjMxWmVGbitSaTNDRlQ1MD0',
+              type_name: 'Mobil',
+              created_at: '2022-09-16T06:35:07.070Z',
+              updated_at: '2022-10-04T11:22:04.810Z',
+              deleted_at: null,
+              brand_vehicle: [
+                {
+                  id: 'VTJGc2RHVmtYMSswSDhGOTJiOWt3Tzc4WkJqRGtRNnY1UVAxV0g4cTVLST0',
+                  brand_name: 'Honda',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:55:43.288Z',
+                    updated_at: '2022-09-20T16:55:43.288Z',
+                    type_id: 1,
+                    brand_id: 1
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStSRDh6UngzUU9wcllYdXQ2VEZYdVlxSVY4RmVheW4yST0',
+                  brand_name: 'Suzuki',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:10.540Z',
+                    updated_at: '2022-09-20T16:57:10.540Z',
+                    type_id: 1,
+                    brand_id: 2
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThjakxpeC9WZG1za0hCUklseldYRzNwdTRMOVUwMUk1ST0',
+                  brand_name: 'Toyota',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:15.795Z',
+                    updated_at: '2022-09-20T16:57:15.795Z',
+                    type_id: 1,
+                    brand_id: 3
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt3clh4TGVmQW1xSjREeVRNZG1sa1JHZ1FCUXZvWGVoRT0',
+                  brand_name: 'Daihatsu',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:23.818Z',
+                    updated_at: '2022-09-20T16:57:23.818Z',
+                    type_id: 1,
+                    brand_id: 4
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTltbC9qV0xxWnpyU09NQklKZEZFTHREOWJ3UHE2c2lMdz0',
+                  brand_name: 'Mitsubishi',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:29.419Z',
+                    updated_at: '2022-09-20T16:57:29.419Z',
+                    type_id: 1,
+                    brand_id: 5
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9jMmVKSWlxMWIybU5pN2l2eU1NUzFkSi9wSmNRQ1E1QT0',
+                  brand_name: 'Wuling',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:33.678Z',
+                    updated_at: '2022-09-20T16:57:33.678Z',
+                    type_id: 1,
+                    brand_id: 6
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk3dnk5eHlwWHRPbEdzNjREUWc5RDZEOGtKZTlIUlY0WT0',
+                  brand_name: 'Nissan',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:38.062Z',
+                    updated_at: '2022-09-20T16:57:38.062Z',
+                    type_id: 1,
+                    brand_id: 7
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9yam43SEVzRkFCSEtkdE8xUllMUFBtYzRnTUJmaDFYST0',
+                  brand_name: 'Hyundai',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:42.793Z',
+                    updated_at: '2022-09-20T16:57:42.793Z',
+                    type_id: 1,
+                    brand_id: 8
+                  }
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMThJVTllY25ZcWI4bHdGTGUzcEhvbi80SHBMNWVGeU5DND0',
+              type_name: 'Motor',
+              created_at: '2022-09-16T06:35:16.595Z',
+              updated_at: '2022-09-17T07:23:40.968Z',
+              deleted_at: null,
+              brand_vehicle: [
+                {
+                  id: 'VTJGc2RHVmtYMSsvdC9CelBmNndRd0h2Z0xGMGJObnhtVlNUbUJ1UDMrbz0',
+                  brand_name: 'Kawasaki',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:51.865Z',
+                    updated_at: '2022-09-20T16:57:51.865Z',
+                    type_id: 2,
+                    brand_id: 11
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlVeGZsS3B0dWtCWEhpcVpJYUZQQ3pZME9NZDRNQkFJVT0',
+                  brand_name: 'Yamaha',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:57:56.090Z',
+                    updated_at: '2022-09-20T16:57:56.090Z',
+                    type_id: 2,
+                    brand_id: 12
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStZRkNJekNicDNMYWwzbDFYOVl0anZmSnAvVk1iY1Flaz0',
+                  brand_name: 'Vespa',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:58:01.006Z',
+                    updated_at: '2022-09-20T16:58:01.006Z',
+                    type_id: 2,
+                    brand_id: 13
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStPZzRmUVlLanlkQzRkMjI4ZDkvbkNlYWIyVGFOYUJaTT0',
+                  brand_name: 'Harley Davidson',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:58:05.089Z',
+                    updated_at: '2022-09-20T16:58:05.089Z',
+                    type_id: 2,
+                    brand_id: 14
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThMWmpEbi9WQmo5aVdVcVA1bTRESEFub3FxUzVIUUczVT0',
+                  brand_name: 'Ducati',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:58:09.952Z',
+                    updated_at: '2022-09-20T16:58:09.952Z',
+                    type_id: 2,
+                    brand_id: 15
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlVQndvVTZ4TnBCTkRjc1dXVHJSbDUwRCtrNTZLODdMOD0',
+                  brand_name: 'Honda',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:59:48.720Z',
+                    updated_at: '2022-09-20T16:59:48.720Z',
+                    type_id: 2,
+                    brand_id: 1
+                  }
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9kNW9DbGJYaUgzZmFBNEJjTkl3YWJQcEVkMjBaQjlGbz0',
+                  brand_name: 'Suzuki',
+                  type_brand_vehicle: {
+                    created_at: '2022-09-20T16:59:55.428Z',
+                    updated_at: '2022-09-20T16:59:55.428Z',
+                    type_id: 2,
+                    brand_id: 2
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    responseTime: 124
+  },
+  level: 'info',
+  message: 'GET /v1/type_brand_vehicle 200 124ms',
+  timestamp: '2023-07-03T09:35:08.080Z'
+}
