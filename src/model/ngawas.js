@@ -23,9 +23,6 @@ Ngawas.init(
         });
       },
     },
-    code: {
-      type: Sequelize.STRING(255),
-    },
     user_id: {
       type: Sequelize.INTEGER,
     },

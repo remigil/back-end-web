@@ -28,7 +28,6 @@ TimeAgo.setDefaultLocale(en.locale);
 TimeAgo.addLocale(en);
 const timeAgo = new TimeAgo("id-ID");
 let typeNgawas = {
-  code: null,
   user_id: null,
   vehicle_id: null,
   brand_id: null,
@@ -72,7 +71,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -89,7 +88,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
@@ -124,7 +123,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -141,7 +140,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
@@ -168,7 +167,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -185,7 +184,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
@@ -223,7 +222,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -239,7 +238,7 @@ module.exports = class NgawasController {
           },
           {
             model: Penumpang,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
@@ -280,7 +279,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -297,7 +296,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["id","name", "nationality", "nik"],
+            attributes: ["id","name", "no_hp"],
           },
         ],
       });
@@ -329,7 +328,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -346,7 +345,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "nationality"],
           },
         ],
       });
@@ -408,7 +407,7 @@ module.exports = class NgawasController {
       input["type_id"] = cekVehicle.type_id;
       let typeVehicle = codeNgawas(cekVehicle["type_id"]);
       input["user_id"] = decAes(req.auth.uid);
-      
+
       let DuaHari = HariIni + 2 * 24 * 60 * 60 * 1000;
       let new_date = new Date(DuaHari);
       var validity = new_date.toISOString().replace("Z", "").replace("T", " ");
@@ -499,24 +498,24 @@ module.exports = class NgawasController {
         parseMode: "string",
       });
       let tes = parseInt(getId);
-      let id = decimalToHex(tes);
+      // let id = decimalToHex(tes);
 
-      let codetrp = `BGW/${moment().format("MMYY")}/${typeVehicle}/${id}`;
+      // let codetrp = `BGW/${moment().format("MMYY")}/${typeVehicle}/${id}`;
       // qrcode.toFile(`./public/uploads/qrcode/${id}.png`, codetrp, {
       //   width: 300,
       //   height: 300,
       // });
       // let barcode = id + ".png";
 
-      await Ngawas.update(
-        { code: codetrp },
-        {
-          where: {
-            id: getId,
-          },
-          transaction: transaction,
-        }
-      );
+      // await Ngawas.update(
+        // { code: codetrp },
+      //   {
+      //     where: {
+      //       id: getId,
+      //     },
+      //     transaction: transaction,
+      //   }
+      // );
 
       let penumpang = req.body?.penumpangs?.map((data) => ({
         ...data,
@@ -538,7 +537,7 @@ module.exports = class NgawasController {
 
       response(res, true, "Succeed", {
         ...insertNgawas.dataValues,
-        code: codetrp,
+        // code: codetrp,
         passenger: insertBulkPenumpang,
         countpassenger: countpassenger,
         countvehicle: countvehicle,
@@ -662,7 +661,7 @@ module.exports = class NgawasController {
       getDataRules.include = [
         {
           model: Society,
-          attributes: ["person_name", "foto", "nik", "nationality"],
+          attributes: ["person_name", "foto"],
         },
         {
           model: Public_vehicle,
@@ -678,7 +677,7 @@ module.exports = class NgawasController {
         },
         {
           model: Penumpang,
-          attributes: ["name", "nationality", "nik"],
+          attributes: ["name", "no_hp"],
         },
       ];
       if (serverSide?.toLowerCase() === "true") {
@@ -756,7 +755,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -773,7 +772,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
@@ -803,7 +802,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto"],
           },
           {
             model: Public_vehicle,
@@ -820,7 +819,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
