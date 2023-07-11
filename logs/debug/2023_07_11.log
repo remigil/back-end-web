@@ -1,0 +1,52 @@
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        authorization: 'Basic Og==',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e196aca5-9ea5-47a2-987b-e708abb40f20',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------120963400582951119237566',
+        'content-length': '528',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'Denis Akbar',
+        email: 'bzndenis@gmail.com',
+        no_hp: '089634542020'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMStpZTZLTnhsalBhR014QTE2bGJNVXVmdVlHdTBYYTViMD0',
+          created_at: '2023-07-11T11:36:22.509Z',
+          updated_at: '2023-07-11T11:36:22.509Z',
+          person_name: 'Denis Akbar',
+          email: 'bzndenis@gmail.com',
+          no_hp: '6289634542020',
+          password: '$2b$10$QMmcecM9pyvqzBE6EXTVL.CGcdgLi5vbGbdFSVQyHGHRynk7WZMBO',
+          status_verifikasi: 0,
+          foto: null,
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 937
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 937ms',
+  timestamp: '2023-07-11T11:36:23.864Z'
+}

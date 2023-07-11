@@ -9,9 +9,8 @@ const fs = require("fs");
 
 const fieldData = {
           ngawas_id: null,
-          nationality: null,
           name: null,
-          nik: null,
+          no_hp: null,
 }
 
 module.exports = class PenumpangController {
@@ -118,6 +117,10 @@ module.exports = class PenumpangController {
           fieldValueData[val] = null;
         }
         });
+      fieldValueData["ngawas_id"] = AESDecrypt(req.body.ngawas_id, {
+        isSafeUrl: true,
+        parseMode: "string",
+      });
           await Penumpang.update(fieldValueData, {
           where: {
             id: AESDecrypt(req.params.id, {

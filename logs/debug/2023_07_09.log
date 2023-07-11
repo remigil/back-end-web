@@ -1,0 +1,73 @@
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/kec_ngawas',
+      headers: {
+        host: 'localhost:3001',
+        'user-agent': 'insomnia/2023.4.0',
+        accept: '*/*',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/kec_ngawas',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          {
+            kode: '32.71.04',
+            nama: 'Kecamatan Bogor Barat',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.03',
+            nama: 'Kecamatan Bogor Tengah',
+            kedatangan: 1,
+            keberangkatan: 2,
+            total: 3
+          },
+          {
+            kode: '32.71.01',
+            nama: 'Kecamatan Bogor Selatan',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.02',
+            nama: 'Kecamatan Bogor Timur',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.05',
+            nama: 'Kecamatan Bogor Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.06',
+            nama: 'Kecamatan Tanah Sereal',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          }
+        ]
+      }
+    },
+    responseTime: 717
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/kec_ngawas 200 717ms',
+  timestamp: '2023-07-09T10:50:59.853Z'
+}

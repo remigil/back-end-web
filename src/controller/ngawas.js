@@ -47,7 +47,6 @@ let typeNgawas = {
   province_end: null,
   route: null,
   validity_period: null,
-  barcode: null,
 };
 
 Ngawas.hasMany(Penumpang, { foreignKey: "ngawas_id" });
@@ -298,7 +297,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["id","name", "nationality", "nik"],
           },
         ],
       });
@@ -383,7 +382,7 @@ module.exports = class NgawasController {
         },
         order: [["id", "DESC"]],
       });
-      if (!data) {
+      // if (!data) {
       Object.keys(typeNgawas).forEach((val, key) => {
         if (req.body[val]) {
           input[val] = req.body[val];
@@ -503,14 +502,14 @@ module.exports = class NgawasController {
       let id = decimalToHex(tes);
 
       let codetrp = `BGW/${moment().format("MMYY")}/${typeVehicle}/${id}`;
-      qrcode.toFile(`./public/uploads/qrcode/${id}.png`, codetrp, {
-        width: 300,
-        height: 300,
-      });
-      let barcode = id + ".png";
+      // qrcode.toFile(`./public/uploads/qrcode/${id}.png`, codetrp, {
+      //   width: 300,
+      //   height: 300,
+      // });
+      // let barcode = id + ".png";
 
       await Ngawas.update(
-        { code: codetrp, barcode: barcode },
+        { code: codetrp },
         {
           where: {
             id: getId,
@@ -519,7 +518,7 @@ module.exports = class NgawasController {
         }
       );
 
-      let penumpang = req.body?.passenger?.map((data) => ({
+      let penumpang = req.body?.penumpangs?.map((data) => ({
         ...data,
         ngawas_id: decAes(insertNgawas.id),
       }));
@@ -544,14 +543,15 @@ module.exports = class NgawasController {
         countpassenger: countpassenger,
         countvehicle: countvehicle,
       });
-      } else {
-        response(
-          res,
-          false,
-          "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
-          null
-        );
-      }
+      // } 
+      // else {
+      //   response(
+      //     res,
+      //     false,
+      //     "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
+      //     null
+      //   );
+      // }
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -609,7 +609,7 @@ module.exports = class NgawasController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", null);
+      response(res, true, "Succeed", fieldValue);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);

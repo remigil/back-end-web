@@ -80,9 +80,6 @@ Ngawas.init(
     province_end: {
       type: Sequelize.STRING,
     },
-    barcode: {
-      type: Sequelize.STRING,
-    },
     kode_prov_start: {
       type: Sequelize.STRING,
     },

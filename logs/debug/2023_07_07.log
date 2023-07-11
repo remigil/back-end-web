@@ -1,0 +1,4238 @@
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/getbysocietyId',
+      headers: {
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'dde09007-5b90-42bc-83be-9e51ff0d8c51',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/getbysocietyId',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTh5cG5adUJ4RzhGbE9BM0oxNnljTU9LM0ZKY280TnRRQT0',
+              code: 'BGW/0723/C/00000126',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '00000126.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T13:52:51.866Z',
+              updated_at: '2023-07-06T13:52:51.866Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMS9PTGl2eVNySzQxZDd4cmlXZE1NbWFKSGg1S2VGK0pJdz0',
+                  name: 'dado',
+                  nationality: 'indonesia',
+                  nik: '12313456'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk5UGd3S2FTRDFicERHQTgydVp5WkRjdmhKT3R5b0g5MD0',
+                  name: 'farhan',
+                  nationality: 'indonesia',
+                  nik: '123134'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStHTWkwdDhxSVpFNUx3UjlCZEZFcmhmZ3VSK3NreGI1bz0',
+                  name: 'refi',
+                  nationality: 'indonesia',
+                  nik: '1231345'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMThLM0RQa1lCRGJXclBBZ2I3T3ZoVFc2bGJha3VsNDJMVT0',
+              code: 'BGW/0723/C/00000124',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '00000124.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T13:49:49.733Z',
+              updated_at: '2023-07-06T13:49:49.733Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMTlQTEVNMC8rc1NpRldpT2hRYzMybUY3MHlUd0FwQTY3Zz0',
+                  name: 'refi',
+                  nationality: 'indonesia',
+                  nik: '1231345'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS82M0RVRUJNNTdaS3VOR3g1UEZBN3NSQ25IcFBQdzJtND0',
+                  name: 'farhan',
+                  nationality: 'indonesia',
+                  nik: '123134'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS85c0M0Tnc0OFFyOGdEWm4xRCtFOFIyMHdyYUhUeWtwcz0',
+                  name: 'dado',
+                  nationality: 'indonesia',
+                  nik: '12313456'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMS8xMjJJaWcwczdBeVkyd1M3R2FqeFBIVVIvUUJvMllPYz0',
+              code: 'BGW/0723/C/00000122',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '00000122.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T08:54:52.845Z',
+              updated_at: '2023-07-06T08:54:52.845Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMThLaTZOeUxNRjVXU3NkRUsyTVc5ZXVKYnRTZUs5WmJWZz0',
+                  name: 'farhan',
+                  nationality: 'indonesia',
+                  nik: '123134'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS82NTU3dFlGOEhvU29pUURwTFpHSUNldFlIczFSNE52MD0',
+                  name: 'dado',
+                  nationality: 'indonesia',
+                  nik: '12313456'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl2aGZhcGxuQmd0SEhxOHc4dFBnaGV4c2pkYi9zRHJ4OD0',
+                  name: 'refi',
+                  nationality: 'indonesia',
+                  nik: '1231345'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9hallzTlJldGtIbUJOeENrTHFCekF3V1lJTkhoLzkwOD0',
+              code: 'BGW/0723/C/0000011f',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '0000011f.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T08:13:38.784Z',
+              updated_at: '2023-07-06T08:13:38.784Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMStIeHBNb3VJTmp5S3hIRE5UWjJqMFpTNmxMSGE1eSsycz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9sNXFyLzFweTd5OXJucEwvT2RuRFkzTXRjK1dSSFBIYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStubGxPVEtJaTJtMk0zQSs0N1ZvWDlSeDR5WDJMck5uOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS90NkFuQ0duVXJMaHJYZCt3dFBBNnhyc0VSeDlSQVQyVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk5M01XNlpmN3RXcHVpaVNwN2ZzaDN5MEhxZzUwL3EzQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStUZ2JhT28xV05oNkNJUnFRckY5dXo3SVUrbU1HNFE4VT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9oZk10cWl6eUZheWVKb0JsVXVNVTMvTURqNzJIYlgwTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS81K2R4akxCaFIvY2FLclpsNHdSMHk4a2pZTFFBUXkyRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlMQi9rMy91Q2dwQU9RcXRETFBubWlXMy9mc1BSV3ZiMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStXNGkrVXNUK0VKelczQ2lFWU5lWHVZdzByMTJvb0Mrdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs4NHBoanU3RUc3dS9uMlhaRS8rUnZHU3MzS1hSMzR5TT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlBTm1SSmJFRFZ6VG03RnJ6eERxV2NUdmZ6WmRoRGRVTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThHNnVocDZIcVkyQ1hkSWhTL21KR0VTWDFpcFBMd0c3bz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStySDVNZGNJdWh5VVZ6MUZ0ay8wbi8yVWxwZjAzeG9LWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9JbXByVU4rYXdTZ2xwbmN5bEF1R2h2eCtmdlY2dHljUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS81bXdhQkRVeWRkN3hiRzBjV2U2LzhrNlNWLzJ6ckdoVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9PU0FUMS9Sa2puaW5hNVpXbkRpcWpyU3NOa1lpcGlqUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStKNDM2b3lDSU9BY1pZVWRKSm5oK3dwNFVvKzJMM0FKbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8wMTVPQXlXNUhwLy9zZE4xL0dzK3BqZ3JUVVJmNmNyUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9tWnBDbW10RG5VY3B3d3h1eWI5UytPa1dyRFFVYVhTND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9FQnlubnFsa0pOcUF4SDluWVlacDJVVWlmdDFka1lqYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThqSzkvaHZQcWZ5ZVFnWXUxTHRqdWRaRWsyOVU2RzBvYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS82aHFkUUhEcVhTdUF3V3k3LzVtaHpPRTQ1Ym8wRERoaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9zd1VxQmpTVE16d2h1bTU5ZVJtZUEyZDlqemJWcGZzRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStiNkFVQnI4ZzVMQ0JQU0xLbVZGN2hNWHYxYzZhazFUaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStCMVh3YmxVQTl0TStmUzU0RUdYUk9ZcXFiWEN4UEQrWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlrMitQL2srT0N3UmROeWJmWDR1UXZKb29wMXpzcXFUVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9OSUJuam0vVXJUZ2NmcGtlOVA4N3ZqeGpTV0JWYndTMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs4d0RCN2FEcmt2RWtMQlZHRmVrWnVVYTJ4SDdQZGVDWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStFWTN1bUF4anovVm85Qm9aN2JyYm54c2ZlNHBvYUZucz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThaNm4ybG1Rc0ZtNVFKWGVRSVZucW9yTEZKOTlkSDVzRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk0bjhTdVRldFVmK2szMVcyK096Yk92SGpVcVJ3SVUrND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlVbGRacXdPd3V0bzRwSlU4ZHBoczlwR2ZrWlp6RnJYVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9sa0t6U2t4bmlzVDU3NUNzZzI2aXltVXJEeVdlV0V5ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS81SUgzMzVjWi9Wc25JUndvTC9jMDVOSjE0a2FmVEdrST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStiN3hNQ2QybGJTSHJGWmZWRnIwUDI3SE9lWWR6Zk5ZST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThqdlBscytXYVg0YVBWUmNsS1RpL3BtQ1ljUjJxT0lTND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTljVlpUM3cyMjBxOUljaUpyK3BZZ3V2VDBqS2FHbm9iQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStiTVdZcTdibzVOaWVCRWxYbldnc3F4VE5ob01YUFkxQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9mMENEQTFodXFuNGl6L1pVMGpXYWtBcXErc2NRSEU0ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh0V21GcVMvbS9KTmc2WGcxckhFZWswQVg0TkRiUmZ1QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThYRTA4QngrSjNMaWx3bUhvWmpiRGdqbVpCZ3NGVGJLRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStYbFVSQ2J6QjVJemFicytZalJSVloxWHZEQXRCM2Jqaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS90S09mdGVjZVZYRVdZa2JjSkVjQnZvVWxEQXIrZUVoaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS90ODQwVDJ0S2ZiTk1OZzBsR2hIcFNvblRwckxURUlubz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSsyUjBvTDZ1ZGljeWFORWdFb1F3dmMzdEJxc0lEcUI5VT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThGQldBVDByWlhiV3RDdDh4WTdVaWFCUnVHcngvc2ozVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS92alhIRGpzM3Aydkk0Qjd5Kzd6MzZWTnVzKzdUWEZOZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt5QjhmOU5VakIvTjdValNPOThhWUZuT0MrRUE0YWQ2QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStvL3NtMXB0bDNDTnkzUXA4dnBZblNDVWM5SUY1WVYvbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSttbloxUi9SSFJ0V0NGTjJtL1NjeU1SeUxTYkRVY2hPND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9paUtUREdGZzV6N3lEZ3BUWXFRbVg2VU9DR3pPQmtwMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlDQ2NmaHhyV2s2cXlyN3ZoUU5uaW9PY3F3ZkRlRHR5dz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThtdUZzWTkyTmlPRTErWEZRUDhibklyMHhPZVZqM1dvdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk3eTl0L25ZRFgxR0N4YWtZejJyUFV1N00vWFRoaU00az0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStrZGxNZG5rdlBnVEx6UVpvVFFDbzVUUjdmbmdBZVhPOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9XSWhyNVJJUk1yVko0cm96TDk3RFBIQTA1cWU0bDlpVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStlZ3JGenZKMUlHRHFHeFQ4ZDg4cTlxWi9RS1BTUEl6WT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8xQmdsclFIcGY4YngxYnhFd2VRbDVPRWNiWGlUNzRKTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStsQjcvY3ZSdDRkYlhya0srRzd6eFFmeGJXTTk5Rno2ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlrR01LS1JtV0wrZENqYmRMWlZRV2QvS1QreUR2cHVoYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStQL0puRjY5N0lZV2pVNXdYOFJvNndjT0tSd1AzUTBGND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThEZU9Cci9kcm84dXB3dHpWYVFabWlEZ0tHUDQ5Vi93dz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStlNmJDYnRXTXJrQ1NBOHlIUTRiaDdlQnZFcEd3UWRuVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlKeGNyWFllRElneFpBVnIycFZOYW51ZC9qYUhZNm45Yz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg1b3pEVTFoZkx3SFdzdGN5MWw4T2lGR0RwUzU5bGVCVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThtWFI5dmppTjg3VWxMOVVwRm1jbnhUNTExWU9PSnNoZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlUZDAyS0h3aHNkQnEwZGw0Y1JnRmV4dWVaamV0YzlHWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThLOXo4SStadjE2c0x0ZzM3QTN4WExBSU1SVWVlY3gvVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9YQzNibWtLVnlOK0UwLzlrWEZGYzJQeExWemtPT2FDTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9yZFh0c1BNMk9GNmFSVHFMcDRjT1lPMGVwYlFnS1Y0Yz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlKYWNOd3BSSWNwNk1hdDRGWExORzdOWWk2bjNxN2s0Zz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThnRHlKRGVCbkVnaUpTOWNoYlltbXRMZ1pkUVZDdnBGVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9BWWxDSDJjY25NN1VTYlBocGpkK0ZnYTEwNkdraEhCZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThZaTR0Z0pxbnBhWHRZWVRDVnY4YkJQTnR6bUZWbURoST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThrbTd6Rm1iR1QvN0pOck5HSnViMzg0WDdiekJsS2Jybz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStySzNXRzd0SnhBQXUrZUQxTTNZdHhmUlY5b2U2dHJRWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs2MTI5RzkyVHdaSEUvOCs2TnF3ckw3WGhVQmNCV3A1ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStQYWlYTHJlTjNMbkd2QlRuLzZTZG0va3Nrb2c1cExIUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl2ejBZVUxFdWdUN1VPQlR6c0dreGNtYThwRzBhZGtFND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS94b3RRZlcrTTRiUHoxS1JxM2pJL2J5UXFBbE9VVjh0ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8xR2tCYTFVbUhqWXd5QjVuNjdTaVpDYS95UlZTaUd5dz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg4MGtmL3ZQQzJES3F2eHRwNk1JWStDTUpCZDJTcWNLbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThvS3dmYzVjYkphVVNRNS9wU210ZENYYzdINnR1Y3ozaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStsNTk2K3JVVGQ4d3RydXhQOGlFdkRpQ2wwL3VIMGJ0WT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThKM0J1YUZmeDlROVZZVVZSUVpFVEhmd282c1g2VDViRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThiUkZyNzJaKy9FK0NoQW40UHBKOHdpYnRMb2NuNG5YZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThjcU1mS1FVU3lZbDMvbEt3MlZxNDJQSXhaKzhrNGVDQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9yVDJiZnc4Q0Nsam0xYzh4djF4U2o1RU9zMDJyMFhlWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9YQ1JrdkdWZFZ3SG1MTkZpYVNRRUJ5dDg5ZFJZS2pXND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThDUk1Nb0VvTGtiYUJBVFNhaUUyQVlscS9BQ2JpREZuQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9iZVQvYnVmcGVWTnFCWU5DeFVoRXJock1QeENOMzJhaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt2MzQ0MDgrbFppZ01kQjZ0Y2JnV1FxdGxCSCttY0pKMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThMSjJWNXlOdlBnaFI4QzRyekdmTTJoNzI5U0JDTjV5VT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9Ta1ZOdGVnWlJpZ2JyZzNCalZFUmZjeWlaak1TaW9TOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlJRC9URGdsQXREY2RBek5LVHQ5MnNrUWd5bWtIdEZkVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9MU0t0L01pVnBrQ0NIYTdWVGFmK0xSYUhQdjJpSlJIZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlzVXRWYWx2K0QvKzJQYmFVZHdiZnMwVjlSbW9MSGpxUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8wUUdGNjZ6K29nWFNqV0RoVkJ3RnlTbzJrSDNJVXQvWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlrSnhjc1UzTnBRb3dkRTJsYjRFZko0V2s2c2g3UWJqbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                ... 117 more items
+              ]
+            }
+          ]
+        }
+      }
+    },
+    responseTime: 1710
+  },
+  level: 'info',
+  message: 'GET /v1/ngawas/getbysocietyId 200 1710ms',
+  timestamp: '2023-07-07T01:58:42.743Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/delete',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd799310b-8825-4988-993b-0db040b980d1',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------081717365758617804578542',
+        'content-length': '216',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/delete',
+      query: {},
+      body: {
+        id: 'VTJGc2RHVmtYMTh5cG5adUJ4RzhGbE9BM0oxNnljTU9LM0ZKY280TnRRQT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 502
+  },
+  level: 'info',
+  message: 'DELETE /v1/ngawas/delete 200 502ms',
+  timestamp: '2023-07-07T02:02:59.196Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/getbysocietyId',
+      headers: {
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '00e8a73c-3dcf-434f-a982-839273652158',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/getbysocietyId',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTlmdzVrMFhtT3VyS1o3elFReERHVFM5aU9kbmgyV0ZkWT0',
+              code: 'BGW/0723/C/00000124',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '00000124.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T13:49:49.733Z',
+              updated_at: '2023-07-06T13:49:49.733Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMStLK3VIc3QrOWZqUkh0bjY4L29jSnNOeGNQb3pJS3RnYz0',
+                  name: 'farhan',
+                  nationality: 'indonesia',
+                  nik: '123134'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl1THI3Ym1IQzJFRnE4RnQzOWM4c0NKZkxQbVdZTndLUT0',
+                  name: 'refi',
+                  nationality: 'indonesia',
+                  nik: '1231345'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9kOSt0MUxzMDdUQlZOR2U1KzdYMmx4RTZUbEM4UXc4az0',
+                  name: 'dado',
+                  nationality: 'indonesia',
+                  nik: '12313456'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMSt4blN0YUJIbWdMWm5jR1hHMTd5S0U4QkU1QXpZZ2gyOD0',
+              code: 'BGW/0723/C/00000122',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '00000122.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T08:54:52.845Z',
+              updated_at: '2023-07-06T08:54:52.845Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMStvYVA2eUFwMTlzYWN6NHYvbXo3eHhTSzIxOFc5UVRMYz0',
+                  name: 'farhan',
+                  nationality: 'indonesia',
+                  nik: '123134'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStqd2JOaThZRkQxTFBFUkFYZjNZRWZTR0Uxa0tVOTFHMD0',
+                  name: 'refi',
+                  nationality: 'indonesia',
+                  nik: '1231345'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg5YjVIdlhQMnRpQ0RaZDd1MFZ1S0gvWlFMSmVDTlNkTT0',
+                  name: 'dado',
+                  nationality: 'indonesia',
+                  nik: '12313456'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9TZWNtMURReG5rRDd0ejM0ZkU1S1dZQjczQkpqQzN3MD0',
+              code: 'BGW/0723/C/0000011f',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '0000011f.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T08:13:38.784Z',
+              updated_at: '2023-07-06T08:13:38.784Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMThKZDVheWZ3cWc2U0FHR3d6UkNhclpzRUo4T1NyVkl2MD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs4cmxnYzMxRDZLTVdLOTFtY3pXNi9JREV0MXhmWGFrVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9oRnN2cXg0Y3FnQTZmNXdCUVZJQkNKWnRYWnh2bDBCVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlSYkNQN3NMU0ZFOWhEZmVrK2tlMTh1Z1JQOE9BU1MxUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStFRnBrWDBDZVFna2NuQmlRS3FxU3J0VUs0U0lsUWZqMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt3UktDMVArZVorMWNVZWx5NzBXdTZFWUowaWNUS2pWbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThqWDhDUjcxQS83T1pIUUx3aXNEVkVJbnRPSzBGWGErdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS90MkR5Q2ZES2NBeW1xVEhMeE5hSUU2Ym5kZW9XYzVDTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9tUEt1V215UmNpcDMzSGp5aXoxU3RZTktiNmhQUkl0Zz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStYK2N5d0dtVHZRSGN1cWUzTjdCUjVjVG4yRU9XVVJ0ST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThNNGlzN2p2ZGtmbSs2MW9wTXpFUVFMZUtyZy9zcmhqVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStFWllFZWhoUUptRkhxaXA1c3FySWFYeUxMME5VRWZaWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9nbXloNDd0N3gwanNOYTBMQWtZNlhxZG9uVXNiM0h5ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStHaWdvYkpTTnhBZVlmTG9lbXRIZFZ4MEZVS1BoTHdoND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThCbnpoMHpQYVZ3QU9YUGtTSEg2MDBrMjVpVmVjZVVTVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk2UFgvWHd0SStZYU0zUkNjbyttWjlUUXFyUjYyWTl1ST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9iVmNMUXpqTUZ3dEhxQ0RVWk5HejQybEJsZ1pVaExqMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThDRll0KzVMNEdpZTduclJaRDM2ajdLOE5sU01zV04yVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStpMUlnRG02dHNMK1hJSlQydmJXQWViay82Uml4REhwYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlncTc1MGdWMmFDTkNhQmR6S3FxTStmSnlrVW5mUzdjcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThjRktzQmRDNG9MdENBbktyNmROUWpsV1BaaTU2MGVTcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThZVEVOUzViUEdrVXhaT0ZsZUZHcUZEZTlOS3ZVV2pmOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStCdVFWUjIrQUg4Q0ZaQm1pZE9mUXVxYUsycEt6QzdmVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThQdEhLNnh5OWxCV3BrOVgrMlhLQTFKN01NWGVYaUE4MD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9HVHJOTUV3Rm9yZ3V4b0pmVjVsYUZLZDNVWmIzbG1qTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThLNHY0ZXlpVlpUSkFVMmsvaE45ME41TDZPbDlvSjRXUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9MVVVZT2lKb0k4TEZxKzU2M2lWWXcrSGlCdVBYQ1J2TT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThpOWI5cWg3TE93Zi9EL3FLUTM2WU8raHpPdzdQeXprbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThzUlNrSFR1MnBnQnpTUG81MU53WXR2UFp3dVpoVjErYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSsyZldFczVsNHc5ajQ0b1dLS1RkR0RTUmNydEJjWnFxMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9nMTM4MHBTM0FlVzdnWmNwUXMxaHV5Z3VPaWF1Q3lwOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThTRXBVVVNFbndYT0lkcGFoUzJwQzlFQnFBUW1JMS9JTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTloUUMzRXR0RWVNWGN6SUJHaThCVGxsVGJmbk93eW5iTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThiQVBBaEpOWWlXN3RzWWNycXlSSXU3OVpQbUtRTHdmST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl4VnNvaDQ1WEY3NnNaOGVTU09qc3NUNHdmNDRBUXdScz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9Uc2QzVWxyTHFoUlhZU2dxZlhRVEZOZTV5bmUwRHdraz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThTMDNoMkRwUzRhWXRlZWRmbHJYdk92elRLUnNYWjRRYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTllZ1QvUWhqTTRUOFplNFBqK1dxNEE5Mjg0eHJqODNIOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThCSjVCcFhVeWdkbEZpUmJUMDJwWkJVWmxxRzZDZjRHMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8xcHk2TXQxYTJvR0xvbEFYbWlZajdnbE5ncTI4NGhOST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9XWmlQZWhaTUxFK0tqOTdQaldJbXFuR1B0SVlyNEt5WT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSswZHdxQktqYit5M2ZpTFc0WGkyTTZSYUFqeUdFQkorVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt0L1RnK1dXMjVISG5STHN5cmY5ZUNIMVFqRlRWVmZ3QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThteWZnaVJsekxCSlljVXRwU3loeFF6TVBlejJ2M01Jcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9NSEhzMjc1dGcwSEFidjlkeTBZdVMzbldLWTFNZzRRND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs2dVpQNWdEaTFMQUdlajV4L3BrYlpFYlowUzdhaWRwRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThkY2ZKbDhvQiszb1h5UUt4ZVJJK2J6T3NGUGtyWDRGUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9qSGRwb0ZLSGtUZkx5bjdlSlN4VGd6VnBDenVuYXo0QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStJM3RTTkV5b0NTQllNRXlQNk5TRzc3ZGFKWEZRY1BHcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTkra3dRWmJxb1JtZ3ZoREsvTXlmWGtzb1JCU25CZ283ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs5cFZOYVRCMDFKS3BSNzVab2xVaStIS0FUVldnVjhrZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS96WG9JdHdZWlhxeWhTdG1IaHRYNHZVMFh0RUUyQjZRYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlvRmh4YkFuM2o3Nk1WVGZLRy9uQ1owczZ4ZE4yZFRtYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9Qb2dWbE5NL0dHSWJMQWFMMW9IaEJBMWtYRjJmb2lWST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStzSUZwbC84WEhEY2J0Z0V6RmVodWxET1BDNU95R2dtZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThkMVFlc2RBcDRObVBmZklCQUNDc01FcWdVSzNFUWV1QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlkTWd6NzhLSXZrSTM5NGpEYXh1RXpoWFhEY0Jqd2xXRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlKS01TMXFINVFYRCtmaTQxN2ZINzRncytUU3BaUEpBMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlYaGRuOGMxajI4UE9VZ0RPbTBmRUQ2blFwZ1NSRWY0UT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlOWVhWVlk2cTY5QVp3Q01yZTlVemM2SEdWWVV1OHZLST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9vTXNVNitkemRITXFBYkd0UTc0djlhSXh0Z3ZFNUtUZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThxT2FUaVR5OGhrWWZkRDV6bExLR1lGbmR4b1RqOFhjcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9Jd29EWjBhR2NkcVE4RnJ3WFY3OWVFVGVyWGhrRXB0cz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9ML2VtQmV1anJhb3lBSWM1ODc1cEFIZjdFZUZlclMxUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStMWW1tTGg5amdnZStvdWkvNmk0Tk54TzY4VkNjUnpPOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStpTi9xeE9TWTR2cGJLbGZSbVQ3bUw4TTlIZGJyUlVwYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThRMFI0bVB4MElPVTZQUC9YN3dmMitnNjIxMW0wR0pJdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk3aS9aRjRPdHUwbUNmbVRsMjBIRWhVMlFjYzkyc1oxOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9UdXNlY3ZUbUw1L016cXZqMTlKeFJuWU0rTkxlUWh0UT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThZa3U3WmlINGtRR2EwSlRLa3dyWHBWaHFrUG9hcExWUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlrZERpZVBoTzlkRkkrL1hLTG5zTHRaaTJ0OEN4TFI1Zz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStiNG5YUkpaT1kyY1hCeGg0OHZHTGxZTnRBT01ZeEUyZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStlRHByOGs4bzJNSkdKV0VWVzdPQTVUd3hxRi81MDM1UT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9JNWxhQyswZDI3Z0g4R29ENWZ0M3BJOS8wek9MZFJyMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStoQzNhNERuZTduNGZtamxOOVh0QVR3eFIwKzlzS0NKcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStxckUvOFJ1aUY5SmFLOEV3eVdLN09yRTdiTno3SEFVST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl3bDMyUmMvTTRlK244MzZPSUNhMVEvcERSdDVaelk5MD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk1emxRenIzMVhhYUpsamNhRGRLNUVKb2Jwc2tPajRoTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStTcUtsTGJOUStxRmVGdDQ0TlFwVjBGUjhtc01FemdSVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStQNFMzcUUrS05OdngyMVFsL0hyVHdJMGhnQ0lUM2dEMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThsWHhZZ2JBa29wQTViY0hka3c1UkJRVU4zRG1FdVN6WT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThjVWRiNW5lQS8vaXFFZzJyL1BFSUdqUEhNd05uZDBORT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9xQ2VOclhQT05IVFZSNWhDZmhSRFRCdkp1L2tOdzFJcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlRc2tXSSthc1Zta3djK0xtQUZwM3R6c0lGQzU0VnR3OD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9OSG9ub1NpTHVaNXlnbCtMdzZRRHlwY3J3Yy94SGF4RT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh1K05qKzRTaVVqSGVEN3BlM3JjbXJteFlnSkJ1MUp5Zz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlHQm1ZRjF1OTh2YnJXSmpzbllpR29PcFM0Vjl6dll6ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThFVW84WjQ3Y25TN0xYR1d4by9NRFFHOUwxWUR0TlJGND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl0Zlk0aDdFT3B6R21XYmplcVBRODBnOXdsTzJaSmhuVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9HTDN6UUVHSTJGYWY3cDFBNnh1bHdyOGJTbmJxZEZ6az0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk5VHpUYVBHL2lGVEkza3ZkWjJMeWtMempqM3JsSDlUST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS85SHovSWFRMmNYdnpINmhadmJUdEJ0ZjRMWUJLY05qMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStEcHJ6WHdHb1hVbmN1bnZDTU5hOXZ5a25mMnRkMzZOOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9ubVFFN3hLNW45Q005RVV5Ni9hVTMraXFTdm1DMSswWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlRbiszVEFmZG9RL2J5NkI3eUc4WVlxQjNGMkl0d1FlMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9YZFpxZkFyYmRoQlBKWHoxMS82M09xNWpkUUQvTDd2VT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8vWnZjSGpNSFlYNkdVUEFFY2pRQm9kSExsSDlLQTZpWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStRckFnYTRxL25CWnA0MlpLcFpMNnlBNmVVMko5VlJ4az0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlLN01YZ3NrZXl3RlBkQm1KSGhVQVU4NkNyWGZwU1NyTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThOWDBtOHp5ZXl6ejdWOE5MZVFYRFlCSnlha3JmMm9Hbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                ... 117 more items
+              ]
+            }
+          ]
+        }
+      }
+    },
+    responseTime: 898
+  },
+  level: 'info',
+  message: 'GET /v1/ngawas/getbysocietyId 200 898ms',
+  timestamp: '2023-07-07T02:03:15.461Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/delete',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5b404983-45ab-492c-b7be-472258997b00',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------036946288900980904261529',
+        'content-length': '216',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/delete',
+      query: {},
+      body: {
+        id: 'VTJGc2RHVmtYMTlmdzVrMFhtT3VyS1o3elFReERHVFM5aU9kbmgyV0ZkWT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: null
+      }
+    },
+    responseTime: 539
+  },
+  level: 'info',
+  message: 'DELETE /v1/ngawas/delete 200 539ms',
+  timestamp: '2023-07-07T02:04:21.060Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/getbysocietyId',
+      headers: {
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '7a5d6a64-f14b-44a6-b3ba-b94fbe061a2c',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/getbysocietyId',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTk5OTQxcFBGK0laWm1FaXlTUDRsMmdEczkyYjVWVXI1WT0',
+              code: 'BGW/0723/C/00000122',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '00000122.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T08:54:52.845Z',
+              updated_at: '2023-07-06T08:54:52.845Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMS94K2taWEpVdFNiZS8wN2d4RGRrT3R1MGIxc2FlWGllUT0',
+                  name: 'farhan',
+                  nationality: 'indonesia',
+                  nik: '123134'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9Md2JsYTdPb3ZYQnNmS293TmZvUU04bVM1K2hBdjRQTT0',
+                  name: 'refi',
+                  nationality: 'indonesia',
+                  nik: '1231345'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSszejVjWnNvK25pQ3R4NHFvbm5Pc3l4VWN3ZTFRMmhJcz0',
+                  name: 'dado',
+                  nationality: 'indonesia',
+                  nik: '12313456'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9NQTZrbXpCRWFKVm5temJ2SnovNzZjQkVZb0NuL1NXRT0',
+              code: 'BGW/0723/C/0000011f',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '9.2 Km',
+              duration: '9 Menit ',
+              departure_date: '2023-07-02',
+              departure_time: '21:20:00',
+              start_coordinate: {
+                latitude: -6.556086640691106,
+                longitude: 106.70303878489499
+              },
+              end_coordinate: {
+                latitude: -6.560233647505914,
+                longitude: 106.76803520638776
+              },
+              route: [
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560117, longitude: 106.767941 },
+                { latitude: -6.560776, longitude: 106.767111 },
+                { latitude: -6.560809, longitude: 106.767096 },
+                { latitude: -6.560843, longitude: 106.767104 },
+                { latitude: -6.560897, longitude: 106.767132 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561209, longitude: 106.767403 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.561299, longitude: 106.767287 },
+                { latitude: -6.5609, longitude: 106.766996 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.560751, longitude: 106.766894 },
+                { latitude: -6.559473, longitude: 106.768506 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.559388, longitude: 106.768437 },
+                { latitude: -6.560568, longitude: 106.766962 },
+                { latitude: -6.560675, longitude: 106.766834 },
+                { latitude: -6.560765, longitude: 106.766718 },
+                { latitude: -6.561, longitude: 106.766422 },
+                { latitude: -6.561297, longitude: 106.766062 },
+                { latitude: -6.561555, longitude: 106.765756 },
+                { latitude: -6.561783, longitude: 106.765514 },
+                { latitude: -6.561897, longitude: 106.765403 },
+                { latitude: -6.561935, longitude: 106.765367 },
+                { latitude: -6.562306, longitude: 106.765008 },
+                { latitude: -6.562672, longitude: 106.764669 },
+                { latitude: -6.563563, longitude: 106.76375 },
+                { latitude: -6.563775, longitude: 106.763542 },
+                { latitude: -6.563882, longitude: 106.763452 },
+                { latitude: -6.563943, longitude: 106.763388 },
+                { latitude: -6.564009, longitude: 106.763329 },
+                { latitude: -6.56405, longitude: 106.763275 },
+                { latitude: -6.56416, longitude: 106.763077 },
+                { latitude: -6.564243, longitude: 106.762932 },
+                { latitude: -6.564403, longitude: 106.762685 },
+                { latitude: -6.564628, longitude: 106.762386 },
+                { latitude: -6.564674, longitude: 106.76232 },
+                { latitude: -6.564809, longitude: 106.762151 },
+                { latitude: -6.564931, longitude: 106.762015 },
+                { latitude: -6.565067, longitude: 106.76185 },
+                { latitude: -6.565386, longitude: 106.761493 },
+                { latitude: -6.565429, longitude: 106.761449 },
+                { latitude: -6.565506, longitude: 106.76137 },
+                { latitude: -6.565694, longitude: 106.761205 },
+                { latitude: -6.565897, longitude: 106.761025 },
+                { latitude: -6.56623, longitude: 106.760802 },
+                { latitude: -6.566282, longitude: 106.760766 },
+                { latitude: -6.56772, longitude: 106.759802 },
+                { latitude: -6.567819, longitude: 106.759737 },
+                { latitude: -6.567859, longitude: 106.759708 },
+                { latitude: -6.567933, longitude: 106.759638 },
+                { latitude: -6.568001, longitude: 106.759547 },
+                { latitude: -6.568149, longitude: 106.759323 },
+                { latitude: -6.568193, longitude: 106.759251 },
+                { latitude: -6.568537, longitude: 106.758697 },
+                { latitude: -6.568621, longitude: 106.758555 },
+                { latitude: -6.568846, longitude: 106.758179 },
+                { latitude: -6.569003, longitude: 106.757897 },
+                { latitude: -6.569147, longitude: 106.757671 },
+                { latitude: -6.569298, longitude: 106.757478 },
+                { latitude: -6.569466, longitude: 106.757263 },
+                { latitude: -6.56952, longitude: 106.757194 },
+                { latitude: -6.56974, longitude: 106.756914 },
+                { latitude: -6.570329, longitude: 106.756198 },
+                { latitude: -6.570815, longitude: 106.755578 },
+                { latitude: -6.570971, longitude: 106.755331 },
+                { latitude: -6.571022, longitude: 106.755258 },
+                { latitude: -6.571053, longitude: 106.755216 },
+                { latitude: -6.571176, longitude: 106.755024 },
+                { latitude: -6.571362, longitude: 106.754733 },
+                { latitude: -6.571481, longitude: 106.754535 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571835, longitude: 106.753946 },
+                { latitude: -6.571399, longitude: 106.75364 },
+                { latitude: -6.571033, longitude: 106.753409 },
+                { latitude: -6.570651, longitude: 106.75317 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570579, longitude: 106.753115 },
+                { latitude: -6.570634, longitude: 106.753031 },
+                { latitude: -6.57099, longitude: 106.752488 },
+                { latitude: -6.571159, longitude: 106.752189 },
+                { latitude: -6.57134, longitude: 106.751884 },
+                { latitude: -6.571419, longitude: 106.751729 },
+                { latitude: -6.571464, longitude: 106.751589 },
+                { latitude: -6.571478, longitude: 106.751456 },
+                { latitude: -6.571496, longitude: 106.751228 },
+                { latitude: -6.571501, longitude: 106.75116 },
+                { latitude: -6.57153, longitude: 106.750898 },
+                { latitude: -6.571572, longitude: 106.750773 },
+                { latitude: -6.571606, longitude: 106.750682 },
+                { latitude: -6.571667, longitude: 106.750587 },
+                { latitude: -6.57173, longitude: 106.750483 },
+                { latitude: -6.571852, longitude: 106.750331 },
+                { latitude: -6.571937, longitude: 106.750225 },
+                { latitude: -6.571994, longitude: 106.750129 },
+                { latitude: -6.572159, longitude: 106.749826 },
+                { latitude: -6.572192, longitude: 106.749775 },
+                { latitude: -6.572281, longitude: 106.749651 },
+                ... 211 more items
+              ],
+              validity_period: '2023-07-04 21:20',
+              subdistrict_start: 'Kecamatan Ciampea',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Barat',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              barcode: '0000011f.png',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.04',
+              created_at: '2023-07-06T08:13:38.784Z',
+              updated_at: '2023-07-06T08:13:38.784Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: '1324354353524211',
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMSs5UHZJUUJKSE1nLzV3ZnNaTGx6QjhXVnlZWUpZNnNJQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThETDgwSVRXOTF5aWNuZ1J5RjR2bVZqdFBYZVpkaWJ1WT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt3eFVEQlZ4b1ZJS3AwTnBWQU5nOXlKbTdzVFlHa0Fybz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS96M201L2FpNExzNDRFaVlqL2NMOFNCZVhtc01xZWtiZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg1ZFJlZUk1bWNqQitWNUFoWmo2UFpwSk5ybVJEazNXRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThmdkQ2aU5TWlY5cVVaL3JNN0owdVdhNVViakswaXNCQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlYWng2d1FORnRHWlBBSmwxaHlFZG1jOXVzYjJjOUpLYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9qbkZrajAvQ2JOa1ZwMkc3ck9CbWhWcTJnREtsSldSND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStRbitRbFdXd2hSc2Fwa2dHRExNaFYyaVFOcXhSSHB1QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS81S0REbDJFRlZiZVVlRk5EM2xzVXBhWEw1V00yT3dCST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt1SndHcnpVU1BvTGZhZHJNZTN1a3k4L1R5V0hyTkszdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThyS2VybUhxQXdOR3dHcFRHVEZTT2t4RGhXSzdCV2xOUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlvWHJlMHFtYWttL3VlZHZxUXQ3ZGEweVl3NUlBbEh5TT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9ybC8vUWNDZnJMdEZlN3hhUlFmR1NUSWt3U3N4OVhYUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9yWFRYK3VtTWh5SHlYRldBcTgvK2pqVGV2cVc1dEZGbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk4S2FLMWZOZjNkU0ptNXRlaWtPbEdmS1Y2MzZuSGU5TT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs5cDI3c2RpY0ZkVVBuY3JrQVZ6UVY4QVF1YWd0SE9idz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg1VndMa1gxSk0wVFVLd200NXpISjZKUkc3Um50QzZEOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStobDVSbzhwd0RQOXRjc3JwdW0rYXdGTlhhZklJZmdxdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg2N2NFZ29Dd21BbUp1YjE2eStGblUwNmFlMDZYQ3FyRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk4U1FOSW5ybEJta2ZrczJyaXh2aFA3ZmVJSVhkVy90VT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9NNnhlZ25mNnJ6UTlmRU9HNWFheEFpb0NISXVJM0JOOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9ZODZhSVArK3pjNkFkU01iUytkelQxQnd5djhrc0ZrZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStPSzc5TkhwWSt5SlNSMjVVWWFaeHBkYnZOeXhWSVZwMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSsyMGN5Nys4ekR6NTU4RzM4UGQ3aWJwMHRSTFFBUWtXRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9KNjNFdk1SQWgzbVMzUEFaME9TWlRlVm82YU9GY0hMbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9UZm5UV2F0THAzVThoL3NBR0NkSjlNSURLQWxDaWE4OD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9RYi93SVNjYzhqc0lnN3RmL0tnT2p4bDJKand6LytXVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlRdVNBRG45Y1dWN25GTmNpUHNnbVVxUEFVRldvRC9KST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl3MnNkUUowc2NZSGN3ZDFhZU9PZ3NiK0VGMnVhcGxBOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk2MWh5NDdja2RWakdvdXhuclg1SkJFVS90ZE9CRlZ2az0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStnVUdYUCs4TGJqMlg5K0dtZERGUUc5Q1dEbEk2MFNPQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSttMkFSN2NDQjFTWGZDWnpmVUk0S2UzeTVoVzRUeG83Zz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSsyamRwOEFEQS8xbjhRUmVENHdnTE82YndJZTN3SGp1TT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9sM2d0V3pCbDlubmRJNnVmQkUwb04wNmlOa1k0WW1LRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThVZTVxdGJuYzBJY3ljSi9zOUo1bzhQUjZNTE0vNkZ2dz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9OdDVsWVdrTGpNeHdZWE5XSGIvM3dTZVJCMHRLSnQxWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlLbHdmeUp4V3ZhZzZybloyS0FyS3BOcllYZk5weU10bz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh3aUlsVE4wSVBNWkEveVU5djFOSDJBeENuem9Lb2ZURT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTgyV2s4R2tLa3dxODFSZjdWenA3VkF0L0xRNFJ5U0pkUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlwbjNBWjI1QUtlUFlQd3VzNThwcmJ0VzhjRmc1VzBnQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9HbVhmRnBzZ3dEZnBGMHR0MzRqdWg0NWRNTVQ2TS9UUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs0UkVHQmlhYmJmNWpackp4UVRtUFI2NFIzVmord0x4ND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlLNlNoTUc4c1I3di83aytZdTVSYUwxcDdZOHF4OE5Xcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThqYzlPWUQ3SlhMQ1NXNHMwQ3ZlZUtNQWorR2sxTUlSWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh3ZjhXUzRaQ2RaU2hEV1lEdXBVWUNaRE1UVHU5Y3pGYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStoRVBZOHJQRHJLTmJwbFhxenVWOGRoa2QxRklOQVJ4QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9LR2hVQjR3R3FhaUtZWGNwMVhJVm1LMEV3M3d1enJvST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk5Q0g3VFlKcVl2L3U2UHNsKzJLZEx2NnR2TVJNbkI2UT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlyWnB2c29RdGh5VkJuUXhBdnV5U05HVERIb1pCVW1QQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTltbHZmand0VldRK2taTE1FcGVieGJpZHRYUElPcmI0Zz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThJRlpJZXd6YmRBZm9UOFJ4VEFnV2JkV0RlSWs5bkw0bz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9YSFRwb1EyWmxjUnVWbUp5NTNwMHNHWXNudURtMDd5TT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSs2NU5FbE5nL2JBdlRYaFBmM2o4WHRzYUxhcUJNVDVqVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStodVhRR3ZTZ3Rxa2kxYjl2bXpodVVvdThFMkJ1NzVsdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStFaUxESkkyK3BKbFNyUmlpcWx6bG5oN3RmYzh6K2UzTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlhcGRuVTlxMi96OUhEY0ZFSkhGc0Roc3B5WXc3RWtwQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS91ZDhNcHlSR0tqZVFORW1SbDlER3dHZDd3RmVoeG5xRT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThyTm5oZG8xTW10VVBmc2RVVGR6QmFDNTJYZXAxRU9JST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThOb21JOWFtWHdmTlU5SE1ydkx1ZCtsRTdNN2VnRjhocz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThVaW93QlZCLy9KUDV4TCtybndzK1llSjZVM0tOMHEzVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStGdXo1T3J0WVVXbDEzdFh3NjkwQTBnUTB1VVhHNnpyYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9ZVWozbHl2TXRUOXlGeUNUekk5K1VEbjN1TFZXVG1EWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSszQUJnT24rbCsyTm1LdVJOb3VNNUxJaCtEOXlDZlo3OD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt0bEpSZXdWMVA2b2dFUWEzdm00OXVDQXZjY3NCd2tkcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlKL1JQckVLTEZHTktDSTduam41cGg5U05vNXdpVFlaOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThkY0xFMzluYUk4RGw4ZzdsZ0w3VUpJS3pHUkpqSTQ0ST0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThJUjVkWDYyM3J3QStOUGNjZEFsc3dqdi84VTB0Tzg1VT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTg4L2MwMjdCSHpIWUlZUlc4VTdSYnpnZitsdFVKUkNDaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh5TnlYSVpOTDRTY3VOTHRoYUhQM1Z1bGxITm0vYmE3Yz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlBblFMeUw3THpDM2hyd2k2STFlYnVaK0lOMHpxUnBiOD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlPczAwc2YwL3pQc3dzMVk1bVVHd016ZjNSR2VuREg2RT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt1cSs5TmhjSHgyald0QUhaMnJOQno0UDhxQ1BVcUFQdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThBT252cHJsRjRUOVVXa2JGZFdEU2x5OFlIaXlVeW4zQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS8xdjlpN2ZJbDdBU0xSZHJWQ1Q3MHJkdWN6dmdrbHFqWT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh1UXdOUnRmWkZHczdENFlHOGNUbk5VT29IakY3alllUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlYSER3MHdPWkM1VmJGNE5mcXQzRHg5c2g5T2dPYjluZz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThNZjlWaHRzSXRCTEM1eS9NVGlZeDAvbmdZRXQ3dWRVND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9HbGVraU5pN3BLNUMrUjJhR1B3RTJicFg3NDcwbFZjcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9CUlRzd3JQYVhjSEw5bmVCQ1VVaFBIR0k4ZzJaZklkbz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMSt2cnRrRUowT0ovQ25iRFQrRWltL2w0K2dTMXV4OWovaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTh6KzY1NjEvV256T0NKZFl6eEo2ZEVHYWQvR25STnorVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9HZm8yVnJxcVhtK0RsVmhtcWJyclFkR0Q2WGtVQS8xcz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlzZk5YWnI3cDRXbXFCS2ExU3JjQzhrcXQyRHZ2V0RTMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThINlhETW9HN0xpR1VGVzA4U2F4TWlLY0RDOXArZTY3QT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlvUkJCejF0VGFpRkkzVTQ0RlZ5ZEtXTFJaN1hzK3V5cz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlCRmcwbEtIOGswQWdiUEJOOFFCR1dwSTAwYzNPb0owUT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMThVYkhlK0xWMVdqS21sOUdBQkhPc1BXSXd0ZG5KNHRZTT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTk4L3huVTFiSFViM29OTi9wcnFNdFhEZmpHMUVmQ3JSQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMStxMUFjZm1zQmR3RHhJZTB6aTJHQjJJNy9aaXE2NEJUQT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9yNWVYYWh4djJWOGF3RHEwOXZOY0dXanQzVDlLRVF5UT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9sNHY1bEVLT3NGNVMxT1B5eVhIaTJHRlFmV2Ziamthdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTkvNzFzZXYrSC9XelQvbURZajc0UzVseWtnMTl5V3dUMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTgyNG5aRWdieTBCUE1CSGgzejBKM2RRb2c3K1puU0pJaz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTljQjAxakcvcEVWWmg1WlhXb3VnbGd0UmVJU0g1bnF5cz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlQK3oxN3JQSnpsaHNicVlZTlBhcVFXR3FOcHp0VHJqdz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTl4REJZbmZndkd5ZGh1cStxNXFpbjk1M2YvK2h6NHBhVT0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlRSlEwTjRUWStzQzBIakRvYldDRUk4SFZ3Z3FOcUJCYz0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMS9UNHNPL09xS1pFMGJBTTBzanRrN1o5YXoxc3ZEQzNiMD0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlZUC9laTVDYkxYUzhSVFlpV0d6TUZGbzNrRUxMZXNFND0',
+                  name: 'Maulana',
+                  nationality: 'indonesia',
+                  nik: '321012301231231'
+                },
+                ... 117 more items
+              ]
+            }
+          ]
+        }
+      }
+    },
+    responseTime: 610
+  },
+  level: 'info',
+  message: 'GET /v1/ngawas/getbysocietyId 200 610ms',
+  timestamp: '2023-07-07T02:04:26.362Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/delete',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '497f94fe-c0d6-4d91-9d83-49f238dfd4c7',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------488252065328522762212549',
+        'content-length': '216',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/delete',
+      query: {},
+      body: {
+        id: 'VTJGc2RHVmtYMTk5OTQxcFBGK0laWm1FaXlTUDRsMmdEczkyYjVWVXI1WT0'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: { deleted_at: '2023-07-07T02:05:19.672Z' }
+      }
+    },
+    responseTime: 312
+  },
+  level: 'info',
+  message: 'DELETE /v1/ngawas/delete 200 312ms',
+  timestamp: '2023-07-07T02:05:19.762Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/jenis_kendaraan',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c331eb80-6421-4d5a-8e49-9b39cc589496',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/jenis_kendaraan',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          { nama: 'Mobil', jumlah: 44 },
+          { nama: 'Motor', jumlah: 0 },
+          { nama: 'Mobil', jumlah: 0 },
+          { nama: 'Motor', jumlah: 34 },
+          { nama: 'Mobil', jumlah: 0 },
+          { nama: 'Motor', jumlah: 0 }
+        ]
+      }
+    },
+    responseTime: 324
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/jenis_kendaraan 200 324ms',
+  timestamp: '2023-07-07T06:49:10.822Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/model_kendaraan',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0fa8c90a-0356-44c2-a2fd-bf543deef932',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/model_kendaraan',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          { brand: 'Honda', jumlah: 16 },
+          { brand: 'Suzuki', jumlah: 1 },
+          { brand: 'Toyota', jumlah: 7 },
+          { brand: 'Daihatsu', jumlah: 9 },
+          { brand: 'Mitsubishi', jumlah: 19 },
+          { brand: 'Wuling', jumlah: 1 },
+          { brand: 'Nissan', jumlah: 16 },
+          { brand: 'Hyundai', jumlah: 1 },
+          { brand: 'Kawasaki', jumlah: 2 },
+          { brand: 'Yamaha', jumlah: 4 },
+          { brand: 'Vespa', jumlah: 2 },
+          { brand: 'Harley Davidson', jumlah: 0 },
+          { brand: 'Ducati', jumlah: 0 }
+        ]
+      }
+    },
+    responseTime: 240
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/model_kendaraan 200 240ms',
+  timestamp: '2023-07-07T06:49:56.066Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/prov_ngawas',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0c27ef4b-ef00-4bc6-9051-22c373360075',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/prov_ngawas',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          {
+            kode: '11',
+            nama: 'Aceh (NAD)',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '12',
+            nama: 'Sumatera Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '13',
+            nama: 'Sumatera Barat',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '14',
+            nama: 'Riau',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '15',
+            nama: 'Jambi',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '16',
+            nama: 'Sumatera Selatan',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '17',
+            nama: 'Bengkulu',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '18',
+            nama: 'Lampung',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '19',
+            nama: 'Kepulauan Bangka Belitung',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '21',
+            nama: 'Kepulauan Riau',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '31',
+            nama: 'DKI Jakarta',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32',
+            nama: 'Jawa Barat',
+            kedatangan: 8,
+            keberangkatan: 8,
+            total: 16
+          },
+          {
+            kode: '33',
+            nama: 'Jawa Tengah',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '34',
+            nama: 'DI Yogyakarta',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '35',
+            nama: 'Jawa Timur',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '36',
+            nama: 'Banten',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '51',
+            nama: 'Bali',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '52',
+            nama: 'Nusa Tenggara Barat (NTB)',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '53',
+            nama: 'Nusa Tenggara Timur (NTT)',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '61',
+            nama: 'Kalimantan Barat',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '62',
+            nama: 'Kalimantan Tengah',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '63',
+            nama: 'Kalimantan Selatan',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '64',
+            nama: 'Kalimantan Timur',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '65',
+            nama: 'Kalimantan Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '71',
+            nama: 'Sulawesi Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '72',
+            nama: 'Sulawesi Tengah',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '73',
+            nama: 'Sulawesi Selatan',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '74',
+            nama: 'Sulawesi Tenggara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '75',
+            nama: 'Gorontalo',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '76',
+            nama: 'Sulawesi Barat',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '81',
+            nama: 'Maluku',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '82',
+            nama: 'Maluku Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '91',
+            nama: 'Papua',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '92',
+            nama: 'Papua Barat',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          }
+        ]
+      }
+    },
+    responseTime: 247
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/prov_ngawas 200 247ms',
+  timestamp: '2023-07-07T06:50:23.012Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/kec_ngawas',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '12546f03-5734-4adb-93e5-ee5e57ba37ca',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/kec_ngawas',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          {
+            kode: '32.71.04',
+            nama: 'Kecamatan Bogor Barat',
+            kedatangan: 4,
+            keberangkatan: 0,
+            total: 4
+          },
+          {
+            kode: '32.71.03',
+            nama: 'Kecamatan Bogor Tengah',
+            kedatangan: 0,
+            keberangkatan: 1,
+            total: 1
+          },
+          {
+            kode: '32.71.01',
+            nama: 'Kecamatan Bogor Selatan',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.02',
+            nama: 'Kecamatan Bogor Timur',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.05',
+            nama: 'Kecamatan Bogor Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.06',
+            nama: 'Kecamatan Tanah Sereal',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          }
+        ]
+      }
+    },
+    responseTime: 338
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/kec_ngawas 200 338ms',
+  timestamp: '2023-07-07T06:50:41.353Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/daily_ngawas',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '61e3ffbb-abd5-4f2b-90eb-777c9f836a0a',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/daily_ngawas',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-09-27', jumlah_penumpang: '0' },
+          { departure_date: '2022-09-29', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-05', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-03', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-04', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-04', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-04', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-04', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-06', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-11', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-14', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-14', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-14', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-15', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-19', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-23', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-25', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2021-09-16', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-26', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-27', jumlah_penumpang: '0' },
+          { departure_date: '2022-10-31', jumlah_penumpang: '0' },
+          { departure_date: '2023-02-21', jumlah_penumpang: '0' },
+          { departure_date: '2023-04-22', jumlah_penumpang: '0' },
+          { departure_date: '2023-02-28', jumlah_penumpang: '0' },
+          { departure_date: '2023-02-28', jumlah_penumpang: '0' },
+          { departure_date: '2023-04-06', jumlah_penumpang: '0' },
+          { departure_date: '2023-04-13', jumlah_penumpang: '0' },
+          { departure_date: '2023-04-14', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '0' },
+          { departure_date: '2023-06-01', jumlah_penumpang: '0' },
+          { departure_date: '2023-07-02', jumlah_penumpang: '217' }
+        ]
+      }
+    },
+    responseTime: 287
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/daily_ngawas 200 287ms',
+  timestamp: '2023-07-07T06:51:19.154Z'
+}

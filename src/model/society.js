@@ -18,22 +18,13 @@ Society.init(
         });
       },
     },
-    nik: {
-      type: Sequelize.STRING(50),
-    },
     person_name: {
       type: Sequelize.STRING(50),
     },
     email: {
       type: Sequelize.STRING(200),
     },
-    date_of_birth: {
-      type: Sequelize.DATEONLY,
-    },
     no_hp: {
-      type: Sequelize.STRING(200),
-    },
-    nationality: {
       type: Sequelize.STRING(200),
     },
     status_verifikasi: {
@@ -50,9 +41,6 @@ Society.init(
     },
     foto: {
       type: Sequelize.TEXT,
-    },
-    no_sim: {
-      type: Sequelize.STRING(50),
     },
     ...StructureTimestamp,
   },

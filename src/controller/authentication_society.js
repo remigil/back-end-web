@@ -14,12 +14,10 @@ const { emailSendVerif } = require("../lib/emailLibrary");
 const { Op } = require("sequelize");
 
 const fieldData = {
-  nik: null,
   person_name: null,
   email: null,
   no_hp: null,
   password: null,
-  no_sim: null,
   status_verifikasi: null,
 };
 // const client = require("twilio")(accountSid, authToken);
@@ -94,11 +92,9 @@ class AuthenticationSociety {
         if (bcrypt.compareSync(req.body.password, society.password)) {
           const accessToken = JWTEncrypt({
             uid: society.id,
-            nik: society.nik,
             person_name: society.person_name,
             email: society.email,
             no_hp: society.no_hp,
-            nationality: society.nationality,
             // foto: society.foto,
             timestamp: moment().unix(),
           });
@@ -164,7 +160,6 @@ class AuthenticationSociety {
       if (
         no_hp == "" ||
         email == "" ||
-        fieldValueData["nik"] == null ||
         fieldValueData["person_name"] == null ||
         fieldValueData["password"] == null
       ) {
@@ -175,8 +170,6 @@ class AuthenticationSociety {
             ? "No Hp"
             : email == ""
             ? "Email"
-            : fieldValueData["nik"] == null
-            ? "NIK"
             : fieldValueData["person_name"] == null
             ? "Nama"
             : "Password") + " Tidak Boleh Kosong",
@@ -319,7 +312,7 @@ class AuthenticationSociety {
               },
             }
           );
-          return response(res, true, "Register succeed");
+          return response(res, true, "Register succeed", getToken);
         } else {
           response(res, false, "Register failed!", null, 401);
         }

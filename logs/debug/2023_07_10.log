@@ -1,0 +1,1362 @@
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        authorization: 'Basic Og==',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4b272824-741d-4e6a-bc4c-9b6a06440aef',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------913907504246454348761611',
+        'content-length': '644',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'refi',
+        email: 'refiarizal40@gmail.com',
+        no_hp: '085881691629',
+        nik: '32012516092830123'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS9vMFVEZU1NeGJvM2Q1YUdJNlE3eFQzYzdhNUJnNkx1bz0',
+          created_at: '2023-07-10T07:22:20.093Z',
+          updated_at: '2023-07-10T07:22:20.093Z',
+          person_name: 'refi',
+          email: 'refiarizal40@gmail.com',
+          no_hp: '6285881691629',
+          password: '$2b$10$qcy.8gQ1i.iNkLKpjUdmEuCH1uyCB.YFd1cgFISiY3qR88zbPHcWW',
+          status_verifikasi: 0,
+          foto: null,
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 760
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 760ms',
+  timestamp: '2023-07-10T07:22:22.932Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/resend_token',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9f78d121-7fb1-4d85-8407-7ab34d96746c',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------784090920231418191797697',
+        'content-length': '172',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/resend_token',
+      query: {},
+      body: { no_hp: '085881691629' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [ 1 ]
+      }
+    },
+    responseTime: 559
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/resend_token 200 559ms',
+  timestamp: '2023-07-10T07:23:01.988Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '491bc55f-6ab2-46a3-953f-c1789f6ee9f4',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------427368822941328394523346',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085881691629', token: '650452' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Register succeed',
+        data: null
+      }
+    },
+    responseTime: 451
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 451ms',
+  timestamp: '2023-07-10T07:23:58.155Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '96833f9a-c923-47c0-8a42-c6a008b26021',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------118433685567444726370584',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085881691629', token: '650452' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 907
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 907ms',
+  timestamp: '2023-07-10T07:25:28.697Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '522c0e71-25a8-4677-9b74-7bb5f08e98df',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------882938589652058399460430',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085881691629', token: '650452' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 111
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 111ms',
+  timestamp: '2023-07-10T07:25:43.461Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '25a73640-4dc9-4df5-91cd-dfbc903b91c2',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------396286562793203273273330',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085881691629', token: '650452' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 38
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 38ms',
+  timestamp: '2023-07-10T07:25:47.688Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f4047a91-66ca-4f96-841f-bc61a7e3dc1d',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------626087452358109421632195',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085881691629', token: '650452' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 40
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 40ms',
+  timestamp: '2023-07-10T07:26:39.625Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        authorization: 'Basic Og==',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6fcf9328-8617-41b5-8b41-0fb170c18499',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------983150266422217247631225',
+        'content-length': '644',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'refi',
+        email: 'refiarizal40@gmail.com',
+        no_hp: '085881691629',
+        nik: '32012516092830123'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMStIYjVZcW5Uai85c0lsSnFLdHMvVzNrOUVjY1kwa2R6TT0',
+          created_at: '2023-07-10T07:27:54.427Z',
+          updated_at: '2023-07-10T07:27:54.427Z',
+          person_name: 'refi',
+          email: 'refiarizal40@gmail.com',
+          no_hp: '6285881691629',
+          password: '$2b$10$t2nzW9D7dKQnIicKGj1m0ufzZRqgmTnltBJxoHiIJU2k/zogIp2Iu',
+          status_verifikasi: 0,
+          foto: null,
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 710
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 710ms',
+  timestamp: '2023-07-10T07:27:57.251Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0ce34403-44a2-46d3-9c6b-b167adb5b6b1',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------866453312027781788200074',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085881691629', token: '488378' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Register succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS81MWZrUDk0cUpxMEE4LzV2bUlKUEkvQjJJY1p0V0Mxbz0',
+          token: 'U2FsdGVkX1+H9upll7EzT/L0/2+rGdeiTSPUMg2O+UQ=',
+          token_created_date: '2023-07-10T07:27:57.070Z',
+          token_expired_date: '2023-07-10T07:47:56.817Z',
+          no_hp: '6285881691629',
+          typeToken: 1,
+          created_at: '2023-07-10T07:27:54.427Z',
+          updated_at: '2023-07-10T07:27:54.427Z',
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 378
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 378ms',
+  timestamp: '2023-07-10T07:28:17.029Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/register',
+      headers: {
+        authorization: 'Basic Og==',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f2d23c26-60f0-47e9-9a21-3cb79f9cc10b',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------935935532700277591898592',
+        'content-length': '540',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/register',
+      query: {},
+      body: {
+        person_name: 'Rianti Safitri\n',
+        email: 'Safitririanti8@gmail.com\n',
+        no_hp: '085694857661\n'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          id: 'VTJGc2RHVmtYMS96TnFOOTFsU1JZQ0ZWc25WSDNDYVIza2hlSU9SSmE2Zz0',
+          created_at: '2023-07-10T07:38:54.915Z',
+          updated_at: '2023-07-10T07:38:54.915Z',
+          person_name: 'Rianti Safitri\n',
+          email: 'Safitririanti8@gmail.com\n',
+          no_hp: '6285694857661\n',
+          password: '$2b$10$S3UEFl6rlWvNqPaHs7TDg.za9E5rTtoNNdMADM4Jn7R5uv2xwXJle',
+          status_verifikasi: 0,
+          foto: null,
+          deleted_at: null
+        }
+      }
+    },
+    responseTime: 638
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/register 200 638ms',
+  timestamp: '2023-07-10T07:38:57.706Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/resend_token',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'b1d2fd34-497f-453c-951a-c131ba1dfeaf',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------450065520101366869190299',
+        'content-length': '277',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/resend_token',
+      query: {},
+      body: { no_hp: '085881691629', '': '969522' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [ 0 ]
+      }
+    },
+    responseTime: 8502
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/resend_token 200 8502ms',
+  timestamp: '2023-07-10T07:40:33.130Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/resend_token',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ffe166b4-f593-4c94-b897-82f935cd1429',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------273754523982184873081193',
+        'content-length': '172',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/resend_token',
+      query: {},
+      body: { no_hp: '085694857661' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Data tidak ditemukan',
+        data: null
+      }
+    },
+    responseTime: 515
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/resend_token 200 515ms',
+  timestamp: '2023-07-10T07:41:08.343Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/resend_token',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e53546d4-308b-40d5-8975-3adb5ba1287e',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------873342953034844254381140',
+        'content-length': '172',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/resend_token',
+      query: {},
+      body: { no_hp: '085694857661' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [ 0 ]
+      }
+    },
+    responseTime: 540
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/resend_token 200 540ms',
+  timestamp: '2023-07-10T07:41:42.894Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '28f534f6-9df7-47c1-864e-763f92c8c7ba',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------903525989337647952961527',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085694857661', token: '332080' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 247
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 247ms',
+  timestamp: '2023-07-10T07:42:22.576Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5c281cce-303a-463d-a2e0-607c6bdccfdc',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------276377106114064627246116',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085694857661', token: '332080' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 34
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 34ms',
+  timestamp: '2023-07-10T07:42:30.322Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '57be80d1-aab2-4b10-b83f-f64d6e62039b',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------578921413042112403284322',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085694857661', token: '332080' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 34
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 34ms',
+  timestamp: '2023-07-10T07:42:39.268Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/resend_token',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6dfb5b15-688b-4fb2-8899-890d210eeef3',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------406555145763035306897742',
+        'content-length': '172',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/resend_token',
+      query: {},
+      body: { no_hp: '085694857661' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [ 0 ]
+      }
+    },
+    responseTime: 534
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/resend_token 200 534ms',
+  timestamp: '2023-07-10T07:43:26.128Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9bc52733-1657-489e-87b9-d809a7224b4d',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------542159720839081574144056',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085694857661', token: '236963' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 243
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 243ms',
+  timestamp: '2023-07-10T07:43:50.882Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/validate_register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4b257033-b487-4232-ab1c-dbfe3a95ba6b',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------435870251918459752302838',
+        'content-length': '282',
+        tokenData: { authData: null, userId: null }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/validate_register',
+      query: {},
+      body: { no_hp: '085694857661', token: '236963' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Register failed!!',
+        data: "Cannot read properties of null (reading 'token_expired_date')"
+      }
+    },
+    responseTime: 42
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/validate_register 200 42ms',
+  timestamp: '2023-07-10T07:44:16.294Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/login-mobile',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5dda367c-27c0-441d-86bf-09199c29efa0',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------311694162244636532835456',
+        'content-length': '285',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/login-mobile',
+      query: {},
+      body: { no_hp: '085694857661' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Akun anda belum terverifikasi',
+        data: null
+      }
+    },
+    responseTime: 294
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/login-mobile 200 294ms',
+  timestamp: '2023-07-10T07:45:09.698Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/login-mobile',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a3679bf9-e5f8-4bd0-8145-cedd548fa73c',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------963348477672157359892790',
+        'content-length': '285',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/login-mobile',
+      query: {},
+      body: { no_hp: '085694857661' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzlVYUd4RWRXcHdjMU5aVFZWaWRXeFBOV2xLVkZnd05FcFdRekl6ZG1wdGN6MCIsInBlcnNvbl9uYW1lIjoiUmlhbnRpIFNhZml0cmlcbiIsImVtYWlsIjoiU2FmaXRyaXJpYW50aThAZ21haWwuY29tXG4iLCJub19ocCI6IjYyODU2OTQ4NTc2NjEiLCJ0aW1lc3RhbXAiOjE2ODg5NzUxMTksImlhdCI6MTY4ODk3NTExOSwiZXhwIjoxNjg4OTc4NzE5LCJhdWQiOiJHMjAiLCJpc3MiOiJLb3JsYW50YXNQb2xyaSIsInN1YiI6IkszSUcyMCJ9.sFIcNmTVDTlkMvOnaVl7KWYz-PKKRPx-RPUHS7wXnqh-DOm_8MiQN48oUMC-_hUZbK-qMZZwPxjqTP4nDL28XQ'
+        }
+      }
+    },
+    responseTime: 1191
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/login-mobile 200 1191ms',
+  timestamp: '2023-07-10T07:45:19.932Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/getbysocietyId',
+      headers: {
+        'content-type': 'application/json',
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGd6Y1dFck1VMUJPVXhuVVROcE9FVTNPR0ZXTW5CVE4xa3pWbE55TVZodVl6MCIsIm5payI6IjEzMjQzNTQzNTM1MjQyMTEiLCJwZXJzb25fbmFtZSI6IkFnaWwgQWxtdW5hd2FyIiwiZW1haWwiOiJhZ2lsbXVuYXdhcjAxMTAwMEBnbWFpbC5jb20iLCJub19ocCI6IjYyODIxNDY3MTkxNDUiLCJuYXRpb25hbGl0eSI6bnVsbCwidGltZXN0YW1wIjoxNjg4NDgxMjk1LCJpYXQiOjE2ODg0ODEyOTUsImV4cCI6MTcyMDAzODg5NSwiYXVkIjoiRzIwIiwiaXNzIjoiS29ybGFudGFzUG9scmkiLCJzdWIiOiJLM0lHMjAifQ.n_CE9JEZaxKAugSxp9XhbPIfcRIA-6Md1bvdT22o6EML_9BkYPANMg7egstHvL7jKGoevwaz5-huRNkPnhZSPg',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'b4ef86c7-955c-45b2-9921-d7f00bcc5f81',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTgzcWErMU1BOUxnUTNpOEU3OGFWMnBTN1kzVlNyMVhuYz0',
+            nik: '1324354353524211',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            nationality: null,
+            timestamp: 1688481295,
+            iat: 1688481295,
+            exp: 1720038895,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '224'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/getbysocietyId',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMS9ZdktJMlFJSVNaVzNhSmQrQkpVTnhxLzFuOWdnVGRLaz0',
+              code: 'BGW/0723/M/0000013e',
+              user_id: 224,
+              vehicle_id: 170,
+              brand_id: 1,
+              type_id: 2,
+              distance: '41.7 Km',
+              duration: '40 Menit ',
+              departure_date: '2023-07-03',
+              departure_time: '11:10:00',
+              start_coordinate: { latitude: -6.363166, longitude: 106.977944 },
+              end_coordinate: { latitude: -6.595543, longitude: 106.78732 },
+              route: [
+                { latitude: -6.595552, longitude: 106.787324 },
+                { latitude: -6.595552, longitude: 106.787324 },
+                { latitude: -6.595552, longitude: 106.787324 },
+                { latitude: -6.595552, longitude: 106.787377 },
+                { latitude: -6.59555, longitude: 106.787787 },
+                { latitude: -6.595561, longitude: 106.788017 },
+                { latitude: -6.59557, longitude: 106.788131 },
+                { latitude: -6.595582, longitude: 106.788306 },
+                { latitude: -6.595582, longitude: 106.788306 },
+                { latitude: -6.595522, longitude: 106.788385 },
+                { latitude: -6.595481, longitude: 106.78841 },
+                { latitude: -6.595425, longitude: 106.788428 },
+                { latitude: -6.595324, longitude: 106.788457 },
+                { latitude: -6.595324, longitude: 106.788457 },
+                { latitude: -6.595269, longitude: 106.788447 },
+                { latitude: -6.595187, longitude: 106.788425 },
+                { latitude: -6.595091, longitude: 106.788396 },
+                { latitude: -6.594669, longitude: 106.788249 },
+                { latitude: -6.594546, longitude: 106.788206 },
+                { latitude: -6.59411, longitude: 106.788062 },
+                { latitude: -6.593834, longitude: 106.787969 },
+                { latitude: -6.593558, longitude: 106.787895 },
+                { latitude: -6.593206, longitude: 106.787813 },
+                { latitude: -6.592947, longitude: 106.787789 },
+                { latitude: -6.592588, longitude: 106.787801 },
+                { latitude: -6.592299, longitude: 106.787802 },
+                { latitude: -6.591702, longitude: 106.787807 },
+                { latitude: -6.590953, longitude: 106.787788 },
+                { latitude: -6.590836, longitude: 106.787785 },
+                { latitude: -6.590772, longitude: 106.787783 },
+                { latitude: -6.590315, longitude: 106.787776 },
+                { latitude: -6.590028, longitude: 106.787774 },
+                { latitude: -6.589778, longitude: 106.787772 },
+                { latitude: -6.589617, longitude: 106.787777 },
+                { latitude: -6.589563, longitude: 106.787779 },
+                { latitude: -6.589437, longitude: 106.78778 },
+                { latitude: -6.589293, longitude: 106.787781 },
+                { latitude: -6.589036, longitude: 106.787776 },
+                { latitude: -6.588983, longitude: 106.787779 },
+                { latitude: -6.587927, longitude: 106.787748 },
+                { latitude: -6.587783, longitude: 106.787738 },
+                { latitude: -6.587535, longitude: 106.787722 },
+                { latitude: -6.587485, longitude: 106.787718 },
+                { latitude: -6.587232, longitude: 106.787701 },
+                { latitude: -6.58702, longitude: 106.787687 },
+                { latitude: -6.586892, longitude: 106.787679 },
+                { latitude: -6.586682, longitude: 106.787666 },
+                { latitude: -6.586321, longitude: 106.787662 },
+                { latitude: -6.586024, longitude: 106.787665 },
+                { latitude: -6.585793, longitude: 106.78768 },
+                { latitude: -6.585636, longitude: 106.787696 },
+                { latitude: -6.585263, longitude: 106.787707 },
+                { latitude: -6.585129, longitude: 106.787711 },
+                { latitude: -6.584962, longitude: 106.787714 },
+                { latitude: -6.584395, longitude: 106.787724 },
+                { latitude: -6.584195, longitude: 106.787728 },
+                { latitude: -6.584001, longitude: 106.787732 },
+                { latitude: -6.58347, longitude: 106.787742 },
+                { latitude: -6.582974, longitude: 106.787762 },
+                { latitude: -6.582824, longitude: 106.787764 },
+                { latitude: -6.582824, longitude: 106.787764 },
+                { latitude: -6.582846, longitude: 106.788351 },
+                { latitude: -6.582871, longitude: 106.789012 },
+                { latitude: -6.582905, longitude: 106.790133 },
+                { latitude: -6.582907, longitude: 106.790292 },
+                { latitude: -6.582905, longitude: 106.790375 },
+                { latitude: -6.582905, longitude: 106.790375 },
+                { latitude: -6.582913, longitude: 106.790633 },
+                { latitude: -6.582925, longitude: 106.7908 },
+                { latitude: -6.582958, longitude: 106.79096 },
+                { latitude: -6.582977, longitude: 106.791046 },
+                { latitude: -6.58302, longitude: 106.791155 },
+                { latitude: -6.583087, longitude: 106.79129 },
+                { latitude: -6.583125, longitude: 106.791388 },
+                { latitude: -6.583125, longitude: 106.791388 },
+                { latitude: -6.583137, longitude: 106.791464 },
+                { latitude: -6.583139, longitude: 106.791516 },
+                { latitude: -6.583147, longitude: 106.791586 },
+                { latitude: -6.58315, longitude: 106.791642 },
+                { latitude: -6.583163, longitude: 106.792035 },
+                { latitude: -6.583164, longitude: 106.792148 },
+                { latitude: -6.583162, longitude: 106.792181 },
+                { latitude: -6.583149, longitude: 106.792241 },
+                { latitude: -6.583108, longitude: 106.79242 },
+                { latitude: -6.583036, longitude: 106.792615 },
+                { latitude: -6.582969, longitude: 106.792741 },
+                { latitude: -6.582876, longitude: 106.792895 },
+                { latitude: -6.58274, longitude: 106.793045 },
+                { latitude: -6.582651, longitude: 106.793122 },
+                { latitude: -6.582543, longitude: 106.793175 },
+                { latitude: -6.582454, longitude: 106.793189 },
+                { latitude: -6.582245, longitude: 106.793197 },
+                { latitude: -6.582155, longitude: 106.793213 },
+                { latitude: -6.582098, longitude: 106.793241 },
+                { latitude: -6.581993, longitude: 106.793346 },
+                { latitude: -6.58193, longitude: 106.793462 },
+                { latitude: -6.581828, longitude: 106.793749 },
+                { latitude: -6.581721, longitude: 106.794153 },
+                { latitude: -6.581631, longitude: 106.794628 },
+                { latitude: -6.58162, longitude: 106.794686 },
+                ... 1281 more items
+              ],
+              validity_period: '2023-07-05 11:10',
+              subdistrict_start: 'Kecamatan Cileungsi',
+              district_start: 'Kabupaten Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Bogor Tengah',
+              district_end: 'Kota Bogor',
+              province_end: 'Jawa Barat',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.01',
+              kode_kec_start: '',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.71',
+              kode_kec_end: '32.71.03',
+              created_at: '2023-07-08T09:05:14.893Z',
+              updated_at: '2023-07-08T09:05:14.893Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: null,
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2050 ZX' },
+              type_vehicle: { type_name: 'Motor' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMS9pOUNpLzM1aTVGUWxiOUFFVzJadEZQYjNMaU9aZHM2OD0',
+                  name: 'Heri',
+                  nationality: 'indonesia',
+                  nik: '32011960621311'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMStVeHpXZWNYU0pLUFk1Q3RlZGtnMDJpbnBmMysrQmY0ST0',
+              code: 'BGW/0723/M/0000013d',
+              user_id: 224,
+              vehicle_id: 170,
+              brand_id: 1,
+              type_id: 2,
+              distance: '42.3 Km',
+              duration: '41 Menit ',
+              departure_date: '2023-07-03',
+              departure_time: '11:10:00',
+              start_coordinate: { latitude: -6.595543, longitude: 106.78732 },
+              end_coordinate: { latitude: -6.363166, longitude: 106.977944 },
+              route: [
+                { latitude: -6.363145, longitude: 106.977769 },
+                { latitude: -6.363145, longitude: 106.977769 },
+                { latitude: -6.363145, longitude: 106.977769 },
+                { latitude: -6.36332, longitude: 106.977748 },
+                { latitude: -6.363784, longitude: 106.977756 },
+                { latitude: -6.363923, longitude: 106.977753 },
+                { latitude: -6.363923, longitude: 106.977753 },
+                { latitude: -6.363912, longitude: 106.977395 },
+                { latitude: -6.363824, longitude: 106.976885 },
+                { latitude: -6.363695, longitude: 106.976222 },
+                { latitude: -6.363627, longitude: 106.975931 },
+                { latitude: -6.363512, longitude: 106.975493 },
+                { latitude: -6.363512, longitude: 106.975493 },
+                { latitude: -6.363716, longitude: 106.975384 },
+                { latitude: -6.363995, longitude: 106.975286 },
+                { latitude: -6.364303, longitude: 106.975167 },
+                { latitude: -6.364756, longitude: 106.975033 },
+                { latitude: -6.364949, longitude: 106.974997 },
+                { latitude: -6.365145, longitude: 106.974963 },
+                { latitude: -6.365377, longitude: 106.974938 },
+                { latitude: -6.365762, longitude: 106.974885 },
+                { latitude: -6.366253, longitude: 106.974809 },
+                { latitude: -6.366351, longitude: 106.974788 },
+                { latitude: -6.36654, longitude: 106.974712 },
+                { latitude: -6.366622, longitude: 106.974683 },
+                { latitude: -6.366885, longitude: 106.974537 },
+                { latitude: -6.366978, longitude: 106.974493 },
+                { latitude: -6.367167, longitude: 106.974387 },
+                { latitude: -6.367352, longitude: 106.974283 },
+                { latitude: -6.36778, longitude: 106.974026 },
+                { latitude: -6.368248, longitude: 106.973771 },
+                { latitude: -6.368324, longitude: 106.973727 },
+                { latitude: -6.368586, longitude: 106.973602 },
+                { latitude: -6.368832, longitude: 106.973491 },
+                { latitude: -6.369354, longitude: 106.973305 },
+                { latitude: -6.369468, longitude: 106.973273 },
+                { latitude: -6.369935, longitude: 106.973149 },
+                { latitude: -6.370294, longitude: 106.97307 },
+                { latitude: -6.370464, longitude: 106.973029 },
+                { latitude: -6.370805, longitude: 106.972939 },
+                { latitude: -6.371479, longitude: 106.972768 },
+                { latitude: -6.371598, longitude: 106.972734 },
+                { latitude: -6.37211, longitude: 106.972592 },
+                { latitude: -6.372434, longitude: 106.97251 },
+                { latitude: -6.372818, longitude: 106.9724 },
+                { latitude: -6.373074, longitude: 106.972325 },
+                { latitude: -6.373311, longitude: 106.972243 },
+                { latitude: -6.373387, longitude: 106.972214 },
+                { latitude: -6.373697, longitude: 106.972075 },
+                { latitude: -6.37388, longitude: 106.971992 },
+                { latitude: -6.374039, longitude: 106.971915 },
+                { latitude: -6.374247, longitude: 106.971813 },
+                { latitude: -6.374395, longitude: 106.971732 },
+                { latitude: -6.374562, longitude: 106.971643 },
+                { latitude: -6.37471, longitude: 106.971547 },
+                { latitude: -6.374895, longitude: 106.971428 },
+                { latitude: -6.375081, longitude: 106.971301 },
+                { latitude: -6.37515, longitude: 106.971253 },
+                { latitude: -6.375254, longitude: 106.971179 },
+                { latitude: -6.375391, longitude: 106.971065 },
+                { latitude: -6.375456, longitude: 106.971008 },
+                { latitude: -6.375608, longitude: 106.970881 },
+                { latitude: -6.375737, longitude: 106.970772 },
+                { latitude: -6.375914, longitude: 106.970616 },
+                { latitude: -6.375971, longitude: 106.970574 },
+                { latitude: -6.376196, longitude: 106.970373 },
+                { latitude: -6.376361, longitude: 106.970229 },
+                { latitude: -6.376501, longitude: 106.970125 },
+                { latitude: -6.376599, longitude: 106.970056 },
+                { latitude: -6.376692, longitude: 106.969999 },
+                { latitude: -6.377125, longitude: 106.969716 },
+                { latitude: -6.377462, longitude: 106.969513 },
+                { latitude: -6.377638, longitude: 106.969403 },
+                { latitude: -6.377752, longitude: 106.969329 },
+                { latitude: -6.378049, longitude: 106.969138 },
+                { latitude: -6.378651, longitude: 106.968811 },
+                { latitude: -6.378833, longitude: 106.968716 },
+                { latitude: -6.379002, longitude: 106.968638 },
+                { latitude: -6.379463, longitude: 106.968457 },
+                { latitude: -6.379588, longitude: 106.968408 },
+                { latitude: -6.379744, longitude: 106.968352 },
+                { latitude: -6.379987, longitude: 106.968264 },
+                { latitude: -6.38023, longitude: 106.968179 },
+                { latitude: -6.380338, longitude: 106.968146 },
+                { latitude: -6.380514, longitude: 106.96809 },
+                { latitude: -6.381291, longitude: 106.967848 },
+                { latitude: -6.381334, longitude: 106.967834 },
+                { latitude: -6.381576, longitude: 106.967774 },
+                { latitude: -6.382316, longitude: 106.967597 },
+                { latitude: -6.382737, longitude: 106.967553 },
+                { latitude: -6.382838, longitude: 106.967554 },
+                { latitude: -6.382966, longitude: 106.96757 },
+                { latitude: -6.383163, longitude: 106.967606 },
+                { latitude: -6.38339, longitude: 106.967652 },
+                { latitude: -6.383558, longitude: 106.967688 },
+                { latitude: -6.384477, longitude: 106.967901 },
+                { latitude: -6.385864, longitude: 106.968228 },
+                { latitude: -6.386307, longitude: 106.968332 },
+                { latitude: -6.386502, longitude: 106.968384 },
+                { latitude: -6.387348, longitude: 106.968584 },
+                ... 1017 more items
+              ],
+              validity_period: '2023-07-05 11:10',
+              subdistrict_start: 'Kecamatan Bogor Tengah',
+              district_start: 'Kota Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Cileungsi',
+              district_end: 'Kabupaten Bogor',
+              province_end: 'Jawa Barat',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.71',
+              kode_kec_start: '32.71.03',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.01',
+              kode_kec_end: '',
+              created_at: '2023-07-08T09:03:04.013Z',
+              updated_at: '2023-07-08T09:03:04.013Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: null,
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2050 ZX' },
+              type_vehicle: { type_name: 'Motor' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMThld29ZUUhuMVd2djVEVUhsa2diRmdyb2Jtam1pSHVmdz0',
+                  name: 'Heri',
+                  nationality: 'indonesia',
+                  nik: '32011960621311'
+                }
+              ]
+            },
+            {
+              id: 'VTJGc2RHVmtYMThCektjTUhlS3I5aTZ6UFlWV3E3ZG1nODhoTFFJL3pjcz0',
+              code: 'BGW/0723/C/0000013c',
+              user_id: 224,
+              vehicle_id: 169,
+              brand_id: 1,
+              type_id: 1,
+              distance: '26.2 Km',
+              duration: '23 Menit ',
+              departure_date: '2023-07-03',
+              departure_time: '11:10:00',
+              start_coordinate: { latitude: -6.589531, longitude: 106.795689 },
+              end_coordinate: { latitude: -6.684587, longitude: 106.955431 },
+              route: [
+                { latitude: -6.68437, longitude: 106.955096 },
+                { latitude: -6.68437, longitude: 106.955096 },
+                { latitude: -6.68437, longitude: 106.955096 },
+                { latitude: -6.684391, longitude: 106.955077 },
+                { latitude: -6.684416, longitude: 106.95501 },
+                { latitude: -6.684431, longitude: 106.954819 },
+                { latitude: -6.684475, longitude: 106.954597 },
+                { latitude: -6.684484, longitude: 106.954568 },
+                { latitude: -6.684503, longitude: 106.954553 },
+                { latitude: -6.684503, longitude: 106.954553 },
+                { latitude: -6.684575, longitude: 106.954574 },
+                { latitude: -6.684646, longitude: 106.954608 },
+                { latitude: -6.684698, longitude: 106.954623 },
+                { latitude: -6.684769, longitude: 106.954636 },
+                { latitude: -6.68489, longitude: 106.954639 },
+                { latitude: -6.685019, longitude: 106.954639 },
+                { latitude: -6.685153, longitude: 106.954627 },
+                { latitude: -6.685153, longitude: 106.954627 },
+                { latitude: -6.684893, longitude: 106.953866 },
+                { latitude: -6.684847, longitude: 106.953746 },
+                { latitude: -6.684622, longitude: 106.953051 },
+                { latitude: -6.684597, longitude: 106.952979 },
+                { latitude: -6.684548, longitude: 106.952822 },
+                { latitude: -6.684485, longitude: 106.952618 },
+                { latitude: -6.684339, longitude: 106.95216 },
+                { latitude: -6.684283, longitude: 106.95199 },
+                { latitude: -6.68417, longitude: 106.951661 },
+                { latitude: -6.684099, longitude: 106.951443 },
+                { latitude: -6.684058, longitude: 106.951328 },
+                { latitude: -6.683785, longitude: 106.950479 },
+                { latitude: -6.6837, longitude: 106.950196 },
+                { latitude: -6.683585, longitude: 106.949744 },
+                { latitude: -6.683554, longitude: 106.949535 },
+                { latitude: -6.683548, longitude: 106.94939 },
+                { latitude: -6.683553, longitude: 106.949255 },
+                { latitude: -6.683562, longitude: 106.949135 },
+                { latitude: -6.683578, longitude: 106.949028 },
+                { latitude: -6.683602, longitude: 106.948942 },
+                { latitude: -6.683615, longitude: 106.948896 },
+                { latitude: -6.683626, longitude: 106.948855 },
+                { latitude: -6.683645, longitude: 106.94881 },
+                { latitude: -6.683667, longitude: 106.948767 },
+                { latitude: -6.68373, longitude: 106.948661 },
+                { latitude: -6.683985, longitude: 106.948262 },
+                { latitude: -6.684132, longitude: 106.948053 },
+                { latitude: -6.684218, longitude: 106.947927 },
+                { latitude: -6.68425, longitude: 106.94788 },
+                { latitude: -6.68429, longitude: 106.947822 },
+                { latitude: -6.68447, longitude: 106.94755 },
+                { latitude: -6.684937, longitude: 106.946888 },
+                { latitude: -6.685213, longitude: 106.946479 },
+                { latitude: -6.685379, longitude: 106.946229 },
+                { latitude: -6.685594, longitude: 106.945938 },
+                { latitude: -6.685997, longitude: 106.945378 },
+                { latitude: -6.686195, longitude: 106.945081 },
+                { latitude: -6.686334, longitude: 106.944829 },
+                { latitude: -6.686375, longitude: 106.944747 },
+                { latitude: -6.686404, longitude: 106.944689 },
+                { latitude: -6.686767, longitude: 106.943989 },
+                { latitude: -6.68682, longitude: 106.943886 },
+                { latitude: -6.68689, longitude: 106.943682 },
+                { latitude: -6.686936, longitude: 106.943477 },
+                { latitude: -6.686971, longitude: 106.943233 },
+                { latitude: -6.686984, longitude: 106.943138 },
+                { latitude: -6.687103, longitude: 106.942313 },
+                { latitude: -6.68717, longitude: 106.941825 },
+                { latitude: -6.687259, longitude: 106.941226 },
+                { latitude: -6.687296, longitude: 106.940956 },
+                { latitude: -6.687341, longitude: 106.940655 },
+                { latitude: -6.687373, longitude: 106.940434 },
+                { latitude: -6.687394, longitude: 106.940255 },
+                { latitude: -6.687386, longitude: 106.940152 },
+                { latitude: -6.687368, longitude: 106.939939 },
+                { latitude: -6.687354, longitude: 106.939889 },
+                { latitude: -6.687305, longitude: 106.93934 },
+                { latitude: -6.687249, longitude: 106.938991 },
+                { latitude: -6.687188, longitude: 106.938646 },
+                { latitude: -6.687121, longitude: 106.938324 },
+                { latitude: -6.687047, longitude: 106.938028 },
+                { latitude: -6.687031, longitude: 106.937981 },
+                { latitude: -6.686976, longitude: 106.937816 },
+                { latitude: -6.686896, longitude: 106.937614 },
+                { latitude: -6.686814, longitude: 106.937462 },
+                { latitude: -6.686731, longitude: 106.937333 },
+                { latitude: -6.686624, longitude: 106.937233 },
+                { latitude: -6.686475, longitude: 106.937119 },
+                { latitude: -6.685927, longitude: 106.936819 },
+                { latitude: -6.68575, longitude: 106.936724 },
+                { latitude: -6.685516, longitude: 106.936596 },
+                { latitude: -6.685296, longitude: 106.936475 },
+                { latitude: -6.685035, longitude: 106.936321 },
+                { latitude: -6.684689, longitude: 106.936117 },
+                { latitude: -6.684067, longitude: 106.935693 },
+                { latitude: -6.683891, longitude: 106.935559 },
+                { latitude: -6.68384, longitude: 106.935519 },
+                { latitude: -6.683783, longitude: 106.935473 },
+                { latitude: -6.683738, longitude: 106.935427 },
+                { latitude: -6.683498, longitude: 106.935203 },
+                { latitude: -6.683023, longitude: 106.93479 },
+                { latitude: -6.682993, longitude: 106.934763 },
+                ... 977 more items
+              ],
+              validity_period: '2023-07-05 11:10',
+              subdistrict_start: 'Kecamatan Bogor Tengah',
+              district_start: 'Kota Bogor',
+              province_start: 'Jawa Barat',
+              subdistrict_end: 'Kecamatan Cisarua',
+              district_end: 'Kabupaten Bogor',
+              province_end: 'Jawa Barat',
+              kode_prov_start: '32',
+              kode_kabkot_start: '32.71',
+              kode_kec_start: '32.71.03',
+              kode_prov_end: '32',
+              kode_kabkot_end: '32.01',
+              kode_kec_end: '',
+              created_at: '2023-07-08T08:59:53.326Z',
+              updated_at: '2023-07-08T08:59:53.326Z',
+              deleted_at: null,
+              society: {
+                person_name: 'Agil Almunawar',
+                foto: null,
+                nik: null,
+                nationality: null
+              },
+              public_vehicle: { no_vehicle: 'F 2345 TR' },
+              type_vehicle: { type_name: 'Mobil' },
+              brand_vehicle: { brand_name: 'Honda' },
+              penumpangs: [
+                {
+                  id: 'VTJGc2RHVmtYMS9jQ1dHYW9pOWpza01hVjVwN2JFV3JiejZnSjRsMklJRT0',
+                  name: 'Heri',
+                  nationality: 'indonesia',
+                  nik: '32011960621311'
+                },
+                {
+                  id: 'VTJGc2RHVmtYMTlvcFhYRDA3NHpZYWJEeDlIQWhFTmFkR1MrUlY1dzg1RT0',
+                  name: 'Andin',
+                  nationality: 'indonesia',
+                  nik: '32011313141213'
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    responseTime: 552
+  },
+  level: 'info',
+  message: 'GET /v1/ngawas/getbysocietyId 200 552ms',
+  timestamp: '2023-07-10T08:57:10.972Z'
+}

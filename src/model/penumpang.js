@@ -21,14 +21,11 @@ Penumpang.init(
     ngawas_id: {
       type: Sequelize.INTEGER,
     },
-    nationality: {
-      type: Sequelize.STRING(255),
-    },
     name: {
       type: Sequelize.STRING(255),
     },
-    nik: {
-      type: Sequelize.STRING(255),
+    no_hp: {
+      type: Sequelize.INTEGER(13),
     },
     ...StructureTimestamp,
   },
