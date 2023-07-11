@@ -6712,3 +6712,1192 @@
   message: 'GET /v1/ngawas/history 200 726ms',
   timestamp: '2023-07-11T15:14:43.635Z'
 }
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3QyTkdsUGQwbHdhMDF6YkVJM2QwMXFXV2h0TW1GU1lYcEdUWFJPU0dGRFp6MCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA4NjMwMCwiaWF0IjoxNjg5MDg2MzAwLCJleHAiOjE2ODkwODk5MDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.kWjSx3FrbMlQ2tVkJYUUhw0p4M_9ihwjB66pfD8rhRrOK_HLCobnM_bvP5XRx5sv5gsDTNIauw9DUVdgaQh6tQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '45ab8a96-a403-49f0-a386-17f1de67fae4',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '732',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSt2NGlPd0lwa01zbEI3d01qWWhtMmFSYXpGTXROSGFDZz0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689086300,
+            iat: 1689086300,
+            exp: 1689089900,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [
+          { name: 'Zahra', no_hp: 8771293121 },
+          { name: 'Tita Rahawati', no_hp: 8771292123 },
+          { name: 'Asep Rolidani', no_hp: 87712912381 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 401,
+      body: {
+        isSuccess: false,
+        statusCode: 401,
+        responseMessage: 'Not Authorized',
+        data: null
+      }
+    },
+    responseTime: 14
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 401 14ms',
+  timestamp: '2023-07-11T16:37:30.454Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/login-mobile',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3QyTkdsUGQwbHdhMDF6YkVJM2QwMXFXV2h0TW1GU1lYcEdUWFJPU0dGRFp6MCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA4NjMwMCwiaWF0IjoxNjg5MDg2MzAwLCJleHAiOjE2ODkwODk5MDAsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.kWjSx3FrbMlQ2tVkJYUUhw0p4M_9ihwjB66pfD8rhRrOK_HLCobnM_bvP5XRx5sv5gsDTNIauw9DUVdgaQh6tQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0559f7c0-27b0-49ce-a96b-2e6bb1a200ab',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------710074922312549383931252',
+        'content-length': '285',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMSt2NGlPd0lwa01zbEI3d01qWWhtMmFSYXpGTXROSGFDZz0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689086300,
+            iat: 1689086300,
+            exp: 1689089900,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/login-mobile',
+      query: {},
+      body: { no_hp: '082111176680' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ'
+        }
+      }
+    },
+    responseTime: 840
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/login-mobile 200 840ms',
+  timestamp: '2023-07-11T16:37:38.953Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '565e5798-cb72-4a07-bd89-9e9efbd2eda8',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '732',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [
+          { name: 'Zahra', no_hp: 8771293121 },
+          { name: 'Tita Rahawati', no_hp: 8771292123 },
+          { name: 'Asep Rolidani', no_hp: 87712912381 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'integer out of range'
+      }
+    },
+    responseTime: 3778
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 3778ms',
+  timestamp: '2023-07-11T16:38:06.003Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a8eb4c12-33a6-4dee-a501-b1a83bed5788',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '731',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [
+          { name: 'Zahra', no_hp: 8771293121 },
+          { name: 'Tita Rahawati', no_hp: 8771292123 },
+          { name: 'Asep Rolidani', no_hp: 8771291238 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: false,
+        statusCode: 200,
+        responseMessage: 'Failed',
+        data: 'integer out of range'
+      }
+    },
+    responseTime: 2904
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 2904ms',
+  timestamp: '2023-07-11T16:38:14.956Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0a8a90c8-9dce-4880-8253-3829c36a99ce',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '707',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [
+          { name: 'Zahra', no_hp: 10 },
+          { name: 'Tita Rahawati', no_hp: 10 },
+          { name: 'Asep Rolidani', no_hp: 10 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-11T16:39:00.915Z',
+          updated_at: '2023-07-11T16:39:00.915Z',
+          id: 328,
+          user_id: 247,
+          vehicle_id: 184,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-05-12',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-05-14 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '32.71.06',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          passenger: [
+            {
+              id: 'VTJGc2RHVmtYMTlHUzZnNCtZekpSR2phblltaTh4M3FDYWpQTzU0UWNMOD0',
+              created_at: '2023-07-11T16:39:00.915Z',
+              updated_at: '2023-07-11T16:39:00.915Z',
+              name: 'Zahra',
+              no_hp: 10,
+              ngawas_id: 328,
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThhV1YvdXdnalFvaDNYOStMYWdjVmdESGJMQm1TQkxHbz0',
+              created_at: '2023-07-11T16:39:00.915Z',
+              updated_at: '2023-07-11T16:39:00.915Z',
+              name: 'Tita Rahawati',
+              no_hp: 10,
+              ngawas_id: 328,
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9XN3ZydXFEVHJJNnVidWJUd3N1Nk9TNE4vRDFWVUxVYz0',
+              created_at: '2023-07-11T16:39:00.915Z',
+              updated_at: '2023-07-11T16:39:00.915Z',
+              name: 'Asep Rolidani',
+              no_hp: 10,
+              ngawas_id: 328,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 3,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 7462
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 7462ms',
+  timestamp: '2023-07-11T16:39:07.100Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e10ea944-91d5-44f7-b5cb-c5f809445a0c',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '707',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [
+          { name: 'Zahra', no_hp: 20 },
+          { name: 'Tita Rahawati', no_hp: 10 },
+          { name: 'Asep Rolidani', no_hp: 10 }
+        ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-11T16:39:23.398Z',
+          updated_at: '2023-07-11T16:39:23.398Z',
+          id: 329,
+          user_id: 247,
+          vehicle_id: 184,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-05-12',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-05-14 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '32.71.06',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          passenger: [
+            {
+              id: 'VTJGc2RHVmtYMTh4SnJPbUJqQ1Z0dm01UGxzaWZlTFFmRmZnK0xjWlptUT0',
+              created_at: '2023-07-11T16:39:23.398Z',
+              updated_at: '2023-07-11T16:39:23.398Z',
+              name: 'Zahra',
+              no_hp: 20,
+              ngawas_id: 329,
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSsvWnpzemUwRkdYcFVsWkxzU04vcGltODJzTVRnSDF4OD0',
+              created_at: '2023-07-11T16:39:23.398Z',
+              updated_at: '2023-07-11T16:39:23.398Z',
+              name: 'Tita Rahawati',
+              no_hp: 10,
+              ngawas_id: 329,
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS92amwzRW1yK1ZkUURRNDhnc1FES3FlSUNjWDFoajFJdz0',
+              created_at: '2023-07-11T16:39:23.398Z',
+              updated_at: '2023-07-11T16:39:23.398Z',
+              name: 'Asep Rolidani',
+              no_hp: 10,
+              ngawas_id: 329,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 3,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 4342
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 4342ms',
+  timestamp: '2023-07-11T16:39:28.163Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd579c97c-87f1-435a-8e32-93d24c2e4ddc',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-11T16:46:46.288Z',
+          updated_at: '2023-07-11T16:46:46.288Z',
+          id: 334,
+          user_id: 247,
+          vehicle_id: 184,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-05-12',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-05-14 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '32.71.06',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          passenger: [
+            {
+              id: 'VTJGc2RHVmtYMThUSmd1ZjM2ZUp5YThIbWFXZnJNTERXQXYrY1R0cHkxUT0',
+              created_at: '2023-07-11T16:46:46.288Z',
+              updated_at: '2023-07-11T16:46:46.288Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 334,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 3689
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 3689ms',
+  timestamp: '2023-07-11T16:46:50.855Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5a9228fe-a216-4275-a4b5-795e669f71b3',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMS9jNE0vNlNqR0Y5N2ozVTdWS3A2aEQ0RUYrd2psOGZTcz0',
+        departure_date: '2023-05-12',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-11T16:50:06.762Z',
+          updated_at: '2023-07-11T16:50:06.762Z',
+          id: 335,
+          user_id: 247,
+          vehicle_id: 184,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-05-12',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-05-14 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '32.71.06',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpang: [
+            {
+              id: 'VTJGc2RHVmtYMThrWmlpemZZUllwVE9ubjRHU3RxbTZhMTFFY2g5RVVSdz0',
+              created_at: '2023-07-11T16:50:06.762Z',
+              updated_at: '2023-07-11T16:50:06.762Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 335,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 3010
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 3010ms',
+  timestamp: '2023-07-11T16:50:11.008Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/auth-society/login-mobile',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNVGxaTVU0MlREVXdaVWxTUkVoR09HMWxTRXRyZUVwRVMwTjJXSFYzWWpSdk5EMCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5MzQ1OCwiaWF0IjoxNjg5MDkzNDU4LCJleHAiOjE2ODkwOTcwNTgsImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.obiCRSG1wGZv_IxARWZMe9kPQ3nHA17i09-L6-pS-kpWYaAMAyAUD_fybATY-GXXi5yoXJAlnY8W4ELyvzs9vQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '50038547-8c03-4897-8a69-ccc8dcbd9822',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------227205694799087683776276',
+        'content-length': '285',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMTlZMU42TDUwZUlSREhGOG1lSEtreEpES0N2WHV3YjRvND0',
+            person_name: 'Alvin Rolidani',
+            email: 'alvinrolidani0507@gmail.com',
+            no_hp: '6282111176680',
+            timestamp: 1689093458,
+            iat: 1689093458,
+            exp: 1689097058,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '247'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/auth-society/login-mobile',
+      query: {},
+      body: { no_hp: '082111176680' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Login succeed',
+        data: {
+          accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNU3RuU1ZjMksyeFdhWGhyV0hSMWFrNUVVbGwzZGtWYVF5dFhLMnh3Wm1aV1l6MCIsInBlcnNvbl9uYW1lIjoiQWx2aW4gUm9saWRhbmkiLCJlbWFpbCI6ImFsdmlucm9saWRhbmkwNTA3QGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjExMTE3NjY4MCIsInRpbWVzdGFtcCI6MTY4OTA5NDIzOSwiaWF0IjoxNjg5MDk0MjM5LCJleHAiOjE2ODkwOTc4MzksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.syG6fUEsnp3qaYN1dol9csJOpxktoAkMnW4gy7coJ7SNSrHrF0UiYCM4w5piYpIj9S8aew_-Zxr-5qrF8OL2Pg'
+        }
+      }
+    },
+    responseTime: 837
+  },
+  level: 'info',
+  message: 'POST /v1/auth-society/login-mobile 200 837ms',
+  timestamp: '2023-07-11T16:50:39.115Z'
+}

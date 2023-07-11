@@ -538,7 +538,7 @@ module.exports = class NgawasController {
       response(res, true, "Succeed", {
         ...insertNgawas.dataValues,
         // code: codetrp,
-        passenger: insertBulkPenumpang,
+        penumpang: insertBulkPenumpang,
         countpassenger: countpassenger,
         countvehicle: countvehicle,
       });

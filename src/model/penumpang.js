@@ -25,7 +25,7 @@ Penumpang.init(
       type: Sequelize.STRING(255),
     },
     no_hp: {
-      type: Sequelize.INTEGER(13),
+      type: Sequelize.STRING(15),
     },
     ...StructureTimestamp,
   },
