@@ -1,6 +1,6 @@
 const { AESDecrypt } = require("../lib/encryption");
 const response = require("../lib/response");
-const Type_brand_vehicle = require("../model/Type_brand_vehicle");
+const Type_brand_vehicle = require("../model/type_brand_vehicle");
 const Type_vehicle = require("../model/type_vehicle");
 const Brand_vehicle = require("../model/brand_vehicle");
 const { Op, Sequelize } = require("sequelize");
