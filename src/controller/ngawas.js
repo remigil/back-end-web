@@ -56,59 +56,60 @@ const decAes = (token) =>
     parseMode: "string",
   });
 module.exports = class NgawasController {
-  static get = async (req, res) => {
-    try {
-      // let { limit, page } = req.query;
-      // page = page ? parseInt(page) : 1;
-      // const resPage = pagination.getPagination(limit, page);
-      const ngawas = await Ngawas.findAndCountAll({
-        order: [["created_at", "DESC"]],
-        // raw: true,
-        nest: true,
-        // limit: resPage.limit,
-        // offset: resPage.offset,
+    static get = async (req, res) => {
+      try {
+        // let { limit, page } = req.query;
+        // page = page ? parseInt(page) : 1;
+        // const resPage = pagination.getPagination(limit, page);
+        const ngawas = await Ngawas.findAndCountAll({
+          order: [["created_at", "DESC"]],
+          // raw: true,
+          nest: true,
+          // limit: resPage.limit,
+          // offset: resPage.offset,
 
-        include: [
-          {
-            model: Society,
-            attributes: ["person_name", "foto"],
-          },
-          {
-            model: Public_vehicle,
-            attributes: ["no_vehicle"],
-          },
-          {
-            model: Type_vehicle,
-            attributes: ["type_name"],
-          },
-          {
-            model: Brand_vehicle,
-            attributes: ["brand_name"],
-          },
-          {
-            model: Penumpang,
-            // required: true,
-            attributes: ["name", "no_hp"],
-          },
-        ],
-      });
+          include: [
+            {
+              model: Society,
+              attributes: ["person_name", "foto", "no_hp"],
+            },
+            {
+              model: Public_vehicle,
+              attributes: ["no_vehicle"],
+            },
+            {
+              model: Type_vehicle,
+              attributes: ["type_name"],
+            },
+            {
+              model: Brand_vehicle,
+              attributes: ["brand_name"],
+            },
+            {
+              model: Penumpang,
+              // required: true,
+              attributes: ["name", "no_hp"],
+            },
+          ],
+        });
+        
 
-      response(res, true, "Succeed", {
-        // limit,
-        // page,
-        // total_page: Math.ceil(
-        //   parseInt( ngawas.count) / parseInt(resPage.limit)
-        // ),
-        recordsFiltered: ngawas.count,
-        recordsTotal: ngawas.count,
-        ...ngawas,
+        response(res, true, "Succeed", {
+          // limit,
+          // page,
+          // total_page: Math.ceil(
+          //   parseInt( ngawas.count) / parseInt(resPage.limit)
+          // ),
+          recordsFiltered: ngawas.count,
+          recordsTotal: ngawas.count,
+          ...ngawas,
 
-        // groupedData,
-      });
-    } catch (e) {
-      response(res, false, "Failed", e.message);
-    }
-  };
+          // groupedData,
+        });
+      } catch (e) {
+        response(res, false, "Failed", e.message);
+      }
+    };
 
   static getId = async (req, res) => {
     try {
@@ -123,7 +124,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto"],
+            attributes: ["person_name", "foto", "no_hp"],
           },
           {
             model: Public_vehicle,
@@ -222,7 +223,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto"],
+            attributes: ["person_name", "foto", "no_hp"],
           },
           {
             model: Public_vehicle,
@@ -279,7 +280,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto"],
+            attributes: ["person_name", "foto", "no_hp"],
           },
           {
             model: Public_vehicle,
@@ -328,7 +329,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto"],
+            attributes: ["person_name", "foto","no_hp"],
           },
           {
             model: Public_vehicle,
@@ -345,7 +346,7 @@ module.exports = class NgawasController {
           {
             model: Penumpang,
             // required: true,
-            attributes: ["name", "nationality"],
+            attributes: ["name", "no_hp"],
           },
         ],
       });
@@ -755,7 +756,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto"],
+            attributes: ["person_name", "foto", "no_hp"],
           },
           {
             model: Public_vehicle,
@@ -802,7 +803,7 @@ module.exports = class NgawasController {
         include: [
           {
             model: Society,
-            attributes: ["person_name", "foto"],
+            attributes: ["person_name", "foto", "no_hp"],
           },
           {
             model: Public_vehicle,

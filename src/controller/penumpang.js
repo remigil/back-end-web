@@ -93,9 +93,8 @@ module.exports = class PenumpangController {
             isSafeUrl: true,
             parseMode: "string",
           }),
-           nationality: req.body["nationality"],
         name: req.body["name"],
-        nik: req.body["nik"]
+        nik: req.body["no_hp"]
         },
           {transaction: transaction}
         );

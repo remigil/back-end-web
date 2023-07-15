@@ -10,7 +10,6 @@ const Type_vehicle = require("../model/type_vehicle");
 const Brand_vehicle = require("../model/brand_vehicle");
 const Society = require("../model/society");
 const Public_vehicle = require("../model/public_vehicle");
-
 const Prov = require("../model/provinsi");
 const Ngawas = require("../model/ngawas");
 const Penumpang = require("../model/penumpang");
@@ -18,6 +17,7 @@ const Penumpang = require("../model/penumpang");
 Brand_vehicle.hasMany(Ngawas, {
   foreignKey: "brand_id",
 });
+
 
 
 module.exports = class CountNgawasController {
@@ -480,7 +480,7 @@ module.exports = class CountNgawasController {
           {
             model: Society,
             required: false,
-            attributes: ["person_name", "foto", "nik", "nationality"],
+            attributes: ["person_name", "foto", "no_hp"],
           },
           {
             model: Public_vehicle,
@@ -500,7 +500,7 @@ module.exports = class CountNgawasController {
           {
             model: Penumpang,
             required: false,
-            attributes: ["name", "nationality", "nik"],
+            attributes: ["name", "no_hp"],
           },
         ],
 
