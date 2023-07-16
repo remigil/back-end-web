@@ -6,7 +6,7 @@ const { Op, Sequelize } = require("sequelize");
 const _ = require("lodash");
 const db = require("../config/database");
 
-// Type_vehicle.hasMany(Brand_vehicle,{foreignKey:'type_vehicle_id'});
+Type_vehicle.hasMany(Brand_vehicle,{foreignKey:'type_id'});
 const fieldData = {
   type_name: null,
 };
@@ -68,7 +68,17 @@ module.exports = class Type_vehicleController {
           ...filters,
         };
       }
-      const data = await Type_vehicle.findAll(getData);
+            const data = await Type_vehicle.findAll({
+        ...getData,
+        include: [
+          {
+            model: Brand_vehicle,
+            as: "brand_vehicles",
+            foreignKey: "type_id",
+            attributes: ["id", "brand_name","type_id"],
+          },
+        ],
+      });
       const count = await Type_vehicle.count({
         where: getData?.where,
       });

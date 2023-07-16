@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt");
 const { StructureTimestamp } = require("../constanta/db_structure");
 const { AESEncrypt } = require("../lib/encryption");
 // const Type_vehicle = require("./type_vehicle");
-const Brand_vehicle = require("./brand_vehicle");
+// const Brand_vehicle = require("./brand_vehicle");
 const Model = Sequelize.Model;
 
 class Type_vehicle extends Model {}
@@ -47,13 +47,13 @@ Type_vehicle.init(
     sequelize: db,
   }
 );
-Type_vehicle.belongsToMany(Brand_vehicle, {
-  as: "brand_vehicle",
-  through: "type_brand_vehicle",
-  foreignKey: "type_id",
-  otherKey: "brand_id",
-  // otherKey: "vehicle_id",
-});
+// Type_vehicle.belongsToMany(Brand_vehicle, {
+//   as: "brand_vehicle",
+//   through: "type_brand_vehicle",
+//   foreignKey: "type_id",
+//   otherKey: "brand_id",
+// });
+// otherKey: "vehicle_id",
 // User.hasOne(UserRole, { foreignKey: "id" });
 // (async () => {
 //   Type_vehicle.sync({ alter: true });

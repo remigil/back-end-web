@@ -3,6 +3,7 @@ const db = require("../config/database");
 const bcrypt = require("bcrypt");
 const { StructureTimestamp } = require("../constanta/db_structure"); 
 const { AESEncrypt } = require("../lib/encryption");
+const Type_vehicle = require("./type_vehicle");
 const Model = Sequelize.Model;
 
 class Brand_vehicle extends Model {}
@@ -21,9 +22,9 @@ Brand_vehicle.init(
     brand_name: {
       type: Sequelize.STRING(100),
     },
-    // type_vehicle_id: {
-    //   type: Sequelize.INTEGER,
-    // },
+    type_id: {
+      type: Sequelize.INTEGER,
+    },
     ...StructureTimestamp,
   },
   {
@@ -37,7 +38,7 @@ Brand_vehicle.init(
         },
       },
     },
-    // indexes: [{ fields: ["type_vehicle_id"] }],
+    indexes: [{ fields: ["type_id"] }],
     deletedAt: "deleted_at",
     createdAt: "created_at",
     updatedAt: "updated_at",
@@ -46,6 +47,11 @@ Brand_vehicle.init(
     sequelize: db,
   }
 );
+
+Brand_vehicle.belongsTo(Type_vehicle,{
+  foreignKey: "type_id",
+});
+
 // User.hasOne(UserRole, { foreignKey: "id" });
 (async () => {
   Brand_vehicle.sync({ alter: true });

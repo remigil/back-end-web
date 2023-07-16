@@ -4,10 +4,15 @@ const Brand_vehicle = require("../model/brand_vehicle");
 const { Op, Sequelize } = require("sequelize");
 const _ = require("lodash");
 const db = require("../config/database");
+const Type_vehicle = require("../model/type_vehicle");
 
 const fieldData = {
   brand_name: null,
+  type_id:null
 };
+
+// Brand_vehicle.hasOne(Type_vehicle,{foreignKey:'type_id'});
+
 module.exports = class Brand_vehicleController {
   static get = async (req, res) => {
     try {
@@ -66,7 +71,17 @@ module.exports = class Brand_vehicleController {
           ...filters,
         };
       }
-      const data = await Brand_vehicle.findAll(getData);
+      const data = await Brand_vehicle.findAll({
+        ...getData,
+        include: [
+          {
+            model: Type_vehicle,
+            // as: "Type_vehicle",
+            foreignKey: "type_id",
+            attributes: ["id", "type_name"],
+          },
+        ],
+      });
       const count = await Brand_vehicle.count({
         where: getData?.where,
       });
@@ -102,12 +117,14 @@ module.exports = class Brand_vehicleController {
     const transaction = await db.transaction();
     try {
       let fieldValueData = {};
-      Object.keys(fieldData).forEach((key) => {
-        if (req.body[key]) {
-          fieldValueData[key] = req.body[key];
-        } else {
-          fieldValueData[key] = null;
+      Object.keys(fieldData).forEach((val, key) => {
+        if (req.body[val]) {
+          fieldValueData[val] = req.body[val];
         }
+      });
+      fieldValueData["type_id"] = AESDecrypt(req.body.type_id, {
+        isSafeUrl: true,
+        parseMode: "string",
       });
 
       let op = await Brand_vehicle.create(fieldValueData, {
