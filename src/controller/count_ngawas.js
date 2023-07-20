@@ -326,6 +326,227 @@ module.exports = class CountNgawasController {
       response(res, false, "Failed", error.message);
     }
   }
+  static kec_ngawas_penumpang = async (req,res) => {
+     try {
+      const {
+        filter = false,
+        time = false,
+        start_date,
+        end_date,
+        start_time,
+        end_time,
+        start_kec,
+        end_kec,
+        limit = 34,
+        topNgawas = false,
+      } = req.query;
+
+      let [depature, depature_metadata] = "";
+      let [arrival, arrival_metadata] = "";
+      if (filter) {
+        if (time) {
+          [depature, depature_metadata] = await db.query(
+            `SELECT
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama",
+  COUNT("start_kec"."kode_kec_start") AS "keberangkatan"
+--  "ngawas"."user_id",
+--  "penumpang"."name"
+FROM
+  "kecamatan" AS "kecamatan"
+LEFT OUTER JOIN
+  "ngawas" AS "start_kec"
+  ON "kecamatan"."kode" = "start_kec"."kode_kec_start"
+  AND "start_kec"."deleted_at" IS NULL
+LEFT OUTER JOIN
+  "ngawas" AS "ngawas"
+  ON "start_kec"."id" = "ngawas"."id"
+LEFT OUTER JOIN
+  "penumpang" AS "penumpang"
+  ON "ngawas"."id" = "penumpang"."ngawas_id"
+WHERE
+  "kecamatan"."deleted_at" IS NULL
+  AND ("start_kec"."departure_date" BETWEEN '${start_date}' AND '${end_date}'
+  AND "start_kec"."departure_time" BETWEEN '${start_time}' AND '${end_time}')
+GROUP BY
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama"
+`
+          );
+
+          [arrival, arrival_metadata] = await db.query(
+              `    SELECT
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama",
+  COUNT("end_kec"."kode_kec_end") AS "kedatangan"
+--  "ngawas"."user_id",
+--  "penumpang"."name"
+FROM
+  "kecamatan" AS "kecamatan"
+LEFT OUTER JOIN
+  "ngawas" AS "end_kec"
+  ON "kecamatan"."kode" = "end_kec"."kode_kec_end"
+  AND "end_kec"."deleted_at" IS NULL
+LEFT OUTER JOIN
+  "ngawas" AS "ngawas"
+  ON "end_kec"."id" = "ngawas"."id"
+LEFT OUTER JOIN
+  "penumpang" AS "penumpang"
+  ON "ngawas"."id" = "penumpang"."ngawas_id"
+WHERE
+  "kecamatan"."deleted_at" IS NULL
+  AND ("end_kec"."departure_date" BETWEEN '${start_date}' AND '${end_date}'
+  AND "end_kec"."departure_time" BETWEEN '${start_time}' AND '${end_time}')
+GROUP BY
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama"
+`
+          );
+        }
+
+        [depature, depature_metadata] = await db.query(
+          `SELECT
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama",
+  COUNT("start_kec"."kode_kec_start") AS "keberangkatan"
+--  "ngawas"."user_id",
+--  "penumpang"."name"
+FROM
+  "kecamatan" AS "kecamatan"
+LEFT OUTER JOIN
+  "ngawas" AS "start_kec"
+  ON "kecamatan"."kode" = "start_kec"."kode_kec_start"
+  AND "start_kec"."deleted_at" IS NULL
+LEFT OUTER JOIN
+  "ngawas" AS "ngawas"
+  ON "start_kec"."id" = "ngawas"."id"
+LEFT OUTER JOIN
+  "penumpang" AS "penumpang"
+  ON "ngawas"."id" = "penumpang"."ngawas_id"
+WHERE
+  "kecamatan"."deleted_at" IS NULL
+  AND ("start_kec"."departure_date" BETWEEN '${start_date}' AND '${end_date}')
+GROUP BY
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama"`
+        );
+
+        [arrival, arrival_metadata] = await db.query(
+                        `    SELECT
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama",
+  COUNT("end_kec"."kode_kec_end") AS "kedatangan"
+--  "ngawas"."user_id",
+--  "penumpang"."name"
+FROM
+  "kecamatan" AS "kecamatan"
+LEFT OUTER JOIN
+  "ngawas" AS "end_kec"
+  ON "kecamatan"."kode" = "end_kec"."kode_kec_end"
+  AND "end_kec"."deleted_at" IS NULL
+LEFT OUTER JOIN
+  "ngawas" AS "ngawas"
+  ON "end_kec"."id" = "ngawas"."id"
+LEFT OUTER JOIN
+  "penumpang" AS "penumpang"
+  ON "ngawas"."id" = "penumpang"."ngawas_id"
+WHERE
+  "kecamatan"."deleted_at" IS NULL
+  AND ("end_kec"."departure_date" BETWEEN '${start_date}' AND '${end_date}')
+GROUP BY
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama"
+`
+        );
+      } else {
+        [depature, depature_metadata] = await db.query(
+          `SELECT
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama",
+  COUNT("start_kec"."kode_kec_start") AS "keberangkatan"
+--  "ngawas"."user_id",
+--  "penumpang"."name"
+FROM
+  "kecamatan" AS "kecamatan"
+LEFT OUTER JOIN
+  "ngawas" AS "start_kec"
+  ON "kecamatan"."kode" = "start_kec"."kode_kec_start"
+  AND "start_kec"."deleted_at" IS NULL
+LEFT OUTER JOIN
+  "ngawas" AS "ngawas"
+  ON "start_kec"."id" = "ngawas"."id"
+LEFT OUTER JOIN
+  "penumpang" AS "penumpang"
+  ON "ngawas"."id" = "penumpang"."ngawas_id"
+WHERE
+  "kecamatan"."deleted_at" IS NULL
+GROUP BY
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama"`
+        );
+
+        [arrival, arrival_metadata] = await db.query(
+                                  `    SELECT
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama",
+  COUNT("end_kec"."kode_kec_end") AS "kedatangan"
+--  "ngawas"."user_id",
+--  "penumpang"."name"
+FROM
+  "kecamatan" AS "kecamatan"
+LEFT OUTER JOIN
+  "ngawas" AS "end_kec"
+  ON "kecamatan"."kode" = "end_kec"."kode_kec_end"
+  AND "end_kec"."deleted_at" IS NULL
+LEFT OUTER JOIN
+  "ngawas" AS "ngawas"
+  ON "end_kec"."id" = "ngawas"."id"
+LEFT OUTER JOIN
+  "penumpang" AS "penumpang"
+  ON "ngawas"."id" = "penumpang"."ngawas_id"
+WHERE
+  "kecamatan"."deleted_at" IS NULL
+GROUP BY
+  "kecamatan"."id",
+  "kecamatan"."kode",
+  "kecamatan"."nama"
+`
+        );
+      }
+
+      let rows = [];
+      for (let i = 0; i < arrival.length; i++) {
+        rows.push({
+          kode: arrival[i].kode,
+          nama: arrival[i].nama,
+          kedatangan: parseInt(arrival[i].kedatangan),
+          keberangkatan: parseInt(depature[i].keberangkatan),
+          total:
+            parseInt(arrival[i].kedatangan) +
+            parseInt(depature[i].keberangkatan),
+        });
+      }
+
+      if (topNgawas) {
+        rows.sort((a, b) => b.total - a.total);
+        rows = rows.slice(0, limit);
+      }
+      response(res, true, "Succeed", rows);
+    } catch (error) {
+      response(res, false, "Failed", error.message);
+    }
+  }
 
   // static prov_ngawas = async (req, res) => {
   //   try {
