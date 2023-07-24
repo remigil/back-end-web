@@ -109,37 +109,37 @@ module.exports = class KecamatanController {
     try {
       let readExcell = [
         {
-          nama: "Kecamatan Bogor Barat",
+          nama: "Bogor Barat",
           kode: "32.71.04",
           kode_kabkot: "32.71",
           kode_prov:"32"
         },
         {
-          nama: "Kecamatan Bogor Tengah",
+          nama: "Bogor Tengah",
           kode: "32.71.03",
           kode_kabkot: "32.71",
           kode_prov:"32"
         },
         {
-          nama: "Kecamatan Bogor Selatan",
+          nama: "Bogor Selatan",
           kode: "32.71.01",
           kode_kabkot: "32.71",
           kode_prov:"32"
         },
         {
-          nama: "Kecamatan Bogor Timur",
+          nama: "Bogor Timur",
           kode: "32.71.02",
           kode_kabkot: "32.71",
           kode_prov:"32"
         },
         {
-          nama: "Kecamatan Bogor Utara",
+          nama: "Bogor Utara",
           kode: "32.71.05",
           kode_kabkot: "32.71",
           kode_prov:"32"
         },
         {
-          nama: "Kecamatan Tanah Sereal",
+          nama: "Tanah Sereal",
           kode: "32.71.06",
           kode_kabkot: "32.71",
           kode_prov:"32"

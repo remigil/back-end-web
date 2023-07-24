@@ -382,7 +382,7 @@ module.exports = class NgawasController {
         },
         order: [["id", "DESC"]],
       });
-      // if (!data) {
+      if (!data) {
       Object.keys(typeNgawas).forEach((val, key) => {
         if (req.body[val]) {
           input[val] = req.body[val];
@@ -489,7 +489,6 @@ module.exports = class NgawasController {
               input["kode_prov_end"] = provinsi_end.length ? provinsi_end[0].kode : "";
               input["kode_kabkot_end"] = kabupaten_end.length ? kabupaten_end[0].kode: "";
               input["kode_kec_end"] = kecamatan_end.length ? kecamatan_end  [0].kode: "";
-
               let insertNgawas = await Ngawas.create(input, {
                 transaction: transaction,
               });
@@ -499,7 +498,7 @@ module.exports = class NgawasController {
         parseMode: "string",
       });
       let tes = parseInt(getId);
-      // let id = decimalToHex(tes);
+      let id = decimalToHex(tes);
 
       // let codetrp = `BGW/${moment().format("MMYY")}/${typeVehicle}/${id}`;
       // qrcode.toFile(`./public/uploads/qrcode/${id}.png`, codetrp, {
@@ -508,15 +507,15 @@ module.exports = class NgawasController {
       // });
       // let barcode = id + ".png";
 
-      // await Ngawas.update(
+      await Ngawas.update(
         // { code: codetrp },
-      //   {
-      //     where: {
-      //       id: getId,
-      //     },
-      //     transaction: transaction,
-      //   }
-      // );
+        {
+          where: {
+            id: getId,
+          },
+          transaction: transaction,
+        }
+      );
 
       let penumpang = req.body?.penumpangs?.map((data) => ({
         ...data,
@@ -543,15 +542,15 @@ module.exports = class NgawasController {
         countpassenger: countpassenger,
         countvehicle: countvehicle,
       });
-      // } 
-      // else {
-      //   response(
-      //     res,
-      //     false,
-      //     "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
-      //     null
-      //   );
-      // }
+      }
+      else {
+        response(
+          res,
+          false,
+          "Belum bisa mendaftarkan Pengawasan, karena masih dalam masa berlaku",
+          null
+        );
+      }
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);
@@ -748,7 +747,7 @@ module.exports = class NgawasController {
               parseMode: "string",
             }),
             validity_period: {
-              [Op.gte]: moment().format("YYYY-MM-DD"),
+              [Op.gte]: moment().format("YYYY-MM-DD HH:mm:ss"),
             },
           },
         },
@@ -785,6 +784,40 @@ module.exports = class NgawasController {
     }
   };
 
+static upScheduletoHistory = async (req, res) => {
+  const transaction = await db.transaction();
+  try {
+    let input = {};
+    let SaatIni = moment().subtract(5, 'hours').format("YYYY-MM-DD HH:mm:ss");
+    let fieldValue = {};
+    fieldValue["validity_period"] = SaatIni;
+
+    // Mengambil id terakhir dari tabel Ngawas
+    const lastId = await Ngawas.max('id');
+
+    const data = await Ngawas.update(fieldValue,
+      {
+        where: {
+          user_id: AESDecrypt(req.auth.uid, {
+            isSafeUrl: true,
+            parseMode: "string",
+          }),
+          // validity_period: {
+          // [Op.lte]: SaatIni, // Hanya update data dengan validity_period lebih kecil atau sama dengan waktu saat ini
+          // },
+          id: lastId, // Mengupdate baris dengan id terakhir
+        },
+        order: [["id", "DESC"]],
+      }
+    );
+
+    await transaction.commit();
+    response(res, true, "Succeed", data);
+  } catch (e) {
+    response(res, false, "Failed", e.message);
+  }
+};
+
   static getHistory = async (req, res) => {
     try {
       const data = await Ngawas.findAll({
@@ -795,7 +828,7 @@ module.exports = class NgawasController {
               parseMode: "string",
             }),
             validity_period: {
-              [Op.lte]: moment().format("YYYY-MM-DD"),
+              [Op.lte]: moment().format("YYYY-MM-DD HH:mm:ss"),
             },
           },
         },
@@ -832,3 +865,4 @@ module.exports = class NgawasController {
     }
   };
 };
+

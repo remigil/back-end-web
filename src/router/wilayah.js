@@ -8,7 +8,7 @@ const KecamatanController = require("../controller/wilayah/kecamatan");
 router.get("/provinsi", Provinsi.get);
 router.post("/import", formValidation, Provinsi.importExcell);
 router.get("/kabupaten", KabupatenController.get);
-router.get("/kecamatan", Kecamatan.get);
+router.get("/kecamatan", KecamatanController.get);
 router.post(
   "/kabupaten/import",
   formValidation,

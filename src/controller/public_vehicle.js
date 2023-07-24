@@ -244,7 +244,7 @@ module.exports = class Public_vehicleController {
         transaction: transaction,
       });
       await transaction.commit();
-      response(res, true, "Succeed", fieldValueData);
+      response(res, true, "Succeed", data);
     } catch (e) {
       await transaction.rollback();
       response(res, false, "Failed", e.message);

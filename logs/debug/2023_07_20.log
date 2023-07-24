@@ -1,0 +1,3864 @@
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9a799c7b-06e3-4117-a3c6-e70a5aabe4e8',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T11:45:54.152Z',
+          updated_at: '2023-07-20T11:45:54.152Z',
+          id: 382,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMStzQ1ovTDB2M1BPa09ab05FR3dseFlPdXdQOGNManFDaz0',
+              created_at: '2023-07-20T11:45:54.152Z',
+              updated_at: '2023-07-20T11:45:54.152Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 382,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 2011
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 2011ms',
+  timestamp: '2023-07-20T11:45:57.586Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/kecamatan',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a32998d4-8988-4bc4-af45-c82394b481e5',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------451180187288334937534659',
+        'content-length': '919',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/kecamatan',
+      query: {},
+      body: {
+        person_name: '',
+        nik: '',
+        date_of_birth: '',
+        nationality: '',
+        no_sim: '',
+        email: '',
+        no_hp: '',
+        foto: ''
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'GET /v1/kecamatan 404 5ms',
+  timestamp: '2023-07-20T11:54:48.331Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/wilayah/kecamatan',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'fc03d89a-e81c-46c4-b0d2-91afed86ccbc',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------717353642453929121026856',
+        'content-length': '919',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/wilayah/kecamatan',
+      query: {},
+      body: {
+        person_name: '',
+        nik: '',
+        date_of_birth: '',
+        nationality: '',
+        no_sim: '',
+        email: '',
+        no_hp: '',
+        foto: ''
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMS9MYVF5L2FrU0FDelFqSEVhVnpPWUs3Tm1qMjdkZFJwWT0',
+              nama: 'Bogor Barat',
+              kode: '32.71.04',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:38:07.730Z',
+              updated_at: '2023-07-02T10:38:07.730Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlja2VlUzFhSmFMYyswUklMd2JxZUwyd0RwRnJMZllEND0',
+              nama: 'Bogor Tengah',
+              kode: '32.71.03',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:38:54.815Z',
+              updated_at: '2023-07-02T10:38:54.815Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlnNGRFMkZld09PN0pQUTlmaHdUdTBaQzBBSk5pQkU2Yz0',
+              nama: 'Bogor Selatan',
+              kode: '32.71.01',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:39:15.291Z',
+              updated_at: '2023-07-02T10:39:15.291Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl2L1BEdUhnLzNqS3IyZjdaSFlJeHBTSlk5SDM2R0YzZz0',
+              nama: 'Bogor Timur',
+              kode: '32.71.02',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:39:41.381Z',
+              updated_at: '2023-07-02T10:39:41.381Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTg5YzVrYjM0UklnR1RnQysxV3VRTUlISHJkNXBSeUlidz0',
+              nama: 'Bogor Utara',
+              kode: '32.71.05',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:40:03.902Z',
+              updated_at: '2023-07-02T10:40:03.902Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThONk9GaS9ZcnllTFV5Vmw4V2JsdkxTbGo3NlBPQVF1OD0',
+              nama: 'Tanah Sereal',
+              kode: '32.71.06',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:40:22.167Z',
+              updated_at: '2023-07-02T10:40:22.167Z',
+              deleted_at: null
+            }
+          ],
+          recordsFiltered: 6,
+          recordsTotal: 6
+        }
+      }
+    },
+    responseTime: 644
+  },
+  level: 'info',
+  message: 'GET /v1/wilayah/kecamatan 200 644ms',
+  timestamp: '2023-07-20T11:55:17.931Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/wilayah/kabupaten',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '668d2ca1-0a90-4087-8df9-648e03760495',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------664380867376843109128047',
+        'content-length': '919',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/wilayah/kabupaten',
+      query: {},
+      body: {
+        person_name: '',
+        nik: '',
+        date_of_birth: '',
+        nationality: '',
+        no_sim: '',
+        email: '',
+        no_hp: '',
+        foto: ''
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTlyRzh3RGJ6ZkpWdGFMNnIrL1VqbDh0eEV0a0ZmS2F4ST0',
+              nama: 'Kabupaten Aceh Selatan',
+              kode: '11.01',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTkveFQ4L041Ly9jek05MGt1VlFqMGZudU5TN0hHaU91MD0',
+              nama: 'Kabupaten Aceh Tenggara',
+              kode: '11.02',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl2bkNqbnFDMkZoV214YVVhWGtGQXluTElHbWtxTkZrMD0',
+              nama: 'Kabupaten Aceh Timur',
+              kode: '11.03',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9aRi9UZTBac0d4aUp1MFhiU2U5dGNNUDFDaW9iV1RKUT0',
+              nama: 'Kabupaten Aceh Tengah',
+              kode: '11.04',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlNU1RkQTNmNktVOTlXOXRIR2ZWVE05TmJjQnJqYkRQND0',
+              nama: 'Kabupaten Aceh Barat',
+              kode: '11.05',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS83WmpVNDY5WjNKYUQzR1VIL1RVTzlFNDd4UDJwN3hCVT0',
+              nama: 'Kabupaten Aceh Besar',
+              kode: '11.06',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl2U2hPUUl2YzNMN3ZkSEdZam9oTUJFNC9PYThLU0RhVT0',
+              nama: 'Kabupaten Pidie',
+              kode: '11.07',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9FVm0zUndSM3hST1IwdEg1eUs3ME16NWhiRFkvWGZJRT0',
+              nama: 'Kabupaten Aceh Utara',
+              kode: '11.08',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThQZUxwamwwNGd0NHpsZENQdXpocGpacUJzcnZjZzRHTT0',
+              nama: 'Kabupaten Simeulue',
+              kode: '11.09',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStxcStiUE9KUE5QYlU4UjR6U210N0lpU2gxMFA5V3dLND0',
+              nama: 'Kabupaten Aceh Singkil',
+              kode: '11.1',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9xOThJemRCc1FHd0hqSDN4OHIwT1FxaGZIQkZFVEpnZz0',
+              nama: 'Kabupaten Bireuen',
+              kode: '11.11',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStVemRtTlowU2kzQkVwVXhVZTVPZnhSQUhKakdnNmd3ND0',
+              nama: 'Kabupaten Aceh Barat Daya',
+              kode: '11.12',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStvTDJNaEh4a0tEdWRmekpnRlN2QytlTzNyTjY3cDhXVT0',
+              nama: 'Kabupaten Gayo Lues',
+              kode: '11.13',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlPZkZHRUhzZzROaTNxVVF2cXRLK2FncWxUOHdqMGk0UT0',
+              nama: 'Kabupaten Aceh Jaya',
+              kode: '11.14',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS90cDRvZmtTVmhnVTNzNjNrWFZLajBuWk42dHprMU5DVT0',
+              nama: 'Kabupaten Nagan Raya',
+              kode: '11.15',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTk0aWQwY3h1OGNiUmg5eElHeFdKRjRhK2Q3R3VTajlNcz0',
+              nama: 'Kabupaten Aceh Tamiang',
+              kode: '11.16',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9GaU1sZEZ3MHc3RlVvbjFRenczUjQyUkJlWDVmSEtQdz0',
+              nama: 'Kabupaten Bener Meriah',
+              kode: '11.17',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTg5WWQxbFNWZnNOSUhMY3JHK1dEWEx4dWMrc0xRM2RWWT0',
+              nama: 'Kabupaten Pidie Jaya',
+              kode: '11.18',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTltenRiNmV4MzkweE1ON00zazAvd21SQiswd3pJaXY1QT0',
+              nama: 'Kota Banda Aceh',
+              kode: '11.71',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStoMHBwK2RhZUVxMGFCT3BiNnV0eXYvSndhRHNkKzJyND0',
+              nama: 'Kota Sabang',
+              kode: '11.72',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStpckp2R2xjT0FzVFBjb2F2NFpCOWdzUHRoMHBqQ2R4RT0',
+              nama: 'Kota Lhokseumawe',
+              kode: '11.73',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTk0SURJak1iSkxpSGpBTXVzalZsSm5hMW1jMm8rbG1ZWT0',
+              nama: 'Kota Langsa',
+              kode: '11.74',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlWc0xqZGJrSzJxWDZhZjZzdWJxT29FbzFrOFI2YnBuND0',
+              nama: 'Kota Subulussalam',
+              kode: '11.75',
+              kode_prov: '11',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStLd1BEcGJaMTd5MWJVcEtNQXRCWGVHd2NCbTF2UXorYz0',
+              nama: 'Kabupaten Tapanuli Tengah',
+              kode: '12.01',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTkxZFhoNXJuaDIza1ZldHg1VjhJL3JPNDBGNU1sUlJydz0',
+              nama: 'Kabupaten Tapanuli Utara',
+              kode: '12.02',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl5M2dZOE9VUTlHa0t1M2JWRVcyWHc5dlhiV3drOUZYdz0',
+              nama: 'Kabupaten Tapanuli Selatan',
+              kode: '12.03',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThJbUw2dGlaM3VINS93dDRpTVdZRmtCN2lOVnV4WUtaTT0',
+              nama: 'Kabupaten Nias',
+              kode: '12.04',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9tRGpzSWFaMlZUc292VFBsTlJjV0RpTSszd2oyQVZKVT0',
+              nama: 'Kabupaten Langkat',
+              kode: '12.05',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlWd0Q4bmxBN2IySUFjM2ZQdlZIUjloMnpKeWgreVhFMD0',
+              nama: 'Kabupaten Karo',
+              kode: '12.06',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStNcWhsTTJZbXdRbzZBRFMwNmovS2RleERpWDNDMlpTTT0',
+              nama: 'Kabupaten Deli Serdang',
+              kode: '12.07',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9sTElFZUEzbHo2MHl1dWM1WmdneVFqK1RDenoydkZhbz0',
+              nama: 'Kabupaten Simalungun',
+              kode: '12.08',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS80TVpFMFZEQVcvRTd1c0xGQzAzaWFjMGkyVzBTcS9nUT0',
+              nama: 'Kabupaten Asahan',
+              kode: '12.09',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThwMEZrV1hMUlFTS1RNSHJNSWdESndrNEFFZm9PUmExQT0',
+              nama: 'Kabupaten Labuhanbatu',
+              kode: '12.1',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStyaFZIK0RpZ2xxOXBQTjZ2cGcwaGxmZ01abkl2aWJxND0',
+              nama: 'Kabupaten Dairi',
+              kode: '12.11',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStVUmxyTkpGQWNRNXM0dTQ3YjBGUGxTNjByMlhncDNEbz0',
+              nama: 'Kabupaten Toba Samosir',
+              kode: '12.12',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStqaVNXUHJXTDZUTmhGZmgwa3EvTE9lTzhlaGs5c2NDOD0',
+              nama: 'Kabupaten Mandailing Natal',
+              kode: '12.13',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTkrRUQ2NFhCUjJJWjlSQ0FIYmtYSFRsazN5R2R3ZjJxRT0',
+              nama: 'Kabupaten Nias Selatan',
+              kode: '12.14',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlGbmVDcm1acEw1OXYvYjZ3ZlJoalIzYzBvdzhwS3VDST0',
+              nama: 'Kabupaten Pakpak Bharat',
+              kode: '12.15',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStLaVpGa1ZUZitSTVhVNzVyNk1RclZEbGY2M29tTFFGST0',
+              nama: 'Kabupaten Humbang Hasundutan',
+              kode: '12.16',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStBTGhhZVdreDRUZ0V1ODRoc0JmOFJ5NnBRZDNvd2NOdz0',
+              nama: 'Kabupaten Samosir',
+              kode: '12.17',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThMT1J1Yml0c0dDay9qcFpUNmJHMXJxa0p1Q24vak43cz0',
+              nama: 'Kabupaten Serdang Bedagai',
+              kode: '12.18',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThxTFErSEZGaExpRldZY1h0cUdCdGFBT09MSGt3eUxrUT0',
+              nama: 'Kabupaten Batu Bara',
+              kode: '12.19',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9oRUNmaitRdHhTZXhFaFlOTllMS05Cd3BWNXZNNXJoND0',
+              nama: 'Kabupaten Padang Lawas Utara',
+              kode: '12.2',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStMd3B4WWlnUFA3SjVHZXBEcjhxeTNhaENWbVRHU0dTQT0',
+              nama: 'Kabupaten Padang Lawas',
+              kode: '12.21',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9nTXhFUVdHUHllSnl3MG0rR2IwamtTVDM1UDlUTHcrND0',
+              nama: 'Kabupaten Labuhanbatu Selatan',
+              kode: '12.22',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStaSXpBUndXcThNaFhybEtsdUNjQnpmcmkzZ25GaUVKST0',
+              nama: 'Kabupaten Labuhanbatu Utara',
+              kode: '12.23',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTh6Y1BpZmVXZStDSWVKWi9BNkoxS3Z1RC9FSXY5NFM2QT0',
+              nama: 'Kabupaten Nias Utara',
+              kode: '12.24',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9Vay9lSGRQbnZGdkJHcnZteVcrK2hNQWlmMURadGdTYz0',
+              nama: 'Kabupaten Nias Barat',
+              kode: '12.25',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStjWldxTUE5RTN4RktMOW5qYk0wNjdvS2x2NlBBN3JvYz0',
+              nama: 'Kota Medan',
+              kode: '12.71',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9XUTl5aUp4NFl2L0dVSUhUMVU1bVhIQ2dMbU83dkpBQT0',
+              nama: 'Kota Pematang Siantar',
+              kode: '12.72',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThMNEhJWGJ1NW5qcTVsMWQ5cFg4MWtrTnZmZ0hSaTY4ST0',
+              nama: 'Kota Sibolga',
+              kode: '12.73',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStuY1Ivd2xoTHVyWnRPQ0M3dWdiR2VZNVQyUHd0eVFadz0',
+              nama: 'Kota Tanjung Balai',
+              kode: '12.74',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThUK2FrZW0wejd5eGhaTnc1L0hSSXZiMVN2VEoxK3lQRT0',
+              nama: 'Kota Binjai',
+              kode: '12.75',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS8xUXBvSThIQk1lWDQ4VHMyZnBjUzVSdy9qeGp2WmhiQT0',
+              nama: 'Kota Tebing Tinggi',
+              kode: '12.76',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9tQWVya0h2dzQxYzNTRmJFc28rWGsxSWU5QXpvdnArZz0',
+              nama: 'Kota Padang Sidempuan',
+              kode: '12.77',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlITWp5M3kybU01U3hIVWtFNUc4V2QwSDBZa1ovTUNlND0',
+              nama: 'Kota Gunungsitoli',
+              kode: '12.78',
+              kode_prov: '12',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThEZDQ1U0dJWUlaUVo1OGpYeGZvOHRha0tBZXJFUVlpST0',
+              nama: 'Kabupaten Pesisir Selatan',
+              kode: '13.01',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStUWVNmMDljOW9wYnhQakJTc2R6eXNUSmM2SkxxU214ST0',
+              nama: 'Kabupaten Solok',
+              kode: '13.02',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlSaUUwTnM5dUIwNG96ZC84NDZsZHhEMG1ENTVKZzZqMD0',
+              nama: 'Kabupaten Sijunjung',
+              kode: '13.03',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlVNE9GZjJ5K3BQUFU3aElvS3E5SkczRHdDTjYvSTE5dz0',
+              nama: 'Kabupaten Tanah Datar',
+              kode: '13.04',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSthRnk0eWVQMjlqd0VWcTcremZSZVZHN2FoQnpNMWV1WT0',
+              nama: 'Kabupaten Padang Pariaman',
+              kode: '13.05',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStCYmNPWXJnYnM2Vm1BczUxWHRZQ3cwUW5oUkhHN2FNRT0',
+              nama: 'Kabupaten Agam',
+              kode: '13.06',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9kbFNrKzAvaEF1cWVWKzI3UWFoUTM5SVpBb0FxYkg5bz0',
+              nama: 'Kabupaten Lima Puluh Kota',
+              kode: '13.07',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlQOStmSDN4YVI3dkovSmFvRkxPU2IrZW05azN1ejE2WT0',
+              nama: 'Kabupaten Pasaman',
+              kode: '13.08',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSt0UXl5b3RDdzJMckE1TkN5K2QzNnB5eGdwTDlmeFE5cz0',
+              nama: 'Kabupaten Kepulauan Mentawai',
+              kode: '13.09',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9NeldpMlJGeFhhRWwrZ2dxTU1RQitwZW9ER1lqYkpCTT0',
+              nama: 'Kabupaten Dharmasraya',
+              kode: '13.1',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStST2c1c3F5cG1mWjN4NmN5aDE1Tmo5WlFaRGFHV0x3dz0',
+              nama: 'Kabupaten Solok Selatan',
+              kode: '13.11',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9JOUdpRzBqSjNMSUFRa3J2bXo4SVZtaDdLMUZTOCtJND0',
+              nama: 'Kabupaten Pasaman Barat',
+              kode: '13.12',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlEamNoT2hZYWZONXgydm9vdm1POG1adG55a1RFZkw0ST0',
+              nama: 'Kota Padang',
+              kode: '13.71',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSttNUFzNFdIeHlGY0xaU2RySXdVRktoaTlxNjhNVzVTND0',
+              nama: 'Kota Solok',
+              kode: '13.72',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl2SGs2NklmS2tDZkdHWGwxanlYeTVvSzZHcENCT2VURT0',
+              nama: 'Kota Sawah Lunto',
+              kode: '13.73',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThpdW1rUGRFWUZwOUxNRjZJMzZoNE1uTWxpQTRncTBUaz0',
+              nama: 'Kota Padang Panjang',
+              kode: '13.74',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThlQVBieDBLelZPb2l1TmgwUGpiM0hEUHM5a2dKUFQ2QT0',
+              nama: 'Kota Bukittinggi',
+              kode: '13.75',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSttRVovMmtqbEtzUmFFMVh3M3JkRlRVUXhLaTBJOWVlMD0',
+              nama: 'Kota Payakumbuh',
+              kode: '13.76',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThPdVpJY0FpSTRVYytpTWdzRWkzVDZYNmcxMnRIb3FxOD0',
+              nama: 'Kota Pariaman',
+              kode: '13.77',
+              kode_prov: '13',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl5VFh4SmNIektBYU1FVksvZ0lGSEFMR0dtTEZSWWRuVT0',
+              nama: 'Kabupaten Kampar',
+              kode: '14.01',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTg2aVhGQ2hhQjYxNTZQaGF0ZHh2YzlYMFJuRlB6ejZhbz0',
+              nama: 'Kabupaten Indragiri Hulu',
+              kode: '14.02',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlYcThIek1ZbjI4eTFGeVN0UU53TitidlcxVHprcmZBQT0',
+              nama: 'Kabupaten Bengkalis',
+              kode: '14.03',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSsrTmdGZ3ZFRlFJTUordGdHUlNxd04rajArUnJXUnFqYz0',
+              nama: 'Kabupaten Indragiri Hilir',
+              kode: '14.04',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9ZL0lRejQySHJNNmxEQmlDTmNFd0xWRGpPNDBkd1Q4ND0',
+              nama: 'Kabupaten Pelalawan',
+              kode: '14.05',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTh3MGJ2YzBrZnNuSkM3dXdNVUlHMnA2WlB3bDhYTVdtYz0',
+              nama: 'Kabupaten Rokan Hulu',
+              kode: '14.06',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTltTlhDTGNCZmwyc2FiUi9iVmRqS0hraUtmSGVkZkZzcz0',
+              nama: 'Kabupaten Rokan Hilir',
+              kode: '14.07',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStHT1AvR1dKb09Na1Mrb29pa0VQQVNvNVVYaVYwcFJpdz0',
+              nama: 'Kabupaten Siak',
+              kode: '14.08',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStxU2lUdUUzZjNrTVlUQ0M1dFpTem52aU5NQTQwYlNLaz0',
+              nama: 'Kabupaten Kuantan Singingi',
+              kode: '14.09',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTh2SFFNdkwvTEU1bTh4TmFkdXJQenpPb3FQbTBPc25GZz0',
+              nama: 'Kabupaten Kepulauan Meranti',
+              kode: '14.1',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStQUUpveXl4bmYwSHY2S2dsQ2plSmsyeGI2ZTNBK2V6dz0',
+              nama: 'Kota Pekanbaru',
+              kode: '14.71',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS8wczE0ZFMvblhPZUptMlpudXdyYVBOMTlmUTUva2gzWT0',
+              nama: 'Kota Dumai',
+              kode: '14.72',
+              kode_prov: '14',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9DN3dLMitjK1RxMXFXR0FTeGdiNExZSHBzNWNLSEt5TT0',
+              nama: 'Kabupaten Kerinci',
+              kode: '15.01',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStZYnRUa2E1ZnZWN2FBTEJkY0NFZGdUY1IzYVVscXhzYz0',
+              nama: 'Kabupaten Merangin',
+              kode: '15.02',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStXdXZFSU5UeTdiV0J1NWdHWnlSUHd0Y0w0QTlDNHp3UT0',
+              nama: 'Kabupaten Sarolangun',
+              kode: '15.03',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThXcEgwc05DL3Q0QmRTR2tZSngxTnJ5TFdTZWNVc1VrOD0',
+              nama: 'Kabupaten Batang Hari',
+              kode: '15.04',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTk0Y2NDeGU4WTJIcDhvV1RZcVNZTll4U2cwTmhtRmM2WT0',
+              nama: 'Kabupaten Muaro Jambi',
+              kode: '15.05',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9SVXZzTUlxNXJYZFpSMzAvQ0NBVEhGblpqM1R0a09HRT0',
+              nama: 'Kabupaten Tanjung Jabung Barat',
+              kode: '15.06',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTkvbVdUWXJFQllGTWQ1MWhJYmRxdHAwbTBuN3gyRkVPVT0',
+              nama: 'Kabupaten Tanjung Jabung Timur',
+              kode: '15.07',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlQUjA3UnQ4WGRKcXdDYW9scjM1by9KL0dweXBEOHVkYz0',
+              nama: 'Kabupaten Bungo',
+              kode: '15.08',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStvSEVnb3ZEa1VzWVM4TDBPQkNTWGt5blNUVUJqcTlucz0',
+              nama: 'Kabupaten Tebo',
+              kode: '15.09',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9TcjlBR3RYbnViTmRRZjlOUkhSdlpWbHErWnVtUTFwUT0',
+              nama: 'Kota Jambi',
+              kode: '15.71',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlmTzhFUjFWdExmNnBhMzg1OTA4dElNeFFUclUva0tHMD0',
+              nama: 'Kota Sungaipenuh',
+              kode: '15.72',
+              kode_prov: '15',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9VSDByb2UvVG9WZnBYazF6VDlIbnFHQmpzdi9kNHdPQT0',
+              nama: 'Kabupaten Ogan Komering Ulu',
+              kode: '16.01',
+              kode_prov: '16',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9Xd0JJQTh0UXFNdFdJb0tCTmFLUnI3YURMNnFmcVFJZz0',
+              nama: 'Kabupaten Ogan Komering Ilir',
+              kode: '16.02',
+              kode_prov: '16',
+              created_at: '2022-11-25T07:26:21.697Z',
+              updated_at: '2022-11-25T07:26:21.697Z',
+              deleted_at: null
+            },
+            ... 386 more items
+          ],
+          recordsFiltered: 486,
+          recordsTotal: 486
+        }
+      }
+    },
+    responseTime: 2444
+  },
+  level: 'info',
+  message: 'GET /v1/wilayah/kabupaten 200 2444ms',
+  timestamp: '2023-07-20T11:55:30.766Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/wilayah/provinsi',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '97faeddc-0c43-4620-9ec3-f5be008e96c1',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------944729825518253199846865',
+        'content-length': '919',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/wilayah/provinsi',
+      query: {},
+      body: {
+        person_name: '',
+        nik: '',
+        date_of_birth: '',
+        nationality: '',
+        no_sim: '',
+        email: '',
+        no_hp: '',
+        foto: ''
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTk1dkhJZkRJZGRPVnM4Q01qQU1ZTFRwSXQ1K2djRUpOWT0',
+              nama: 'Aceh (NAD)',
+              kode: '11',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSt2b1VZOXpkOGxPRk5pcVVIZG1JRkdFMnZ6MUVvRTBtRT0',
+              nama: 'Sumatera Utara',
+              kode: '12',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9FNG1BTk8rSHpZa0h5TTY0emp5dDB1cVdOeHNNektjQT0',
+              nama: 'Sumatera Barat',
+              kode: '13',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThrSUpvbVBxNlBCKy83VFdTejlybXg4cWZiQzloaE5Ucz0',
+              nama: 'Riau',
+              kode: '14',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS8zbk1vcG5DRlU1RHdEa2dLa2dybkF4ajhlUXlQR1hvND0',
+              nama: 'Jambi',
+              kode: '15',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThQa1JnWnhsVUd4SEZla2FYR3JBeGdIS0J5QVdBMFZ1RT0',
+              nama: 'Sumatera Selatan',
+              kode: '16',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStxMjBDUXZ1Zmg5SnFPN2pneUxGRytVajNkYzdqejhRZz0',
+              nama: 'Bengkulu',
+              kode: '17',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlBdVBWb24xZm9xb1g0YWdTZElrZ0pBaUNBVUdMa21EVT0',
+              nama: 'Lampung',
+              kode: '18',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9KSFVremVscDdjOXZ3ekthSnpQanF3eXkwS2poeUZTaz0',
+              nama: 'Kepulauan Bangka Belitung',
+              kode: '19',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTgwbVRFTUlLcTNNQmxtM1BYMjFTRnFIcmdZRGxnellWWT0',
+              nama: 'Kepulauan Riau',
+              kode: '21',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThFWVp5Wmc3ZnovaHVCRkJZWG5HZXBLb204TjJGMGY2ND0',
+              nama: 'DKI Jakarta',
+              kode: '31',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStQTjI5czhOM0g2Y1NyOG9hN2dZNUhmK2pjZHZXZU1tRT0',
+              nama: 'Jawa Barat',
+              kode: '32',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStiL1N2RUtOQ3pZek9MNlg1Rm45SXNhNHdFdmEzVmJZST0',
+              nama: 'Jawa Tengah',
+              kode: '33',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl5aWRhS3kwSUlILzJvQmNuMlRVaVorUERXamhyYkhpbz0',
+              nama: 'DI Yogyakarta',
+              kode: '34',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTgwcHRJSDliRVpLZDh2b29UaTEzRTZWdWlSRXhSV3lTZz0',
+              nama: 'Jawa Timur',
+              kode: '35',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThHT0JCS0lmaUdXWG5oYnJmTnhJZGpSTXZaNkMrQUhhWT0',
+              nama: 'Banten',
+              kode: '36',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTk3WkpZTUl4b3lhL2dHYXhqOTNVeWVBa2toM1VJUm9raz0',
+              nama: 'Bali',
+              kode: '51',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlhaW1Qb3pMdUszYWZmTUMyR2YzbkJoWm5ONDlrNTRsaz0',
+              nama: 'Nusa Tenggara Barat (NTB)',
+              kode: '52',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTh3NG5GSDVpbEZUUmhaeThXMlFBdzdCOXl0Mmd3SFZ6TT0',
+              nama: 'Nusa Tenggara Timur (NTT)',
+              kode: '53',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlrOVh4VmFQUUVsTEtYZnQ1MWg4SUdRZ1RBKzl0MWFCOD0',
+              nama: 'Kalimantan Barat',
+              kode: '61',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStTQk03MzdhWnVUTnFzK04waGlUQktLblNGd2xLK0ozcz0',
+              nama: 'Kalimantan Tengah',
+              kode: '62',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9JVzY0SFl1ZXhNbDZxclkwTlRyNlczNTFsczJJeG1naz0',
+              nama: 'Kalimantan Selatan',
+              kode: '63',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9EeDYrOUdMaWM2V1R1QUVVdlJsRkZGVjV4WDl5aWY5TT0',
+              nama: 'Kalimantan Timur',
+              kode: '64',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlFWGlDODY1YlA5ay9mcVAreXVGQnQxbDJVSlNGaURHcz0',
+              nama: 'Kalimantan Utara',
+              kode: '65',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTliSFQzVnkvVlNja25jWnJIUkZUYmpobjR1RUYrVUErST0',
+              nama: 'Sulawesi Utara',
+              kode: '71',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTh4V201V3pNT0pGdWZoNVdoZFpFaXR0Si9obm5KRVVGST0',
+              nama: 'Sulawesi Tengah',
+              kode: '72',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS8rOXZhbFlIWlJBRHF5NGpHSEZrLzdhdXB2Z01aZVljYz0',
+              nama: 'Sulawesi Selatan',
+              kode: '73',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStBRUg1dE95YUZYNTVCUDB1TFhrNVpuMmU3Rlcwd2ZqUT0',
+              nama: 'Sulawesi Tenggara',
+              kode: '74',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThtMkJLeXJjMFhpd0ZuOHJrZ2NHYTZ0NkdxdzNGRG9Faz0',
+              nama: 'Gorontalo',
+              kode: '75',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTlyUllyWVJjR3ZKTDBhdExkRFk0bVhNTlZyZDNqSnBUYz0',
+              nama: 'Sulawesi Barat',
+              kode: '76',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMStOYUFiM3loNndBbUk2aEk3SEZzUW4xWXpTT29qZUE5TT0',
+              nama: 'Maluku',
+              kode: '81',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9EdjNjcDg1VEVCai9JSkhFUHpVRmE0STIwalJlSEpqQT0',
+              nama: 'Maluku Utara',
+              kode: '82',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTl1S01RMWh3QUVGTGE5TU5Tcys3WmNMZ0xaamVTOS9Fcz0',
+              nama: 'Papua',
+              kode: '91',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS85RHRSbmFubUlXcFE0djlmczJiWU9aY2FFblBialFDUT0',
+              nama: 'Papua Barat',
+              kode: '92',
+              created_at: '2022-11-25T07:26:14.564Z',
+              updated_at: '2022-11-25T07:26:14.564Z',
+              deleted_at: null
+            }
+          ],
+          recordsFiltered: 34,
+          recordsTotal: 34
+        }
+      }
+    },
+    responseTime: 89
+  },
+  level: 'info',
+  message: 'GET /v1/wilayah/provinsi 200 89ms',
+  timestamp: '2023-07-20T11:55:36.450Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/wilayah/kecamatan',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '430cbc71-eea6-404e-8b08-a1bc09f9cd8b',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------009856804369980714519015',
+        'content-length': '919',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/wilayah/kecamatan',
+      query: {},
+      body: {
+        person_name: '',
+        nik: '',
+        date_of_birth: '',
+        nationality: '',
+        no_sim: '',
+        email: '',
+        no_hp: '',
+        foto: ''
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          data: [
+            {
+              id: 'VTJGc2RHVmtYMTgxRU1SWGkvOHBiOWJtWUY2NCtMUnAvcW1JOWtpUkR2WT0',
+              nama: 'Bogor Barat',
+              kode: '32.71.04',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:38:07.730Z',
+              updated_at: '2023-07-02T10:38:07.730Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMSt1S1BaVVVTSENoZmJnVzdhdE9NVTNNWS8vOWxsN2VRYz0',
+              nama: 'Bogor Tengah',
+              kode: '32.71.03',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:38:54.815Z',
+              updated_at: '2023-07-02T10:38:54.815Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9MclFnVGc2SEl1dlhuS05rVVVyQ3VST3owM1pMakJPQT0',
+              nama: 'Bogor Selatan',
+              kode: '32.71.01',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:39:15.291Z',
+              updated_at: '2023-07-02T10:39:15.291Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMTg2SUpBbVdSWWk4dE1GZndyOFUrclFHMGJPSW43dmo0ND0',
+              nama: 'Bogor Timur',
+              kode: '32.71.02',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:39:41.381Z',
+              updated_at: '2023-07-02T10:39:41.381Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMS9OWTU2MmZwOEhYNzdiQ0NxUDBLOUNjV1VxV3ZyNnlMRT0',
+              nama: 'Bogor Utara',
+              kode: '32.71.05',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:40:03.902Z',
+              updated_at: '2023-07-02T10:40:03.902Z',
+              deleted_at: null
+            },
+            {
+              id: 'VTJGc2RHVmtYMThQSzNtSDcvTnRiU3FqZ1ZRdlpQTmxnYlNIZkpjOGgvdz0',
+              nama: 'Tanah Sereal',
+              kode: '32.71.06',
+              kode_kabkot: '32.71',
+              kode_prov: '32',
+              created_at: '2023-07-02T03:40:22.167Z',
+              updated_at: '2023-07-02T10:40:22.167Z',
+              deleted_at: null
+            }
+          ],
+          recordsFiltered: 6,
+          recordsTotal: 6
+        }
+      }
+    },
+    responseTime: 73
+  },
+  level: 'info',
+  message: 'GET /v1/wilayah/kecamatan 200 73ms',
+  timestamp: '2023-07-20T11:55:40.652Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/kec_ngawas',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'dc2c5070-582e-4321-bc29-72c8323c817c',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/kec_ngawas',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          {
+            kode: '32.71.04',
+            nama: 'Bogor Barat',
+            kedatangan: 0,
+            keberangkatan: 4,
+            total: 4
+          },
+          {
+            kode: '32.71.03',
+            nama: 'Bogor Tengah',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.01',
+            nama: 'Bogor Selatan',
+            kedatangan: 1,
+            keberangkatan: 1,
+            total: 2
+          },
+          {
+            kode: '32.71.02',
+            nama: 'Bogor Timur',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.05',
+            nama: 'Bogor Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.06',
+            nama: 'Tanah Sereal',
+            kedatangan: 0,
+            keberangkatan: 3,
+            total: 3
+          }
+        ]
+      }
+    },
+    responseTime: 308
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/kec_ngawas 200 308ms',
+  timestamp: '2023-07-20T11:56:05.646Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/count_ngawas/kec_ngawas_penumpang',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '81203630-1a16-4c31-a88c-80982f79cb86',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/count_ngawas/kec_ngawas_penumpang',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: [
+          {
+            kode: '32.71.04',
+            nama: 'Bogor Barat',
+            kedatangan: 0,
+            keberangkatan: 10,
+            total: 10
+          },
+          {
+            kode: '32.71.03',
+            nama: 'Bogor Tengah',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.01',
+            nama: 'Bogor Selatan',
+            kedatangan: 1,
+            keberangkatan: 2,
+            total: 3
+          },
+          {
+            kode: '32.71.02',
+            nama: 'Bogor Timur',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.05',
+            nama: 'Bogor Utara',
+            kedatangan: 0,
+            keberangkatan: 0,
+            total: 0
+          },
+          {
+            kode: '32.71.06',
+            nama: 'Tanah Sereal',
+            kedatangan: 0,
+            keberangkatan: 5,
+            total: 5
+          }
+        ]
+      }
+    },
+    responseTime: 66
+  },
+  level: 'info',
+  message: 'GET /v1/count_ngawas/kec_ngawas_penumpang 200 66ms',
+  timestamp: '2023-07-20T11:56:10.576Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9ce70068-2ef8-4e46-817a-ef625544a069',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:05:33.746Z',
+          updated_at: '2023-07-20T12:05:33.746Z',
+          id: 383,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMTlkRVg5SXZMRUZnQzZhRHIwaFZUeWF0aDdyVm5tOWZZcz0',
+              created_at: '2023-07-20T12:05:33.746Z',
+              updated_at: '2023-07-20T12:05:33.746Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 383,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 2221
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 2221ms',
+  timestamp: '2023-07-20T12:05:37.413Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1911ce28-a6df-4532-b771-ac9e7bea62bb',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:06:01.275Z',
+          updated_at: '2023-07-20T12:06:01.275Z',
+          id: 384,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMThHd0lKa3JDOWdkZzZSc2RRWUo3NVJhV25MTkpSQlNxOD0',
+              created_at: '2023-07-20T12:06:01.275Z',
+              updated_at: '2023-07-20T12:06:01.275Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 384,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 1645
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1645ms',
+  timestamp: '2023-07-20T12:06:04.369Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f1b1d1d0-63ed-482b-b0fa-30c699f74114',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:11:33.501Z',
+          updated_at: '2023-07-20T12:11:33.501Z',
+          id: 385,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMS9VcDNCa0kxK1BLOUVaM2Z0d0lISTBWZTRjbE16dXhzVT0',
+              created_at: '2023-07-20T12:11:33.501Z',
+              updated_at: '2023-07-20T12:11:33.501Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 385,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 1622
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1622ms',
+  timestamp: '2023-07-20T12:11:36.583Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '7493c6f4-8f10-4551-8643-dac94cdbd1a4',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:13:00.324Z',
+          updated_at: '2023-07-20T12:13:00.324Z',
+          id: 386,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMTkwYytlZnEvUm1LMDJhTnZlcUxGNVFLVWRqb2hxa1ZPMD0',
+              created_at: '2023-07-20T12:13:00.324Z',
+              updated_at: '2023-07-20T12:13:00.324Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 386,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 1627
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1627ms',
+  timestamp: '2023-07-20T12:13:03.409Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1de3f4a4-3002-4b43-8582-5aa0f6a0d8b3',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:13:24.304Z',
+          updated_at: '2023-07-20T12:13:24.304Z',
+          id: 387,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMTh5VWpidTR6Z3FLSU9HTS9QT3drSDFZWjVGYzlyWWJOZz0',
+              created_at: '2023-07-20T12:13:24.304Z',
+              updated_at: '2023-07-20T12:13:24.304Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 387,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 1585
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1585ms',
+  timestamp: '2023-07-20T12:13:27.348Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '50de5ea8-e6c3-4db4-a57f-f9053cef9dce',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:16:35.228Z',
+          updated_at: '2023-07-20T12:16:35.228Z',
+          id: 388,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMStrR0U0eXV1Z3l6SVMvb0pidzJNTTRyT3A0Wnd5QzJSQT0',
+              created_at: '2023-07-20T12:16:35.228Z',
+              updated_at: '2023-07-20T12:16:35.228Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 388,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 1864
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 1864ms',
+  timestamp: '2023-07-20T12:16:38.557Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'aea6b7de-662d-4523-88a9-47d27bf5b890',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:18:36.708Z',
+          updated_at: '2023-07-20T12:18:36.708Z',
+          id: 389,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMThlVGVvM2RKN2ZTUDhUMlBDUlEvR28wWWhoMlZRelZ5QT0',
+              created_at: '2023-07-20T12:18:36.708Z',
+              updated_at: '2023-07-20T12:18:36.708Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 389,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 2057
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 2057ms',
+  timestamp: '2023-07-20T12:18:39.967Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/wilayah/kecamatan/import',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a9d363ce-8689-4015-8199-824a15b4f5f6',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------095642647885638244176809',
+        'content-length': '919',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/v1/wilayah/kecamatan/import',
+      query: {},
+      body: {
+        person_name: '',
+        nik: '',
+        date_of_birth: '',
+        nationality: '',
+        no_sim: '',
+        email: '',
+        no_hp: '',
+        foto: ''
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: {
+        isSuccess: false,
+        statusCode: 404,
+        responseMessage: 'Opppssss your request is not found!',
+        data: null
+      }
+    },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'GET /v1/wilayah/kecamatan/import 404 3ms',
+  timestamp: '2023-07-20T12:21:01.630Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/wilayah/kecamatan/import',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '065c5880-363a-42a9-8011-b7c930893c74',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/wilayah/kecamatan/import',
+      query: {}
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succed',
+        data: [
+          {
+            id: 'VTJGc2RHVmtYMTlOa1U0dmdEbVhWbTRtMDJnRVcycldDY3lrTFFzMmFhQT0',
+            created_at: '2023-07-20T12:21:24.133Z',
+            updated_at: '2023-07-20T12:21:24.133Z',
+            nama: 'Kecamatan Bogor Barat',
+            kode: '32.71.04',
+            kode_kabkot: '32.71',
+            kode_prov: '32',
+            deleted_at: null
+          },
+          {
+            id: 'VTJGc2RHVmtYMTkxMzVuYktPdFJ5L292a2hoQXo2b1lVWi82VFozeWhHUT0',
+            created_at: '2023-07-20T12:21:24.133Z',
+            updated_at: '2023-07-20T12:21:24.133Z',
+            nama: 'Kecamatan Bogor Tengah',
+            kode: '32.71.03',
+            kode_kabkot: '32.71',
+            kode_prov: '32',
+            deleted_at: null
+          },
+          {
+            id: 'VTJGc2RHVmtYMTl1dFZoRTdvTThCSlNOYmtNUWJyS2xONUE2VlE5Y0tBdz0',
+            created_at: '2023-07-20T12:21:24.133Z',
+            updated_at: '2023-07-20T12:21:24.133Z',
+            nama: 'Kecamatan Bogor Selatan',
+            kode: '32.71.01',
+            kode_kabkot: '32.71',
+            kode_prov: '32',
+            deleted_at: null
+          },
+          {
+            id: 'VTJGc2RHVmtYMStIbG54WGpJYjBoSzBZU0ZvdnBvcy96Q1BKbElQMWhVQT0',
+            created_at: '2023-07-20T12:21:24.133Z',
+            updated_at: '2023-07-20T12:21:24.133Z',
+            nama: 'Kecamatan Bogor Timur',
+            kode: '32.71.02',
+            kode_kabkot: '32.71',
+            kode_prov: '32',
+            deleted_at: null
+          },
+          {
+            id: 'VTJGc2RHVmtYMThLNDRtdEkvdUhaeWJEbHVHYngwN1ROaGQ2Q0xEV29Xdz0',
+            created_at: '2023-07-20T12:21:24.133Z',
+            updated_at: '2023-07-20T12:21:24.133Z',
+            nama: 'Kecamatan Bogor Utara',
+            kode: '32.71.05',
+            kode_kabkot: '32.71',
+            kode_prov: '32',
+            deleted_at: null
+          },
+          {
+            id: 'VTJGc2RHVmtYMStscHB3eUh6WUY0UmJXa3dqOUlDeHRuMWpSK0R3Z0hLYz0',
+            created_at: '2023-07-20T12:21:24.133Z',
+            updated_at: '2023-07-20T12:21:24.133Z',
+            nama: 'Kecamatan Tanah Sereal',
+            kode: '32.71.06',
+            kode_kabkot: '32.71',
+            kode_prov: '32',
+            deleted_at: null
+          }
+        ]
+      }
+    },
+    responseTime: 359
+  },
+  level: 'info',
+  message: 'POST /v1/wilayah/kecamatan/import 200 359ms',
+  timestamp: '2023-07-20T12:21:25.725Z'
+}
+{
+  meta: {
+    req: {
+      url: '/v1/ngawas/add',
+      headers: {
+        authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJWVEpHYzJSSFZtdFlNUzg1TVdjeFNXRlhNVko1T0ZkQ2JuZFdaRFJKY0hJNVlXbzNTVXBhYlZVd1VUMCIsInBlcnNvbl9uYW1lIjoiQWdpbCBBbG11bmF3YXIiLCJlbWFpbCI6ImFnaWxtdW5hd2FyMDExMDAwQGdtYWlsLmNvbSIsIm5vX2hwIjoiNjI4MjE0NjcxOTE0NSIsInRpbWVzdGFtcCI6MTY4OTU3MzUwOSwiaWF0IjoxNjg5NTczNTA5LCJleHAiOjE3MjExMzExMDksImF1ZCI6IkcyMCIsImlzcyI6IktvcmxhbnRhc1BvbHJpIiwic3ViIjoiSzNJRzIwIn0.nGdIxEcoOWeOGCU5fk-Y42zQCpRttwHJpxa8Kbix_fCtNeYgPa81HhmauEsExRWopHPfgNCP9JqOn0eSHWl6OQ',
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9e858c6d-262c-4d17-a1d2-090aa3030059',
+        host: 'localhost:3001',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '547',
+        tokenData: {
+          authData: {
+            uid: 'VTJGc2RHVmtYMS85MWcxSWFXMVJ5OFdCbndWZDRJcHI5YWo3SUpabVUwUT0',
+            person_name: 'Agil Almunawar',
+            email: 'agilmunawar011000@gmail.com',
+            no_hp: '6282146719145',
+            timestamp: 1689573509,
+            iat: 1689573509,
+            exp: 1721131109,
+            aud: 'G20',
+            iss: 'KorlantasPolri',
+            sub: 'K3IG20'
+          },
+          userId: '249'
+        }
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/v1/ngawas/add',
+      query: {},
+      body: {
+        vehicle_id: 'VTJGc2RHVmtYMSs5SlUxT1p0ekF1VU9UV1ltc0cwMkN5TW5ld0tRNW4yYz0',
+        departure_date: '2023-07-20',
+        departure_time: '09:37',
+        start_coordinate: { latitude: -6.559802087190625, longitude: 106.79266189641183 },
+        end_coordinate: {
+          latitude: -6.5741083370600535,
+          longitude: 106.63212850507043
+        },
+        penumpangs: [ { name: 'Zahra', no_hp: '087712981212' } ]
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        isSuccess: true,
+        statusCode: 200,
+        responseMessage: 'Succeed',
+        data: {
+          created_at: '2023-07-20T12:21:45.626Z',
+          updated_at: '2023-07-20T12:21:45.626Z',
+          id: 390,
+          user_id: 249,
+          vehicle_id: 222,
+          brand_id: 1,
+          type_id: 1,
+          distance: '21.4 Km',
+          duration: '23 Menit ',
+          departure_date: '2023-07-20',
+          departure_time: '09:37:00',
+          start_coordinate: {
+            latitude: -6.559802087190625,
+            longitude: 106.79266189641183
+          },
+          end_coordinate: {
+            latitude: -6.5741083370600535,
+            longitude: 106.63212850507043
+          },
+          subdistrict_start: 'Kecamatan Tanah Sereal',
+          district_start: 'Kota Bogor',
+          province_start: 'Jawa Barat',
+          district_end: 'Kabupaten Bogor',
+          subdistrict_end: 'Kecamatan Leuwiliang',
+          province_end: 'Jawa Barat',
+          route: [
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574191, longitude: 106.632087 },
+            { latitude: -6.574375, longitude: 106.632453 },
+            { latitude: -6.574582, longitude: 106.632844 },
+            { latitude: -6.57488, longitude: 106.633407 },
+            { latitude: -6.57493, longitude: 106.633507 },
+            { latitude: -6.575048, longitude: 106.63374 },
+            { latitude: -6.575142, longitude: 106.633912 },
+            { latitude: -6.575225, longitude: 106.634087 },
+            { latitude: -6.575274, longitude: 106.634219 },
+            { latitude: -6.575309, longitude: 106.634418 },
+            { latitude: -6.575317, longitude: 106.634803 },
+            { latitude: -6.575315, longitude: 106.63487 },
+            { latitude: -6.575331, longitude: 106.635075 },
+            { latitude: -6.575344, longitude: 106.635148 },
+            { latitude: -6.575359, longitude: 106.635232 },
+            { latitude: -6.575403, longitude: 106.635386 },
+            { latitude: -6.575607, longitude: 106.635978 },
+            { latitude: -6.575645, longitude: 106.636072 },
+            { latitude: -6.575988, longitude: 106.637159 },
+            { latitude: -6.576015, longitude: 106.63733 },
+            { latitude: -6.576007, longitude: 106.637421 },
+            { latitude: -6.575985, longitude: 106.637512 },
+            { latitude: -6.575918, longitude: 106.637639 },
+            { latitude: -6.575794, longitude: 106.637783 },
+            { latitude: -6.575557, longitude: 106.637946 },
+            { latitude: -6.575343, longitude: 106.638054 },
+            { latitude: -6.575187, longitude: 106.638101 },
+            { latitude: -6.575074, longitude: 106.638119 },
+            { latitude: -6.57499, longitude: 106.638129 },
+            { latitude: -6.57486, longitude: 106.638124 },
+            { latitude: -6.574765, longitude: 106.638114 },
+            { latitude: -6.574469, longitude: 106.63804 },
+            { latitude: -6.574143, longitude: 106.637967 },
+            { latitude: -6.574018, longitude: 106.637955 },
+            { latitude: -6.573931, longitude: 106.637946 },
+            { latitude: -6.573813, longitude: 106.637946 },
+            { latitude: -6.57367, longitude: 106.63802 },
+            { latitude: -6.573598, longitude: 106.638078 },
+            { latitude: -6.573531, longitude: 106.638148 },
+            { latitude: -6.573428, longitude: 106.638347 },
+            { latitude: -6.573326, longitude: 106.638582 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573296, longitude: 106.638693 },
+            { latitude: -6.573288, longitude: 106.63878 },
+            { latitude: -6.573279, longitude: 106.638863 },
+            { latitude: -6.573295, longitude: 106.638936 },
+            { latitude: -6.573317, longitude: 106.638995 },
+            { latitude: -6.573354, longitude: 106.639066 },
+            { latitude: -6.573385, longitude: 106.639121 },
+            { latitude: -6.573486, longitude: 106.639298 },
+            { latitude: -6.573918, longitude: 106.639946 },
+            { latitude: -6.574038, longitude: 106.640142 },
+            { latitude: -6.574072, longitude: 106.640206 },
+            { latitude: -6.574098, longitude: 106.640279 },
+            { latitude: -6.574149, longitude: 106.640448 },
+            { latitude: -6.574184, longitude: 106.640562 },
+            { latitude: -6.574214, longitude: 106.640659 },
+            { latitude: -6.574238, longitude: 106.640802 },
+            { latitude: -6.574311, longitude: 106.641084 },
+            { latitude: -6.574378, longitude: 106.641309 },
+            { latitude: -6.574619, longitude: 106.641972 },
+            { latitude: -6.574765, longitude: 106.642373 },
+            { latitude: -6.574777, longitude: 106.642405 },
+            { latitude: -6.574814, longitude: 106.642614 },
+            { latitude: -6.574834, longitude: 106.642798 },
+            { latitude: -6.574838, longitude: 106.643202 },
+            { latitude: -6.574843, longitude: 106.643916 },
+            { latitude: -6.574845, longitude: 106.644041 },
+            { latitude: -6.574861, longitude: 106.644255 },
+            { latitude: -6.574874, longitude: 106.644504 },
+            { latitude: -6.574891, longitude: 106.644722 },
+            { latitude: -6.574932, longitude: 106.644957 },
+            { latitude: -6.575066, longitude: 106.645393 },
+            { latitude: -6.575743, longitude: 106.647587 },
+            { latitude: -6.576191, longitude: 106.649126 },
+            { latitude: -6.576379, longitude: 106.649692 },
+            { latitude: -6.576556, longitude: 106.650244 },
+            { latitude: -6.576635, longitude: 106.650487 },
+            { latitude: -6.576669, longitude: 106.650634 },
+            { latitude: -6.576704, longitude: 106.650794 },
+            { latitude: -6.576757, longitude: 106.651111 },
+            { latitude: -6.576774, longitude: 106.651246 },
+            { latitude: -6.576826, longitude: 106.651557 },
+            { latitude: -6.576852, longitude: 106.651725 },
+            { latitude: -6.576903, longitude: 106.651901 },
+            { latitude: -6.576974, longitude: 106.652085 },
+            { latitude: -6.577204, longitude: 106.652716 },
+            { latitude: -6.57723, longitude: 106.652776 },
+            { latitude: -6.577253, longitude: 106.65292 },
+            { latitude: -6.577278, longitude: 106.653022 },
+            { latitude: -6.577318, longitude: 106.653165 },
+            { latitude: -6.577346, longitude: 106.653276 },
+            { latitude: -6.577362, longitude: 106.653378 },
+            { latitude: -6.577372, longitude: 106.653556 },
+            { latitude: -6.577432, longitude: 106.654621 },
+            { latitude: -6.577454, longitude: 106.655275 },
+            { latitude: -6.577485, longitude: 106.655749 },
+            { latitude: -6.577518, longitude: 106.656328 },
+            ... 599 more items
+          ],
+          validity_period: '2023-07-22 09:37',
+          kode_prov_start: '32',
+          kode_kabkot_start: '32.71',
+          kode_kec_start: '32.71.06',
+          kode_prov_end: '32',
+          kode_kabkot_end: '32.01',
+          kode_kec_end: '',
+          deleted_at: null,
+          penumpangs: [
+            {
+              id: 'VTJGc2RHVmtYMTl2QWR6ZjNhaG5QdE5wNlUrMk9hWWo2YU9GUUtMT0c4VT0',
+              created_at: '2023-07-20T12:21:45.626Z',
+              updated_at: '2023-07-20T12:21:45.626Z',
+              name: 'Zahra',
+              no_hp: '087712981212',
+              ngawas_id: 390,
+              deleted_at: null
+            }
+          ],
+          countpassenger: 1,
+          countvehicle: 1
+        }
+      }
+    },
+    responseTime: 2185
+  },
+  level: 'info',
+  message: 'POST /v1/ngawas/add 200 2185ms',
+  timestamp: '2023-07-20T12:21:49.056Z'
+}

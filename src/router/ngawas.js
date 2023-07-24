@@ -33,5 +33,7 @@ router.get("/list_ngawas", NgawasController.getWeb);
 router.get("/schedule", NgawasController.getSchedule);
 router.get("/history", NgawasController.getHistory);
 
+router.put("/scheduleToHistory", NgawasController.upScheduletoHistory);
+
 
 module.exports = router;
