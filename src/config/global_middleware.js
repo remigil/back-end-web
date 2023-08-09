@@ -54,47 +54,47 @@ module.exports = {
       expressWinston.bodyBlacklist.push("password");
       expressWinston.responseWhitelist.push("body");
 
-      app.use(
-        expressWinston.logger({
-          transports: [
-            new winston.transports.File({
-              filename: `./logs/debug/${moment().format("YYYY_MM_DD")}.log`,
-            }),
-            new winston.transports.MongoDB({
-              db: `mongodb://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/${process.env.MONGO_DB_LOGS}?authSource=admin&retryWrites=true&w=majority`,
-              collection: process.env.MONGO_DB_LOGS_COLLECTION,
-              options: {
-                useUnifiedTopology: true,
-              },
-              capped: true,
-              metaKey: "meta",
-              //format: winston.format.metadata((info) => JSON.stringify(info)),
-            }),
-          ],
-          format: winston.format.combine(
-            winston.format.timestamp(),
-            winston.format.prettyPrint()
-          ),
-          meta: true,
-          msg: "HTTP {{req.method}} {{req.url}}",
-          expressFormat: true,
-          colorize: false,
-          ignoreRoute: function (req, res) {
-            return false;
-          },
-          dynamicMeta: (req, res) => {
-            let authData = JWTDecrypt(req.headers.authorization);
-            let userId = null;
-            if (authData != null) {
-              userId = AESDecrypt(authData?.uid, {
-                parseMode: "raw",
-                isSafeUrl: true,
-              });
-            }
-            req.headers.tokenData = { authData, userId };
-          },
-        })
-      );
+      // app.use(
+      //   expressWinston.logger({
+      //     transports: [
+      //       new winston.transports.File({
+      //         filename: `./logs/debug/${moment().format("YYYY_MM_DD")}.log`,
+      //       }),
+      //       new winston.transports.MongoDB({
+      //         db: `mongodb://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/${process.env.MONGO_DB_LOGS}?authSource=admin&retryWrites=true&w=majority`,
+      //         collection: process.env.MONGO_DB_LOGS_COLLECTION,
+      //         options: {
+      //           useUnifiedTopology: true,
+      //         },
+      //         capped: true,
+      //         metaKey: "meta",
+      //         //format: winston.format.metadata((info) => JSON.stringify(info)),
+      //       }),
+      //     ],
+      //     format: winston.format.combine(
+      //       winston.format.timestamp(),
+      //       winston.format.prettyPrint()
+      //     ),
+      //     meta: true,
+      //     msg: "HTTP {{req.method}} {{req.url}}",
+      //     expressFormat: true,
+      //     colorize: false,
+      //     ignoreRoute: function (req, res) {
+      //       return false;
+      //     },
+      //     dynamicMeta: (req, res) => {
+      //       let authData = JWTDecrypt(req.headers.authorization);
+      //       let userId = null;
+      //       if (authData != null) {
+      //         userId = AESDecrypt(authData?.uid, {
+      //           parseMode: "raw",
+      //           isSafeUrl: true,
+      //         });
+      //       }
+      //       req.headers.tokenData = { authData, userId };
+      //     },
+      //   })
+      // );
     }
   },
   afterRouter: (app) => {

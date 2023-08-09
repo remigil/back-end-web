@@ -3,7 +3,7 @@ const { body } = require("express-validator");
 const KabupatenController = require("../controller/wilayah/kabupaten");
 const Provinsi = require("../controller/wilayah/provinsi");
 const formValidation = require("../middleware/form_validation");
-const Kecamatan = require("../controller/wilayah/kecamatan");
+// const Kecamatan = require("../controller/wilayah/kecamatan");
 const KecamatanController = require("../controller/wilayah/kecamatan");
 router.get("/provinsi", Provinsi.get);
 router.post("/import", formValidation, Provinsi.importExcell);

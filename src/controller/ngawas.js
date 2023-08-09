@@ -488,7 +488,7 @@ module.exports = class NgawasController {
               : "";
               input["kode_prov_end"] = provinsi_end.length ? provinsi_end[0].kode : "";
               input["kode_kabkot_end"] = kabupaten_end.length ? kabupaten_end[0].kode: "";
-              input["kode_kec_end"] = kecamatan_end.length ? kecamatan_end  [0].kode: "";
+              input["kode_kec_end"] = kecamatan_end.length ? kecamatan_end[0].kode: "";
               let insertNgawas = await Ngawas.create(input, {
                 transaction: transaction,
               });
