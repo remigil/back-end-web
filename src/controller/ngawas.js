@@ -497,8 +497,8 @@ module.exports = class NgawasController {
         isSafeUrl: true,
         parseMode: "string",
       });
-      let tes = parseInt(getId);
-      let id = decimalToHex(tes);
+      // let tes = parseInt(getId);
+      // let id = decimalToHex(tes);
 
       // let codetrp = `BGW/${moment().format("MMYY")}/${typeVehicle}/${id}`;
       // qrcode.toFile(`./public/uploads/qrcode/${id}.png`, codetrp, {
