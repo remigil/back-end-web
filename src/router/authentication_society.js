@@ -18,6 +18,9 @@ router.post(
   formValidation,
   AuthenticationSociety.loginMobile
 );
+
+router.post("/loginGoogle", AuthenticationSociety.loginGoogle);
+
 router.get("/test", AuthenticationSociety.test);
 router.post("/validate_login", AuthenticationSociety.validateLogin);
 router.post("/register", AuthenticationSociety.registerSociety);

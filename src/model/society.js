@@ -3,6 +3,7 @@ const db = require("../config/database");
 const bcrypt = require("bcrypt");
 const { StructureTimestamp } = require("../constanta/db_structure");
 const { AESEncrypt } = require("../lib/encryption");
+const sequelize = require("sequelize");
 const Model = Sequelize.Model;
 
 class Society extends Model {}
@@ -17,6 +18,9 @@ Society.init(
           isSafeUrl: true,
         });
       },
+    },
+    id_google: {
+      type: Sequelize.STRING(50),
     },
     person_name: {
       type: Sequelize.STRING(50),

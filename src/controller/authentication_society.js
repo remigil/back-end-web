@@ -109,6 +109,69 @@ class AuthenticationSociety {
       response(res, false, "Login failed, please try again!", error.message);
     }
   };
+
+  static loginGoogle = async (req, res) => {
+    try {
+      const { id_google, email, person_name } = req.body;
+
+      if (!id_google || !email || !person_name) {
+        return res.status(400).json({ error: 'Missing required fields' });
+      }
+
+      let data = await Society.findOne({
+        where: {
+          email: email,
+          id_google: id_google,
+        },
+      });
+      if (!data) {
+        // const hashedId = await bcrypt.hash(req.body.id_google); // Hash password
+        data = {
+          id_google: id_google,
+          email: email,
+          // photo: req.body.photo,
+          person_name: person_name,
+        };
+        const existingUser = await Society.findOne({
+        where: {
+          email: data.email,
+        },
+      });
+        if (existingUser) {
+          return res.status(500).json({ error: 'email tidak boleh sama' });
+        }
+        await Society.create(data);
+      }
+
+      // const credentials = {
+      //   email,
+      // };
+      
+      // const society = await Society.findOne({
+      //   where: {
+      //     email: society.email
+      //   },
+      // });
+      const accessToken = JWTEncrypt({
+            uid: data.id,
+            person_name: data.person_name,
+            email: data.email,
+            no_hp: data.no_hp,
+            // foto: society.foto,
+            timestamp: moment().unix(),
+      }); // Sign JWT token
+
+      // society = accessToken;
+      // await society.save();
+
+       return response(res, true, "Login succeed", {
+            accessToken,
+          });
+    } catch (error) {
+      response(res, false, "Login failed, please try again!", error.message);
+    }
+  };
+
   static validateLogin = async (req, res) => {
     try {
       const authHeader = req.headers["authorization"];
@@ -321,5 +384,6 @@ class AuthenticationSociety {
       response(res, false, "Register failed!!", error.message);
     }
   };
+
 }
 module.exports = AuthenticationSociety;
