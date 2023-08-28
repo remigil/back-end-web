@@ -3,6 +3,7 @@ const { body } = require("express-validator");
 const NgawasController = require("../controller/ngawas");
 const formValidation = require("../middleware/form_validation");
 router.get("/", NgawasController.get);
+router.get("/getPerMonth", NgawasController.getPerMonth);
 router.get("/getid/:id", NgawasController.getId);
 router.get("/cekngawas", NgawasController.cekNgawas);
 router.get("/getbycode", NgawasController.getbycodengawas);

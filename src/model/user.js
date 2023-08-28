@@ -70,10 +70,10 @@ User.hasOne(UserRole, {
   foreignKey: "id",
   sourceKey: "role_id",
 });
-// User.hasOne(OperationProfile, {
-//   foreignKey: "id",
-//   sourceKey: "operation_id",
-// });
+User.hasOne(OperationProfile, {
+  foreignKey: "id",
+  sourceKey: "operation_id",
+});
 (async () => {
   User.sync({ alter: true }).catch((err) => {
     console.log({ err });

@@ -326,6 +326,54 @@ module.exports = class CountNgawasController {
       response(res, false, "Failed", error.message);
     }
   }
+
+static kec_ngawas_month = async (req, res) => {
+  try {
+    // Calculate the start and end dates for the current month
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const currentMonth = currentDate.getMonth() + 1; // Months are zero-based
+    const startOfMonth = `${currentYear}-${currentMonth.toString().padStart(2, '0')}-01`;
+    const endOfMonth = new Date(currentYear, currentMonth, 0).toISOString().split('T')[0];
+
+    // Fetch arrival and departure data from the database based on the current month
+    let [arrival, arrival_metadata] = await db.query(
+      `SELECT "kecamatan"."id", "kecamatan"."kode", "kecamatan"."nama", count("kode_kec_end") AS "kedatangan"
+      FROM "kecamatan" AS "kecamatan"
+      LEFT OUTER JOIN "ngawas" AS "end_kec" ON "kecamatan"."kode" = "end_kec"."kode_kec_end"
+      AND "end_kec"."deleted_at" IS NULL
+      AND "end_kec"."departure_date" BETWEEN '${startOfMonth}' AND '${endOfMonth}'
+      WHERE "kecamatan"."deleted_at" IS NULL
+      GROUP BY "kecamatan"."id", "kode_kec_end"`
+    );
+
+    let [depature, depature_metadata] = await db.query(
+      `SELECT "kecamatan"."id", "kecamatan"."kode", "kecamatan"."nama", count("kode_kec_start") AS "keberangkatan"
+      FROM "kecamatan" AS "kecamatan"
+      LEFT OUTER JOIN "ngawas" AS "start_kec" ON "kecamatan"."kode" = "start_kec"."kode_kec_start"
+      AND "start_kec"."deleted_at" IS NULL
+      AND "start_kec"."departure_date" BETWEEN '${startOfMonth}' AND '${endOfMonth}'
+      WHERE "kecamatan"."deleted_at" IS NULL
+      GROUP BY "kecamatan"."id", "kode_kec_start"`
+    );
+
+    let rows = [];
+    for (let i = 0; i < arrival.length; i++) {
+      rows.push({
+        kode: arrival[i].kode,
+        nama: arrival[i].nama,
+        kedatangan: parseInt(arrival[i].kedatangan),
+        keberangkatan: parseInt(depature[i].keberangkatan),
+        total: parseInt(arrival[i].kedatangan) + parseInt(depature[i].keberangkatan),
+      });
+    }
+
+    response(res, true, "Succeed", rows);
+  } catch (error) {
+    response(res, false, "Failed", error.message);
+  }
+};
+
   static kec_ngawas_penumpang = async (req,res) => {
      try {
       const {
