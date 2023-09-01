@@ -17,7 +17,12 @@ Setelah itu, clone project ini ke direktori yang Anda inginkan, lalu jalankan pe
 
 ```bash
 npm install
+```
 
+
+Setelah selesai, buat file .env dan isi dengan variabel lingkungan berikut:
+
+```bash
 # APP CONFIGURATION
 APP_VERSION=
 APP_PORT=
@@ -78,3 +83,4 @@ CORS_ORIGIN=*
 # MONGO_PASSWORD=
 # ENV_SSL=
 # ANEV_BASE_URL=
+```
